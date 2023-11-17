@@ -15,6 +15,24 @@ Open Source AI Research & Mentorship
 [Get started now](https://github.com/LucknowAI){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Project Awadhi](https://github.com/LucknowAI/Awadhi_Speech_Dataset){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+<div style="text-align: left;">
+    <div>
+        <a href="YOUR_TWITTER_PROFILE_URL" title="Twitter" style="text-decoration: none;">
+            <img src="/assets/icons/x.png" alt="Twitter" width="30" height="30"/>
+        </a>
+        <a href="YOUR_DISCORD_PROFILE_URL" title="Discord" style="text-decoration: none;">
+            <img src="/assets/icons/discord.png" alt="Discord" width="30" height="30"/>
+        </a>
+        <a href="YOUR_FACEBOOK_PROFILE_URL" title="Facebook" style="text-decoration: none;">
+            <img src="/assets/icons/facebook.png" alt="Facebook" width="30" height="30"/>
+        </a>
+        <a href="YOUR_INSTAGRAM_PROFILE_URL" title="Instagram" style="text-decoration: none;">
+            <img src="/assets/icons/insta.png" alt="Instagram" width="30" height="30"/>
+        </a>
+    </div>
+</div>
+
+
 ---
 
 
@@ -52,7 +70,7 @@ Lucknow AI is dedicated to advancing AI skills among local developers, researche
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/LucknowAI).
 
-#### Thank you to the contributors of Just the Docs!
+#### Thank you to the contributors of Lucknow AI!
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}

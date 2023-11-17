@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Customization
+title: Resources
 nav_order: 6
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Configuration
+title: About
 nav_order: 2
 ---
 
-# Configuration
+<!-- # Configuration
 {: .no_toc }
 
 Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
@@ -125,7 +125,7 @@ See [Navigation Structure]({% link docs/navigation-structure.md %}#external-navi
 # appears at the bottom of every page's main content
 # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
 markup / liquid-based content.
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
+footer_content: "Copyright &copy; 2023 Lucknow AI. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -327,4 +327,4 @@ just_the_docs:
 
 When *all* your pages are in a single collection, its name is not displayed.
 
-The navigation for each collection is a separate name space for page titles: a page in one collection cannot be a child of a page in a different collection, or of a normal page.
+The navigation for each collection is a separate name space for page titles: a page in one collection cannot be a child of a page in a different collection, or of a normal page. -->

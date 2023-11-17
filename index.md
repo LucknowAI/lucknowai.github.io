@@ -17,10 +17,10 @@ Open Source AI Research & Mentorship
 
 <div style="text-align: left;">
     <div>
-        <a href="YOUR_TWITTER_PROFILE_URL" title="Twitter" style="text-decoration: none;">
+        <a href="https://twitter.com/AILucknow" title="Twitter" style="text-decoration: none;">
             <img src="/assets/icons/x.png" alt="Twitter" width="30" height="30"/>
         </a>
-        <a href="YOUR_DISCORD_PROFILE_URL" title="Discord" style="text-decoration: none;">
+        <a href="https://discord.gg/QKw67PDZUm" title="Discord" style="text-decoration: none;">
             <img src="/assets/icons/discord.png" alt="Discord" width="30" height="30"/>
         </a>
         <a href="YOUR_FACEBOOK_PROFILE_URL" title="Facebook" style="text-decoration: none;">

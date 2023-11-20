@@ -17,7 +17,7 @@ Open Source AI Research & Mentorship
 
 <div style="text-align: left;">
     <div>
-        <a href="https://twitter.com/Lucknow_AI" title="Twitter" style="text-decoration: none;">
+        <a href="https://twitter.com/AILucknow" title="Twitter" style="text-decoration: none;">
             <img src="/assets/icons/x.png" alt="Twitter" width="30" height="30"/>
         </a>
         <a href="https://discord.gg/QKw67PDZUm" title="Discord" style="text-decoration: none;">

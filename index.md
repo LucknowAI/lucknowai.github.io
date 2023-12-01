@@ -26,7 +26,7 @@ Open Source AI Research & Mentorship
         <a href="YOUR_FACEBOOK_PROFILE_URL" title="Facebook" style="text-decoration: none;">
             <img src="/assets/icons/facebook.png" alt="Facebook" width="30" height="30"/>
         </a>
-        <a href="YOUR_INSTAGRAM_PROFILE_URL" title="Instagram" style="text-decoration: none;">
+        <a href="https://www.instagram.com/lucknow_ai/" title="Instagram" style="text-decoration: none;">
             <img src="/assets/icons/insta.png" alt="Instagram" width="30" height="30"/>
         </a>
     </div>

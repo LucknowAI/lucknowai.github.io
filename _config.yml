@@ -102,7 +102,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Lucknow AI on GitHub":
-    - "https://github.com/LucknowAI"
+    - "https://github.com/LucknowAI/lucknowai.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false

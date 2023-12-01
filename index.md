@@ -86,4 +86,7 @@ Lucknow AI is committed to fostering a welcoming community.
 
 [View our Code of Conduct](https://github.com/LucknowAI) on our GitHub repository.
 
-----
+<div style="text-align: center; margin-top: -10px;">
+    <img src="/assets/images/lucknow_illustration.f2f78acc.png" alt="Lucknow AI Community" width="600" height="200" title="Lucknow AI Community"/>
+    <div style="font-size: 4px; color: gray">Source: https://gdglucknow.web.app</div>
+</div>

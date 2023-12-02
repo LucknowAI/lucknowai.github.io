@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Layout
+title: Events & Meetups
 parent: Utilities
 ---
 

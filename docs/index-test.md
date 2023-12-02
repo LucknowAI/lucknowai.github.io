@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Markdown kitchen sink
-nav_order: 99
+title: Projects
+nav_order: 4
 ---
 
 <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
@@ -323,4 +323,4 @@ This is content inside a `<details>` dropdown.
 - [ ] Oranges
 - [ ] Milk
 
-</details>
+</details> -->

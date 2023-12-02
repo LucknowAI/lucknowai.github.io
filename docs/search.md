@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Search
-nav_order: 7
+title: Contact
+nav_order: 8
 ---
 
 # Search

@@ -6,7 +6,7 @@ description: "Open Source AI Research & Mentorship"
 permalink: /
 ---
 
-# Lucknow AI
+# Lucknow AI Labs
 {: .fs-9 }
 
 Open Source AI Research & Mentorship
@@ -63,7 +63,7 @@ Open Source AI Research & Mentorship
 
 ### About Us
 
-Lucknow AI is dedicated to advancing AI skills among local developers, researchers, and enthusiasts. Join collaborative platform for workshops, Meetups, paper discussions, and community growth in the field of AI.
+Lucknow AI Labs is dedicated to advancing AI skills among local developers, researchers, and enthusiasts. Join collaborative platform for workshops, Meetups, paper discussions, and community growth in the field of AI.
 
 ### Contributing
 

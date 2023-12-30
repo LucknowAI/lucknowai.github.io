@@ -29,6 +29,9 @@ Open Source AI Research & Mentorship
         <a href="https://www.instagram.com/lucknow_ai/" title="Instagram" style="text-decoration: none;">
             <img src="/assets/icons/insta.png" alt="Instagram" width="30" height="30"/>
         </a>
+        <a href="https://chat.whatsapp.com/DeJLSBFxejJ5r07ezpuyDx" title="WhatsApp" style="text-decoration: none;">
+            <img src="/assets/icons/whatsapp.png" alt="whatsapp" width="30" height="30"/>
+        </a>
     </div>
 </div>
 

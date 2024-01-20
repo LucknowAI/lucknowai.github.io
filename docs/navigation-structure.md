@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Volunteer Opportunities
-nav_order: 7
+nav_order: 8
 ---
 
 # Volunteer Opportunities at Lucknow AI
@@ -15,6 +15,16 @@ nav_order: 7
 - TOC
 {:toc}
 </details>
+
+---
+
+## Volunteer Application Form
+{: .label .label-green }
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTw6CdAKihCrKLBYHs2pJoHWwjhbi5m_kRx3DciDnyvzZt_Q/viewform?embedded=true" width="640" height="1858" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+{: .note }
+Opportunity For Volunteering with Us.
 
 ---
 

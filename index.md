@@ -13,7 +13,7 @@ Open Source AI Research & Mentorship
 {: .fs-6 .fw-300 }
 
 [Get started now](https://github.com/LucknowAI){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Project Awadhi](https://github.com/LucknowAI/Awadhi_Speech_Dataset){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Project Awadhi Large Language Model](https://github.com/LucknowAI/Awadhi_Speech_Dataset){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 <div style="text-align: left;">
     <div>

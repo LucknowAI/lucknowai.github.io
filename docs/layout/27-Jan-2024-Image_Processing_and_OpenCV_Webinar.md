@@ -5,11 +5,12 @@ layout: default
 nav_order: 2
 ---
 
-AI/ML Community Event - Summary :
+# AI/ML Community Event - Summary :
+
 All notable discussions and insights from the AI/ML community event are documented here.
 
 {: .note }
-Sunday, 27 January 2024
+Saturday, 27 January 2024
 
 {: .highlight }
 The event featured an experienced speaker [Prashant Shukla](https://www.linkedin.com/in/prashant-shukla30/)  who shared his insights on various aspects of AI/ML. 🎤

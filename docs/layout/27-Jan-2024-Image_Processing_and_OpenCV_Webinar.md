@@ -15,7 +15,7 @@ Saturday, 27 January 2024
 {: .highlight }
 The event featured an experienced speaker [Prashant Shukla](https://www.linkedin.com/in/prashant-shukla30/)  who shared his insights on various aspects of AI/ML. 🎤
 
-**[View Slides](/assets/pdfs/lucknow_ai_meetup26nov2023.pdf)**
+**[View Slides](/assets/pdfs/imageprocessing-opencv.pdf)**
 
 ## Event Highlights
 ### Introduction and Overview

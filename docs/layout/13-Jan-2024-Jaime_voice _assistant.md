@@ -5,7 +5,7 @@ layout: default
 nav_order: 2
 ---
 
-AI/ML Community Event - Summary:
+## AI/ML Community Event - Summary:
 The Jamie AI Voice Assistant Online Meetup, a collaborative effort between Lucknow AI lab and TFUG Lucknow, highlighted an innovative venture to enhance digital accessibility through AI. This online event, held on January 13, 2024, via Google Meet, assembled a diverse group of technology aficionados, developers, and AI enthusiasts to discuss and explore the potential of voice-assisted technology in making digital interfaces more user-friendly.
 
 {: .note }
@@ -14,11 +14,11 @@ The Jamie AI Voice Assistant Online Meetup, a collaborative effort between Luckn
 >> Platform: Google Meet
 
 {: .highlight }
->> Organizers: Lucknow AI lab and TFUG Lucknow
+>> Organizers: Lucknow AI lab and TFUG Lucknow.
+
 >> Key Contributors: Neel, Surabh, Manso (JavaScript Expert), Mukesh (Streamlit Guru), Jaswir (CEO & AI Developer)
 
-**[View Slides](#)**
-
+**[View Recording](/assets/videos/Jaime-voice-assistant-meetup.mp4)** 
 ## Event Highlights
 ### Introduction and Overview
 

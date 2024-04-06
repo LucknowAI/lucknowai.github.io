@@ -2,10 +2,10 @@
 title: 27-Jan-2024-meetup
 parent: Events & Meetups
 layout: default
-nav_order: 2
+nav_order: 4
 ---
 
-# AI/ML Community Event - Summary :
+## AI/ML Community Event - Summary :
 
 All notable discussions and insights from the AI/ML community event are documented here.
 

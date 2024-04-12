@@ -6,13 +6,32 @@ description: "Open Source AI Research & Mentorship"
 permalink: /
 ---
 
+<button class="btn js-toggle-dark-mode"> Change Theme</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Dark Mode';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Bright Mode';
+  }
+});
+</script>
+
 # Lucknow AI Labs
+
 {: .fs-9 }
 
 Open Source AI Research & Mentorship
 {: .fs-6 .fw-300 }
 
-[Get started now](https://github.com/LucknowAI){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Get started now](https://github.com/LucknowAI){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0
+.mr-2 } [Visit Lallan](/Projects/lallan){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
 
 <div style="text-align: left;">
     <div>
@@ -65,12 +84,14 @@ Open Source AI Research & Mentorship
 
 ### About Us
 
-Lucknow AI Labs is dedicated to advancing AI skills among local developers, researchers, and enthusiasts. Join collaborative platform for workshops, Meetups, paper discussions, and community growth in the field of AI.
+Lucknow AI Labs is dedicated to advancing AI skills among local developers, researchers, and enthusiasts. Join
+collaborative platform for workshops, Meetups, paper discussions, and community growth in the field of AI.
 
 ### Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/LucknowAI).
+email, or any other method with the owners of this repository before making a change. Read more about becoming a
+contributor in [our GitHub repo](https://github.com/LucknowAI).
 
 #### Thank you to the contributors of Lucknow AI!
 

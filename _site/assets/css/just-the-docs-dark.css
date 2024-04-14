@@ -989,10 +989,7 @@ blockquote {
 }
 @media (min-width: 66.5rem) {
   .main {
-    margin-left: max(
-      16.5rem,
-      calc((100% - 66.5rem) / 2 + 16.5rem)
-    );
+    margin-left: max(16.5rem, (100% - 66.5rem) / 2 + 16.5rem);
   }
 }
 

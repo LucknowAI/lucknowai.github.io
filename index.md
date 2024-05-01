@@ -23,14 +23,13 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 </script>
 
 # Lucknow AI Labs
-
 {: .fs-9 }
 
 Open Source AI Research & Mentorship
 {: .fs-6 .fw-300 }
 
 [Get started now](https://github.com/LucknowAI){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0
-.mr-2 } [Visit Lallan](/Projects/lallan){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+.mr-2 } [Try Lucknow-GPT](https://lallanrag.vercel.app/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 <div style="text-align: left;">

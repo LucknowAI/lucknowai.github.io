@@ -400,445 +400,417 @@
   },"57": {
     "doc": "Resources",
     "title": "Table of contents",
-    "content": ". | TOC | . ",
+    "content": ". | Awesome Low Resource Indian Languages Hub | Learning Resources | . ",
     "url": "/docs/customization/#table-of-contents",
     
     "relUrl": "/docs/customization/#table-of-contents"
   },"58": {
     "doc": "Resources",
-    "title": "Color schemes",
-    "content": "Just the Docs supports two color schemes: light (default), and dark. To enable a color scheme, set the color_scheme parameter in your site’s _config.yml file: . Example . # Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark . Preview dark color scheme . deprecated: legacy_light . New (v0.4.2) . In Just the Docs version 0.4.2, we changed the default syntax highlighting theme for the light color scheme to have higher contrast. Users who want to use the old highlighting need to explicitly opt-in with the deprecated legacy_light color scheme. In a future major release of Just the Docs, we will remove this color scheme. ",
-    "url": "/docs/customization/#color-schemes",
+    "title": "1. Awesome Low Resource Indian Languages Hub",
+    "content": "https://github.com/LucknowAI/Awesome-Low-Resource-Indian-Languages-Hub?tab=readme-ov-file#papers . ",
+    "url": "/docs/customization/#1-awesome-low-resource-indian-languages-hub",
     
-    "relUrl": "/docs/customization/#color-schemes"
+    "relUrl": "/docs/customization/#1-awesome-low-resource-indian-languages-hub"
   },"59": {
     "doc": "Resources",
-    "title": "Custom schemes",
-    "content": "Define a custom scheme . You can add custom schemes. If you want to add a scheme named foo (can be any name) just add a file _sass/color_schemes/foo.scss (replace foo by your scheme name) where you override theme variables to change colors, fonts, spacing, etc. Since the default color scheme is light, your custom scheme is implicitly based on the variable settings used by the light scheme. If you want your custom scheme to be based on the dark scheme, you need to start your file with the following line: . @import \"./color_schemes/dark\"; . You can define custom schemes based on other custom schemes in the same way. Available variables are listed in the _variables.scss file. For example, to change the link color from the purple default to blue, include the following inside your scheme file: . Example . $link-color: $blue-000; . Keep in mind that changing a variable will not automatically change the value of other variables that depend on it. For example, the default link color ($link-color) is set to $purple-000. However, redefining $purple-000 in a custom color scheme will not automatically change $link-color to match it. Instead, each variable that relies on previously-cascaded values must be manually reimplemented by copying the dependent rules from _variables.scss — in this case, rewriting $link-color: $purple-000;. Note: Editing the variables directly in _sass/support/variables.scss is not recommended and can cause other dependencies to fail. Please use scheme files. Use a custom scheme . To use the custom color scheme, only set the color_scheme parameter in your site’s _config.yml file: . color_scheme: foo . Switchable custom scheme . If you want to be able to change the scheme dynamically, for example via javascript, just add a file assets/css/just-the-docs-foo.scss (replace foo by your scheme name) with the following content: . {% include css/just-the-docs.scss.liquid color_scheme=”foo” %} . This allows you to switch the scheme via the following javascript. jtd.setTheme(\"foo\") . ",
-    "url": "/docs/customization/#custom-schemes",
+    "title": "2. Learning Resources",
+    "content": "https://github.com/LucknowAI/ai_all_resources . ",
+    "url": "/docs/customization/#2-learning-resources",
     
-    "relUrl": "/docs/customization/#custom-schemes"
+    "relUrl": "/docs/customization/#2-learning-resources"
   },"60": {
-    "doc": "Resources",
-    "title": "Override and define new variables",
-    "content": "New (v0.4.0) . To define new SCSS variables or functions, place SCSS code in _sass/custom/setup.scss. This should not be used for defining custom styles (see the next section) or overriding color scheme variables (in this case, you should create a new color scheme). This is most commonly-used to define custom callout colors. For example, . // _sass/custom/setup.scss $pink-000: #f77ef1; $pink-100: #f967f1; $pink-200: #e94ee1; $pink-300: #dd2cd4; . In particular: this file is imported after the theme’s variables and functions are defined, but before any CSS classes are emitted. ",
-    "url": "/docs/customization/#override-and-define-new-variables",
-    
-    "relUrl": "/docs/customization/#override-and-define-new-variables"
-  },"61": {
-    "doc": "Resources",
-    "title": "Override and completely custom styles",
-    "content": "For styles that aren’t defined as SCSS variables, you may want to modify specific CSS classes. Additionally, you may want to add completely custom CSS specific to your content. To do this, put your styles in the file _sass/custom/custom.scss. This will allow for all overrides to be kept in a single file, and for any upstream changes to still be applied. For example, if you’d like to add your own styles for printing a page, you could add the following styles. Example . // Print-only styles. @media print { .side-bar, .page-header { display: none; } .main-content { max-width: auto; margin: 1em; } } . ",
-    "url": "/docs/customization/#override-and-completely-custom-styles",
-    
-    "relUrl": "/docs/customization/#override-and-completely-custom-styles"
-  },"62": {
-    "doc": "Resources",
-    "title": "Override includes",
-    "content": "You can customize the theme by overriding any of the custom Jekyll includes files that it provides. To do this, create an _includes directory and make a copy of the specific file you wish to modify. The content in this file will override the theme defaults. You can learn more about this process in the Jekyll docs for Overriding theme defaults. Just the Docs provides the following custom includes files: . Custom TOC Heading . New (v0.4.0) . _includes/toc_heading_custom.html . If the page has any child pages, and has_toc is not set to false, this content appears as a heading above the auto-generating list of child pages after the page’s content. Example . To change the default TOC heading to “Contents”, create _includes/toc_heading_custom.html and add: . &lt;h2 class=\"text-delta\"&gt;Contents&lt;/h2&gt; . The (optional) text-delta class makes the heading appear as Contents . Custom Footer . _includes/footer_custom.html . This content appears at the bottom of every page’s main content. More info for this include can be found in the Configuration - Footer content. Custom Head . _includes/head_custom.html . Any HTML added to this file will be inserted before the closing &lt;head&gt; tag. This might include additional &lt;meta&gt;, &lt;link&gt;, or &lt;script&gt; tags. The &lt;head&gt; tag automatically includes a link to an existing favicon if you set favicon_ico to the corresponding path in your configuration, or if the path to the favicon is /favicon.ico. Custom Header . _includes/header_custom.html . Content added to this file appears at the top of every page’s main content between the site search and auxiliary links if they are enabled. If search_enabled were set to false and aux_links were removed, the content of header_custom.html would occupy the space at the top of every page. Custom Nav Footer . New (v0.4.0) . _includes/nav_footer_custom.html . Any content added to this file will appear at the bottom left of the page below the site’s navigation. By default an attribution to Just the Docs is displayed which reads, This site uses Just the Docs, a documentation theme for Jekyll.. Custom Search Placeholder . New (v0.4.0) . _includes/search_placeholder_custom.html . Content added to this file will replace the default placeholder text in the search bar (and its aria-label), after stripping HTML and leading/trailing whitespace. By default, the content of the include is: . Search {{site.title}} . Override this file to render a custom placeholder. One common use-case is internationalization; for example, . Chercher notre site . would make the placeholder text “Chercher notre site”. Liquid code ( including Jekyll variables) is also supported. ",
-    "url": "/docs/customization/#override-includes",
-    
-    "relUrl": "/docs/customization/#override-includes"
-  },"63": {
-    "doc": "Resources",
-    "title": "Custom layouts and includes",
-    "content": "New (v0.4.0) . Advanced . Just the Docs uses Jekyll’s powerful layouts and includes features to generate and compose various elements of the site. Jekyll users and developers can extend or replace existing layouts and includes to customize the entire site layout. Default layout and includable components . The default layout is inherited by most of the “out-of-the-box” pages provided by Just the Docs. It composes various re-usable components of the site, including the sidebar, navbar, footer, breadcrumbs, and various imports. Most users who create new pages or layouts will inherit from default. Here is a simplified code example of what it looks like: . &lt;!-- a simplified version of _layouts/default.html --&gt; &lt;html&gt; {% include head.html %} &lt;body&gt; {% include icons/icons.html %} {% include components/sidebar.html %} {% include components/header.html %} {% include components/breadcrumbs.html %} {% if site.heading_anchors != false %} {% include vendor/anchor_headings.html html=content ... %} {% else %} {{ content }} {% endif %} {% if page.has_children == true and page.has_toc != false %} {% include components/children_nav.html %} {% endif %} {% include components/footer.html %} {% if site.search_enabled != false %} {% include components/search_footer.html %} {% endif %} {% if site.mermaid %} {% include components/mermaid.html %} {% endif %} &lt;/body&gt; &lt;/html&gt; . Component summary . Defining a new _includes with the same name as any of these components will significantly change the existing layout. Please proceed with caution when adjusting them. To briefly summarize each component: . | _includes/head.html is the entire &lt;head&gt; tag for the site; this imports stylesheets, various JavaScript files (ex: analytics, mermaid, search, and Just the Docs code), and SEO / meta information. | _includes/icons/icons.html imports all SVG icons that are used throughout the site. Some, such as those relating to search or code snippet copying, are only loaded when those features are enabled. | _includes/components/sidebar.html renders the sidebar, containing the site header, navigation links, external links, collections, and nav footer. | _includes/components/header.html renders the navigation header, containing the search bar, custom header, and aux links | _includes/components/breadcrumbs.html renders the breadcrumbs feature | vendor/anchor_headings.html is a local copy of Vladimir Jimenez’s jekyll-anchor-headings snippet | _includes/components/children_nav.html renders a list of nav links to child pages on parent pages | _includes/components/footer.html renders the bottom-of-page footer | _includes/components/search_footer.html renders DOM elements that are necessary for the search bar to work | _includes/components/mermaid.html initializes mermaid if the feature is enabled | . Each of these components can be overridden individually using the same process described in the Override includes section. In particular, the granularity of components should allow users to replace certain components (such as the sidebar) without having to adjust the rest of the code. Future versions may subdivide components further; we guarantee that we will only place them in folders ( ex components/, icons/, or a new js/) to avoid top-level namespace collisions. Alternative layouts and example (minimal) . Users can develop custom layouts that compose, omit, or add components differently. We provide one first-class example titled minimal, inspired by Kevin Lin’s work in just-the-class. This minimal layout does not render the sidebar, header, or search. To see an example, visit the minimal layout test page. Here is a simplified code example of what it looks like: . &lt;!-- a simplified version of _layouts/minimal.html --&gt; &lt;html&gt; {% include head.html %} &lt;body&gt; {% include icons/icons.html %} {% comment %} Bandaid fix for breadcrumbs here! {% endcomment %} {% include components/breadcrumbs.html %} {% if site.heading_anchors != false %} {% include vendor/anchor_headings.html html=content ... %} {% else %} {{ content }} {% endif %} {% if page.has_children == true and page.has_toc != false %} {% include components/children_nav.html %} {% endif %} {% include components/footer.html %} {% if site.mermaid %} {% include components/mermaid.html %} {% endif %} &lt;/body&gt; &lt;/html&gt; . This layout is packaged in Just the Docs. Users can indicate this alternative layout in page front matter: . --- layout: minimal title: Minimal layout test --- . Similarly, users and developers can create other alternative layouts using Just the Docs’ reusable includable components. Default layout and inheritance chain . Under the hood, . | default and minimal inherit from the table_wrappers layout, which wraps all HTML &lt;table&gt; tags with a div .table-wrapper | table_wrappers inherits from vendor/compress, which is a local copy of Anatol Broder’s jekyll-compress-html Jekyll plugin | . Note that as of now, minimal and default have no inheritance relationship. Overridden default Jekyll layouts . By default, Jekyll (and its default theme minima) provide the about, home, page, and post layouts. In Just the Docs, we override all of these layouts with the default layout. Each of those layouts is simply: . --- layout: default --- {{ content }} . ",
-    "url": "/docs/customization/#custom-layouts-and-includes",
-    
-    "relUrl": "/docs/customization/#custom-layouts-and-includes"
-  },"64": {
     "doc": "Resources",
     "title": "Resources",
     "content": " ",
     "url": "/docs/customization/",
     
     "relUrl": "/docs/customization/"
-  },"65": {
+  },"61": {
     "doc": "Default layout child page",
     "title": "Default layout child page",
     "content": "This is a child page that uses the same minimal layout as its parent page. ",
     "url": "/docs/layout/minimal/default-child/",
     
     "relUrl": "/docs/layout/minimal/default-child/"
-  },"66": {
+  },"62": {
     "doc": "Projects",
     "title": "Projects",
     "content": " ",
     "url": "/docs/index-test/",
     
     "relUrl": "/docs/index-test/"
-  },"67": {
+  },"63": {
     "doc": "Projects",
     "title": "1. Project Awadhi",
     "content": "This project focuses on developing localized solutions using advanced AI and machine learning techniques. ",
     "url": "/docs/index-test/#1-project-awadhi",
     
     "relUrl": "/docs/index-test/#1-project-awadhi"
-  },"68": {
+  },"64": {
     "doc": "Projects",
     "title": "2. Lallan",
     "content": ". | Lallan - Lucknow Artificial Language and Learning Assistance Network | . Try Lallan . ",
     "url": "/docs/index-test/#2-lallan",
     
     "relUrl": "/docs/index-test/#2-lallan"
-  },"69": {
+  },"65": {
     "doc": "Projects",
     "title": "3. Project Sign Language",
     "content": "This project focuses on developing localized solutions using advanced AI and machine learning techniques. ",
     "url": "/docs/index-test/#3-project-sign-language",
     
     "relUrl": "/docs/index-test/#3-project-sign-language"
-  },"70": {
+  },"66": {
     "doc": "Home",
     "title": "Lucknow AI Labs",
     "content": "Open Source AI Research &amp; Mentorship . Get started now Try Lucknow-GPT . Contributing . When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in our GitHub repo. Thank you to the contributors of Lucknow AI! . | | | . Code of Conduct . Lucknow AI is committed to fostering a welcoming community. View our Code of Conduct on our GitHub repository. Source: https://gdglucknow.web.app ",
     "url": "/#lucknow-ai-labs",
     
     "relUrl": "/#lucknow-ai-labs"
-  },"71": {
+  },"67": {
     "doc": "Home",
     "title": "Home",
     "content": "Change Theme . ",
     "url": "/",
     
     "relUrl": "/"
-  },"72": {
+  },"68": {
     "doc": "Labels",
     "title": "Labels",
     "content": "Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue. Default label . Blue label . Stable . New release . Coming soon . Deprecated . Default label {: .label } Blue label {: .label .label-blue } Stable {: .label .label-green } New release {: .label .label-purple } Coming soon {: .label .label-yellow } Deprecated {: .label .label-red } . ",
     "url": "/docs/ui-components/labels/",
     
     "relUrl": "/docs/ui-components/labels/"
-  },"73": {
+  },"69": {
     "doc": "Lallan",
     "title": "Lallan",
     "content": " ",
     "url": "/projects/lallan/",
     
     "relUrl": "/projects/lallan/"
-  },"74": {
+  },"70": {
     "doc": "Lallan",
     "title": "Lallan UI",
     "content": " ",
     "url": "/projects/lallan/#lallan-ui",
     
     "relUrl": "/projects/lallan/#lallan-ui"
-  },"75": {
+  },"71": {
     "doc": "Lallan",
     "title": "About Lallan",
     "content": "| Collected and contributed unstructured data for the Lucknow Large Language Model (LLM) project. | Utilized contextual embeddings to enhance semantic search and retrieval capabilities. | Integrated Google's state-of-the-art Gemini LLM for extracting answers along with embedded context from local data sources. | Implemented FastAPI backend services to support the deployment of the Retrieval-Augmented Generation (RAG) system. | Integrated FastAPI with Gradio to create an intuitive and user-friendly UI for the chatbot, improving accessibility and ease of use. | | | ",
     "url": "/projects/lallan/#about-lallan",
     
     "relUrl": "/projects/lallan/#about-lallan"
-  },"76": {
+  },"72": {
     "doc": "Events & Meetups",
     "title": "Layout Utilities",
     "content": " ",
     "url": "/docs/utilities/layout/#layout-utilities",
     
     "relUrl": "/docs/utilities/layout/#layout-utilities"
-  },"77": {
+  },"73": {
     "doc": "Events & Meetups",
     "title": "Table of contents",
     "content": ". | Spacing | Horizontal Alignment | Vertical Alignment | Display | . ",
     "url": "/docs/utilities/layout/#table-of-contents",
     
     "relUrl": "/docs/utilities/layout/#table-of-contents"
-  },"78": {
+  },"74": {
     "doc": "Events & Meetups",
     "title": "Spacing",
     "content": "These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively. | Classname prefix | What it does | . | .m- | margin | . | .mx- | margin-left, margin-right | . | .my- | margin top, margin bottom | . | .mt- | margin-top | . | .mr- | margin-right | . | .mb- | margin-bottom | . | .ml- | margin-left | . | Classname prefix | What it does | . | .p- | padding | . | .px- | padding-left, padding-right | . | .py- | padding top, padding bottom | . | .pt- | padding-top | . | .pr- | padding-right | . | .pb- | padding-bottom | . | .pl- | padding-left | . Spacing values are based on a 1rem = 16px spacing scale, broken down into these units: . | Spacer/suffix | Size in rems | Rem converted to px | . | 1 | 0.25rem | 4px | . | 2 | 0.5rem | 8px | . | 3 | 0.75rem | 12px | . | 4 | 1rem | 16px | . | 5 | 1.5rem | 24px | . | 6 | 2rem | 32px | . | 7 | 2.5rem | 40px | . | 8 | 3rem | 48px | . | auto | auto | auto | . Use mx-auto to horizontally center elements. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This paragraph will have a margin bottom of 1rem/16px on large screens. {: .mb-lg-4 } This paragraph will have 2rem/32px of padding on the right and left at all screen sizes. {: .px-6 } . ",
     "url": "/docs/utilities/layout/#spacing",
     
     "relUrl": "/docs/utilities/layout/#spacing"
-  },"79": {
+  },"75": {
     "doc": "Events & Meetups",
     "title": "Horizontal Alignment",
     "content": "| Classname | What it does | . | .float-left | float: left | . | .float-right | float: right | . | .flex-justify-start | justify-content: flex-start | . | .flex-justify-end | justify-content: flex-end | . | .flex-justify-between | justify-content: space-between | . | .flex-justify-around | justify-content: space-around | . Note: any of the flex- classes must be used on a parent element that has d-flex applied to it. ",
     "url": "/docs/utilities/layout/#horizontal-alignment",
     
     "relUrl": "/docs/utilities/layout/#horizontal-alignment"
-  },"80": {
+  },"76": {
     "doc": "Events & Meetups",
     "title": "Vertical Alignment",
     "content": "| Classname | What it does | . | .v-align-baseline | vertical-align: baseline | . | .v-align-bottom | vertical-align: bottom | . | .v-align-middle | vertical-align: middle | . | .v-align-text-bottom | vertical-align: text-bottom | . | .v-align-text-top | vertical-align: text-top | . | .v-align-top | vertical-align: top | . ",
     "url": "/docs/utilities/layout/#vertical-alignment",
     
     "relUrl": "/docs/utilities/layout/#vertical-alignment"
-  },"81": {
+  },"77": {
     "doc": "Events & Meetups",
     "title": "Display",
     "content": "Display classes aid in adapting the layout of the elements on a page: . | Class |   | . | .d-block | display: block | . | .d-flex | display: flex | . | .d-inline | display: inline | . | .d-inline-block | display: inline-block | . | .d-none | display: none | . Use these classes in conjunction with the responsive modifiers. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This button will be hidden until medium screen sizes: [ A button ](#url) {: .d-none .d-md-inline-block } These headings will be `inline-block`: ### heading 3 {: .d-inline-block } ### heading 3 {: .d-inline-block } . ",
     "url": "/docs/utilities/layout/#display",
     
     "relUrl": "/docs/utilities/layout/#display"
-  },"82": {
+  },"78": {
     "doc": "Events & Meetups",
     "title": "Events & Meetups",
     "content": " ",
     "url": "/docs/utilities/layout/",
     
     "relUrl": "/docs/utilities/layout/"
-  },"83": {
+  },"79": {
     "doc": "Events & Meetups",
     "title": "Events & Meetups",
     "content": " ",
     "url": "/docs/layout/layout/",
     
     "relUrl": "/docs/layout/layout/"
-  },"84": {
+  },"80": {
     "doc": "Code with line numbers",
     "title": "Code snippets with line numbers",
     "content": "The default settings for HTML compression are incompatible with the HTML produced by Jekyll (4.1.1 or earlier) for line numbers from highlighted code – both when using Kramdown code fences and when using Liquid highlight tags. To avoid non-conforming HTML and unsatisfactory layout, HTML compression can be turned off by using the following configuration option: . compress_html: ignore: envs: all . When using Kramdown code fences, line numbers are turned on globally by the following configuration option: . kramdown: syntax_highlighter_opts: block: line_numbers: true . Line numbers can then be suppressed locally using Liquid tags (without the linenos option) instead of fences: . {% highlight some_language %} Some code {% endhighlight %} . ",
     "url": "/docs/ui-components/code/line-numbers/#code-snippets-with-line-numbers",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#code-snippets-with-line-numbers"
-  },"85": {
+  },"81": {
     "doc": "Code with line numbers",
     "title": "Workarounds",
     "content": "To use HTML compression together with line numbers, all highlighted code needs to be wrapped using one of the following workarounds. (The variable name some_var can be changed to avoid clashes; it can also be replaced by code – but note that code=code cannot be removed). Code fences (three backticks) . {% capture some_var %} ```some_language Some code ``` {% endcapture %} {% assign some_var = some_var | markdownify %} {% include fix_linenos.html code=some_var %} . Liquid highlighting . {% capture some_var %} {% highlight some_language linenos %} Some code {% endhighlight %} {% endcapture %} {% include fix_linenos.html code=some_var %} . Credit: The original version of the above workaround was suggested by Dmitry Hrabrov at https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901. ",
     "url": "/docs/ui-components/code/line-numbers/#workarounds",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#workarounds"
-  },"86": {
+  },"82": {
     "doc": "Code with line numbers",
     "title": "Examples",
     "content": "✅ Using code fences + workaround (will only show line numbers if enabled globally in _config.yml): . // Javascript code with syntax highlighting in fences var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } . ✅ Using liquid highlighting + workaround: . | 1 2 3 4 . | # Ruby code with syntax highlighting and fixed line numbers using Liquid GitHubPages::Dependencies.gems.each do |gem, version| s.add_dependency(gem, \"= #{version}\") end . | . Narrow code stays close to the line numbers: . | 1 2 3 . | def foo puts 'foo' end . | . The following generates incorrect and invalid HTML. It should not be used as a positive example; the improper layout (with the broken HTML tags) is intentional. ❌ With the compression options used for the theme docs, the following example illustrates the incorrect formatting arising from the incompatibility of HTML compression and the non-conforming HTML produced by Jekyll for line numbers: . | 1 2 3 . | def foo puts 'foo' end . | . ",
     "url": "/docs/ui-components/code/line-numbers/#examples",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#examples"
-  },"87": {
+  },"83": {
     "doc": "Code with line numbers",
     "title": "Code with line numbers",
     "content": " ",
     "url": "/docs/ui-components/code/line-numbers/",
     
     "relUrl": "/docs/ui-components/code/line-numbers/"
-  },"88": {
+  },"84": {
     "doc": "Lists",
     "title": "Lists",
     "content": " ",
     "url": "/docs/ui-components/lists/",
     
     "relUrl": "/docs/ui-components/lists/"
-  },"89": {
+  },"85": {
     "doc": "Lists",
     "title": "Table of contents",
     "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
     "url": "/docs/ui-components/lists/#table-of-contents",
     
     "relUrl": "/docs/ui-components/lists/#table-of-contents"
-  },"90": {
+  },"86": {
     "doc": "Lists",
     "title": "Unordered list",
     "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
     "url": "/docs/ui-components/lists/#unordered-list",
     
     "relUrl": "/docs/ui-components/lists/#unordered-list"
-  },"91": {
+  },"87": {
     "doc": "Lists",
     "title": "Ordered list",
     "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
     "url": "/docs/ui-components/lists/#ordered-list",
     
     "relUrl": "/docs/ui-components/lists/#ordered-list"
-  },"92": {
+  },"88": {
     "doc": "Lists",
     "title": "Task list",
     "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
     "url": "/docs/ui-components/lists/#task-list",
     
     "relUrl": "/docs/ui-components/lists/#task-list"
-  },"93": {
+  },"89": {
     "doc": "Lists",
     "title": "Definition list",
     "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
     "url": "/docs/ui-components/lists/#definition-list",
     
     "relUrl": "/docs/ui-components/lists/#definition-list"
-  },"94": {
+  },"90": {
     "doc": "Minimal layout child page",
     "title": "Minimal layout child page",
     "content": "This is a child page that uses the same minimal layout as its parent page. ",
     "url": "/docs/layout/minimal/minimal-child/",
     
     "relUrl": "/docs/layout/minimal/minimal-child/"
-  },"95": {
+  },"91": {
     "doc": "Minimal layout test",
     "title": "Minimal layout test",
     "content": "Return to main website. This page demonstrates the packaged minimal layout, which does not render the sidebar or header. It can be used for standalone pages. It is also an example of using the new modular site components to define custom layouts; see “Custom layouts and includes” in the customization docs for more information. ",
     "url": "/docs/minimal-test/",
     
     "relUrl": "/docs/minimal-test/"
-  },"96": {
+  },"92": {
     "doc": "A minimal layout page",
     "title": "A minimal layout page",
     "content": "This page illustrates the built-in layout minimal. One of its child pages also uses the minimal layout; the other child pages uses the default layout. ",
     "url": "/docs/layout/minimal/minimal/",
     
     "relUrl": "/docs/layout/minimal/minimal/"
-  },"97": {
+  },"93": {
     "doc": "Responsive Modifiers",
     "title": "Responsive modifiers",
     "content": "Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size | . | (none) | All screens until the next modifier | . | xs | 320px (20rem) and up | . | sm | 500px (31.25rem) and up | . | md | 740px (46.25rem) and up | . | lg | 1120px (70rem) and up | . | xl | 1400px (87.5rem) and up | . ",
     "url": "/docs/utilities/responsive-modifiers/#responsive-modifiers",
     
     "relUrl": "/docs/utilities/responsive-modifiers/#responsive-modifiers"
-  },"98": {
+  },"94": {
     "doc": "Responsive Modifiers",
     "title": "Responsive Modifiers",
     "content": " ",
     "url": "/docs/utilities/responsive-modifiers/",
     
     "relUrl": "/docs/utilities/responsive-modifiers/"
-  },"99": {
+  },"95": {
     "doc": "Tables",
     "title": "Tables",
     "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
     "url": "/docs/ui-components/tables/",
     
     "relUrl": "/docs/ui-components/tables/"
-  },"100": {
+  },"96": {
     "doc": "Typography",
     "title": "Typography Utilities",
     "content": " ",
     "url": "/docs/utilities/typography/#typography-utilities",
     
     "relUrl": "/docs/utilities/typography/#typography-utilities"
-  },"101": {
+  },"97": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font size | Font weight | Line height | Text justification | . ",
     "url": "/docs/utilities/typography/#table-of-contents",
     
     "relUrl": "/docs/utilities/typography/#table-of-contents"
-  },"102": {
+  },"98": {
     "doc": "Typography",
     "title": "Font size",
     "content": "Use the .fs-1 - .fs-10 to set an explicit font-size. | Class | Small screen size font-size | Large screen size font-size | . | .fs-1 | 9px | 10px | . | .fs-2 | 11px | 12px | . | .fs-3 | 12px | 14px | . | .fs-4 | 14px | 16px | . | .fs-5 | 16px | 18px | . | .fs-6 | 18px | 24px | . | .fs-7 | 24px | 32px | . | .fs-8 | 32px | 38px | . | .fs-9 | 38px | 42px | . | .fs-10 | 42px | 48px | . Font size 1 . Font size 2 . Font size 3 . Font size 4 . Font size 5 . Font size 6 . Font size 7 . Font size 8 . Font size 9 . Font size 10 . In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } . ",
     "url": "/docs/utilities/typography/#font-size",
     
     "relUrl": "/docs/utilities/typography/#font-size"
-  },"103": {
+  },"99": {
     "doc": "Typography",
     "title": "Font weight",
     "content": "Use the .fw-300 - .fw-700 to set an explicit font-weight. Font weight 300 . Font weight 400 . Font weight 500 . Font weight 700 . In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } . ",
     "url": "/docs/utilities/typography/#font-weight",
     
     "relUrl": "/docs/utilities/typography/#font-weight"
-  },"104": {
+  },"100": {
     "doc": "Typography",
     "title": "Line height",
     "content": "Use the lh- classes to explicitly apply line height to text. | Class | line-height value | Notes | . | .lh-0 | 0 |   | . | .lh-tight | 1.1 | Default for headings | . | .lh-default | 1.4 | Default for body (paragraphs) | . No Line height No Line height . Tight line height Tight line height . Default line height Default line height . In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } . ",
     "url": "/docs/utilities/typography/#line-height",
     
     "relUrl": "/docs/utilities/typography/#line-height"
-  },"105": {
+  },"101": {
     "doc": "Typography",
     "title": "Text justification",
     "content": "By default text is justified left. Use these text- classes to override settings: . | Class | What it does | . | .text-left | text-align: left | . | .text-right | text-align: right | . | .text-center | text-align: center | . ",
     "url": "/docs/utilities/typography/#text-justification",
     
     "relUrl": "/docs/utilities/typography/#text-justification"
-  },"106": {
+  },"102": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/utilities/typography/",
     
     "relUrl": "/docs/utilities/typography/"
-  },"107": {
+  },"103": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"108": {
+  },"104": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font stack | Responsive type scale | Headings | Body text | Inline elements | Typographic Utilities | . ",
     "url": "/docs/ui-components/typography/#table-of-contents",
     
     "relUrl": "/docs/ui-components/typography/#table-of-contents"
-  },"109": {
+  },"105": {
     "doc": "Typography",
     "title": "Font stack",
     "content": "By default, Just the Docs uses a native system font stack for sans-serif fonts: . system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Segoe UI Emoji\" . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . For monospace type, like code snippets or the &lt;pre&gt; element, Just the Docs uses a native system font stack for monospace fonts: . \"SFMono-Regular\", Menlo, Consolas, Monospace . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . ",
     "url": "/docs/ui-components/typography/#font-stack",
     
     "relUrl": "/docs/ui-components/typography/#font-stack"
-  },"110": {
+  },"106": {
     "doc": "Typography",
     "title": "Responsive type scale",
     "content": "Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size font-size | Large screen size font-size | . | h1, .text-alpha | 32px | 36px | . | h2, .text-beta | 18px | 24px | . | h3, .text-gamma | 16px | 18px | . | h4, .text-delta | 14px | 16px | . | h5, .text-epsilon | 16px | 18px | . | h6, .text-zeta | 18px | 24px | . | body | 14px | 16px | . ",
     "url": "/docs/ui-components/typography/#responsive-type-scale",
     
     "relUrl": "/docs/ui-components/typography/#responsive-type-scale"
-  },"111": {
+  },"107": {
     "doc": "Typography",
     "title": "Headings",
     "content": "Headings are rendered like this: . ",
     "url": "/docs/ui-components/typography/#headings",
     
     "relUrl": "/docs/ui-components/typography/#headings"
-  },"112": {
+  },"108": {
     "doc": "Typography",
     "title": "Heading 1",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"113": {
+  },"109": {
     "doc": "Typography",
     "title": "Heading 2",
     "content": "Heading 3 . Heading 4 . Heading 5 . Heading 6 . # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 . ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"114": {
+  },"110": {
     "doc": "Typography",
     "title": "Body text",
     "content": "Default body text is rendered like this: . Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
     "url": "/docs/ui-components/typography/#body-text",
     
     "relUrl": "/docs/ui-components/typography/#body-text"
-  },"115": {
+  },"111": {
     "doc": "Typography",
     "title": "Inline elements",
     "content": "Text can be bold, italic, or strikethrough. Link to another page. Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](/). ",
     "url": "/docs/ui-components/typography/#inline-elements",
     
     "relUrl": "/docs/ui-components/typography/#inline-elements"
-  },"116": {
+  },"112": {
     "doc": "Typography",
     "title": "Typographic Utilities",
     "content": "There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. View typography utilities . ",
     "url": "/docs/ui-components/typography/#typographic-utilities",
     
     "relUrl": "/docs/ui-components/typography/#typographic-utilities"
-  },"117": {
+  },"113": {
     "doc": "Research & Publications",
     "title": "UI Components",
     "content": "To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed. ",
     "url": "/docs/ui-components#ui-components",
     
     "relUrl": "/docs/ui-components#ui-components"
-  },"118": {
+  },"114": {
     "doc": "Research & Publications",
     "title": "Research & Publications",
     "content": " ",
     "url": "/docs/ui-components",
     
     "relUrl": "/docs/ui-components"
-  },"119": {
+  },"115": {
     "doc": "Mentorship Program",
     "title": "Utilities",
     "content": "CSS utility classes come in handy when you want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. ",
     "url": "/docs/utilities#utilities",
     
     "relUrl": "/docs/utilities#utilities"
-  },"120": {
+  },"116": {
     "doc": "Mentorship Program",
     "title": "Mentorship Program",
     "content": " ",

@@ -392,425 +392,418 @@
     "relUrl": "/docs/configuration/"
   },"56": {
     "doc": "Resources",
-    "title": "Customization",
-    "content": " ",
-    "url": "/docs/customization/#customization",
-    
-    "relUrl": "/docs/customization/#customization"
-  },"57": {
-    "doc": "Resources",
     "title": "Table of contents",
     "content": ". | Awesome Low Resource Indian Languages Hub | Learning Resources | . ",
     "url": "/docs/customization/#table-of-contents",
     
     "relUrl": "/docs/customization/#table-of-contents"
-  },"58": {
+  },"57": {
     "doc": "Resources",
     "title": "1. Awesome Low Resource Indian Languages Hub",
     "content": "https://github.com/LucknowAI/Awesome-Low-Resource-Indian-Languages-Hub?tab=readme-ov-file#papers . ",
     "url": "/docs/customization/#1-awesome-low-resource-indian-languages-hub",
     
     "relUrl": "/docs/customization/#1-awesome-low-resource-indian-languages-hub"
-  },"59": {
+  },"58": {
     "doc": "Resources",
     "title": "2. Learning Resources",
     "content": "https://github.com/LucknowAI/ai_all_resources . ",
     "url": "/docs/customization/#2-learning-resources",
     
     "relUrl": "/docs/customization/#2-learning-resources"
-  },"60": {
+  },"59": {
     "doc": "Resources",
     "title": "Resources",
     "content": " ",
     "url": "/docs/customization/",
     
     "relUrl": "/docs/customization/"
-  },"61": {
+  },"60": {
     "doc": "Default layout child page",
     "title": "Default layout child page",
     "content": "This is a child page that uses the same minimal layout as its parent page. ",
     "url": "/docs/layout/minimal/default-child/",
     
     "relUrl": "/docs/layout/minimal/default-child/"
-  },"62": {
+  },"61": {
     "doc": "Projects",
     "title": "Projects",
     "content": " ",
     "url": "/docs/index-test/",
     
     "relUrl": "/docs/index-test/"
-  },"63": {
+  },"62": {
     "doc": "Projects",
     "title": "1. Project Awadhi",
     "content": "This project focuses on developing localized solutions using advanced AI and machine learning techniques. ",
     "url": "/docs/index-test/#1-project-awadhi",
     
     "relUrl": "/docs/index-test/#1-project-awadhi"
-  },"64": {
+  },"63": {
     "doc": "Projects",
     "title": "2. Lallan",
     "content": ". | Lallan - Lucknow Artificial Language and Learning Assistance Network | . Try Lallan . ",
     "url": "/docs/index-test/#2-lallan",
     
     "relUrl": "/docs/index-test/#2-lallan"
-  },"65": {
+  },"64": {
     "doc": "Projects",
     "title": "3. Project Sign Language",
     "content": "This project focuses on developing localized solutions using advanced AI and machine learning techniques. ",
     "url": "/docs/index-test/#3-project-sign-language",
     
     "relUrl": "/docs/index-test/#3-project-sign-language"
-  },"66": {
+  },"65": {
     "doc": "Home",
     "title": "Lucknow AI Labs",
     "content": "Open Source AI Research &amp; Mentorship . Get started now Try Lucknow-GPT . Contributing . When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in our GitHub repo. Thank you to the contributors of Lucknow AI! . | | | . Code of Conduct . Lucknow AI is committed to fostering a welcoming community. View our Code of Conduct on our GitHub repository. Source: https://gdglucknow.web.app ",
     "url": "/#lucknow-ai-labs",
     
     "relUrl": "/#lucknow-ai-labs"
-  },"67": {
+  },"66": {
     "doc": "Home",
     "title": "Home",
     "content": "Change Theme . ",
     "url": "/",
     
     "relUrl": "/"
-  },"68": {
+  },"67": {
     "doc": "Labels",
     "title": "Labels",
     "content": "Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue. Default label . Blue label . Stable . New release . Coming soon . Deprecated . Default label {: .label } Blue label {: .label .label-blue } Stable {: .label .label-green } New release {: .label .label-purple } Coming soon {: .label .label-yellow } Deprecated {: .label .label-red } . ",
     "url": "/docs/ui-components/labels/",
     
     "relUrl": "/docs/ui-components/labels/"
-  },"69": {
+  },"68": {
     "doc": "Lallan",
     "title": "Lallan",
     "content": " ",
     "url": "/projects/lallan/",
     
     "relUrl": "/projects/lallan/"
-  },"70": {
+  },"69": {
     "doc": "Lallan",
     "title": "Lallan UI",
     "content": " ",
     "url": "/projects/lallan/#lallan-ui",
     
     "relUrl": "/projects/lallan/#lallan-ui"
-  },"71": {
+  },"70": {
     "doc": "Lallan",
     "title": "About Lallan",
     "content": "| Collected and contributed unstructured data for the Lucknow Large Language Model (LLM) project. | Utilized contextual embeddings to enhance semantic search and retrieval capabilities. | Integrated Google's state-of-the-art Gemini LLM for extracting answers along with embedded context from local data sources. | Implemented FastAPI backend services to support the deployment of the Retrieval-Augmented Generation (RAG) system. | Integrated FastAPI with Gradio to create an intuitive and user-friendly UI for the chatbot, improving accessibility and ease of use. | | | ",
     "url": "/projects/lallan/#about-lallan",
     
     "relUrl": "/projects/lallan/#about-lallan"
-  },"72": {
+  },"71": {
     "doc": "Events & Meetups",
     "title": "Layout Utilities",
     "content": " ",
     "url": "/docs/utilities/layout/#layout-utilities",
     
     "relUrl": "/docs/utilities/layout/#layout-utilities"
-  },"73": {
+  },"72": {
     "doc": "Events & Meetups",
     "title": "Table of contents",
     "content": ". | Spacing | Horizontal Alignment | Vertical Alignment | Display | . ",
     "url": "/docs/utilities/layout/#table-of-contents",
     
     "relUrl": "/docs/utilities/layout/#table-of-contents"
-  },"74": {
+  },"73": {
     "doc": "Events & Meetups",
     "title": "Spacing",
     "content": "These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively. | Classname prefix | What it does | . | .m- | margin | . | .mx- | margin-left, margin-right | . | .my- | margin top, margin bottom | . | .mt- | margin-top | . | .mr- | margin-right | . | .mb- | margin-bottom | . | .ml- | margin-left | . | Classname prefix | What it does | . | .p- | padding | . | .px- | padding-left, padding-right | . | .py- | padding top, padding bottom | . | .pt- | padding-top | . | .pr- | padding-right | . | .pb- | padding-bottom | . | .pl- | padding-left | . Spacing values are based on a 1rem = 16px spacing scale, broken down into these units: . | Spacer/suffix | Size in rems | Rem converted to px | . | 1 | 0.25rem | 4px | . | 2 | 0.5rem | 8px | . | 3 | 0.75rem | 12px | . | 4 | 1rem | 16px | . | 5 | 1.5rem | 24px | . | 6 | 2rem | 32px | . | 7 | 2.5rem | 40px | . | 8 | 3rem | 48px | . | auto | auto | auto | . Use mx-auto to horizontally center elements. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This paragraph will have a margin bottom of 1rem/16px on large screens. {: .mb-lg-4 } This paragraph will have 2rem/32px of padding on the right and left at all screen sizes. {: .px-6 } . ",
     "url": "/docs/utilities/layout/#spacing",
     
     "relUrl": "/docs/utilities/layout/#spacing"
-  },"75": {
+  },"74": {
     "doc": "Events & Meetups",
     "title": "Horizontal Alignment",
     "content": "| Classname | What it does | . | .float-left | float: left | . | .float-right | float: right | . | .flex-justify-start | justify-content: flex-start | . | .flex-justify-end | justify-content: flex-end | . | .flex-justify-between | justify-content: space-between | . | .flex-justify-around | justify-content: space-around | . Note: any of the flex- classes must be used on a parent element that has d-flex applied to it. ",
     "url": "/docs/utilities/layout/#horizontal-alignment",
     
     "relUrl": "/docs/utilities/layout/#horizontal-alignment"
-  },"76": {
+  },"75": {
     "doc": "Events & Meetups",
     "title": "Vertical Alignment",
     "content": "| Classname | What it does | . | .v-align-baseline | vertical-align: baseline | . | .v-align-bottom | vertical-align: bottom | . | .v-align-middle | vertical-align: middle | . | .v-align-text-bottom | vertical-align: text-bottom | . | .v-align-text-top | vertical-align: text-top | . | .v-align-top | vertical-align: top | . ",
     "url": "/docs/utilities/layout/#vertical-alignment",
     
     "relUrl": "/docs/utilities/layout/#vertical-alignment"
-  },"77": {
+  },"76": {
     "doc": "Events & Meetups",
     "title": "Display",
     "content": "Display classes aid in adapting the layout of the elements on a page: . | Class |   | . | .d-block | display: block | . | .d-flex | display: flex | . | .d-inline | display: inline | . | .d-inline-block | display: inline-block | . | .d-none | display: none | . Use these classes in conjunction with the responsive modifiers. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This button will be hidden until medium screen sizes: [ A button ](#url) {: .d-none .d-md-inline-block } These headings will be `inline-block`: ### heading 3 {: .d-inline-block } ### heading 3 {: .d-inline-block } . ",
     "url": "/docs/utilities/layout/#display",
     
     "relUrl": "/docs/utilities/layout/#display"
-  },"78": {
+  },"77": {
     "doc": "Events & Meetups",
     "title": "Events & Meetups",
     "content": " ",
     "url": "/docs/utilities/layout/",
     
     "relUrl": "/docs/utilities/layout/"
-  },"79": {
+  },"78": {
     "doc": "Events & Meetups",
     "title": "Events & Meetups",
     "content": " ",
     "url": "/docs/layout/layout/",
     
     "relUrl": "/docs/layout/layout/"
-  },"80": {
+  },"79": {
     "doc": "Code with line numbers",
     "title": "Code snippets with line numbers",
     "content": "The default settings for HTML compression are incompatible with the HTML produced by Jekyll (4.1.1 or earlier) for line numbers from highlighted code – both when using Kramdown code fences and when using Liquid highlight tags. To avoid non-conforming HTML and unsatisfactory layout, HTML compression can be turned off by using the following configuration option: . compress_html: ignore: envs: all . When using Kramdown code fences, line numbers are turned on globally by the following configuration option: . kramdown: syntax_highlighter_opts: block: line_numbers: true . Line numbers can then be suppressed locally using Liquid tags (without the linenos option) instead of fences: . {% highlight some_language %} Some code {% endhighlight %} . ",
     "url": "/docs/ui-components/code/line-numbers/#code-snippets-with-line-numbers",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#code-snippets-with-line-numbers"
-  },"81": {
+  },"80": {
     "doc": "Code with line numbers",
     "title": "Workarounds",
     "content": "To use HTML compression together with line numbers, all highlighted code needs to be wrapped using one of the following workarounds. (The variable name some_var can be changed to avoid clashes; it can also be replaced by code – but note that code=code cannot be removed). Code fences (three backticks) . {% capture some_var %} ```some_language Some code ``` {% endcapture %} {% assign some_var = some_var | markdownify %} {% include fix_linenos.html code=some_var %} . Liquid highlighting . {% capture some_var %} {% highlight some_language linenos %} Some code {% endhighlight %} {% endcapture %} {% include fix_linenos.html code=some_var %} . Credit: The original version of the above workaround was suggested by Dmitry Hrabrov at https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901. ",
     "url": "/docs/ui-components/code/line-numbers/#workarounds",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#workarounds"
-  },"82": {
+  },"81": {
     "doc": "Code with line numbers",
     "title": "Examples",
     "content": "✅ Using code fences + workaround (will only show line numbers if enabled globally in _config.yml): . // Javascript code with syntax highlighting in fences var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } . ✅ Using liquid highlighting + workaround: . | 1 2 3 4 . | # Ruby code with syntax highlighting and fixed line numbers using Liquid GitHubPages::Dependencies.gems.each do |gem, version| s.add_dependency(gem, \"= #{version}\") end . | . Narrow code stays close to the line numbers: . | 1 2 3 . | def foo puts 'foo' end . | . The following generates incorrect and invalid HTML. It should not be used as a positive example; the improper layout (with the broken HTML tags) is intentional. ❌ With the compression options used for the theme docs, the following example illustrates the incorrect formatting arising from the incompatibility of HTML compression and the non-conforming HTML produced by Jekyll for line numbers: . | 1 2 3 . | def foo puts 'foo' end . | . ",
     "url": "/docs/ui-components/code/line-numbers/#examples",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#examples"
-  },"83": {
+  },"82": {
     "doc": "Code with line numbers",
     "title": "Code with line numbers",
     "content": " ",
     "url": "/docs/ui-components/code/line-numbers/",
     
     "relUrl": "/docs/ui-components/code/line-numbers/"
-  },"84": {
+  },"83": {
     "doc": "Lists",
     "title": "Lists",
     "content": " ",
     "url": "/docs/ui-components/lists/",
     
     "relUrl": "/docs/ui-components/lists/"
-  },"85": {
+  },"84": {
     "doc": "Lists",
     "title": "Table of contents",
     "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
     "url": "/docs/ui-components/lists/#table-of-contents",
     
     "relUrl": "/docs/ui-components/lists/#table-of-contents"
-  },"86": {
+  },"85": {
     "doc": "Lists",
     "title": "Unordered list",
     "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
     "url": "/docs/ui-components/lists/#unordered-list",
     
     "relUrl": "/docs/ui-components/lists/#unordered-list"
-  },"87": {
+  },"86": {
     "doc": "Lists",
     "title": "Ordered list",
     "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
     "url": "/docs/ui-components/lists/#ordered-list",
     
     "relUrl": "/docs/ui-components/lists/#ordered-list"
-  },"88": {
+  },"87": {
     "doc": "Lists",
     "title": "Task list",
     "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
     "url": "/docs/ui-components/lists/#task-list",
     
     "relUrl": "/docs/ui-components/lists/#task-list"
-  },"89": {
+  },"88": {
     "doc": "Lists",
     "title": "Definition list",
     "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
     "url": "/docs/ui-components/lists/#definition-list",
     
     "relUrl": "/docs/ui-components/lists/#definition-list"
-  },"90": {
+  },"89": {
     "doc": "Minimal layout child page",
     "title": "Minimal layout child page",
     "content": "This is a child page that uses the same minimal layout as its parent page. ",
     "url": "/docs/layout/minimal/minimal-child/",
     
     "relUrl": "/docs/layout/minimal/minimal-child/"
-  },"91": {
+  },"90": {
     "doc": "Minimal layout test",
     "title": "Minimal layout test",
     "content": "Return to main website. This page demonstrates the packaged minimal layout, which does not render the sidebar or header. It can be used for standalone pages. It is also an example of using the new modular site components to define custom layouts; see “Custom layouts and includes” in the customization docs for more information. ",
     "url": "/docs/minimal-test/",
     
     "relUrl": "/docs/minimal-test/"
-  },"92": {
+  },"91": {
     "doc": "A minimal layout page",
     "title": "A minimal layout page",
     "content": "This page illustrates the built-in layout minimal. One of its child pages also uses the minimal layout; the other child pages uses the default layout. ",
     "url": "/docs/layout/minimal/minimal/",
     
     "relUrl": "/docs/layout/minimal/minimal/"
-  },"93": {
+  },"92": {
     "doc": "Responsive Modifiers",
     "title": "Responsive modifiers",
     "content": "Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size | . | (none) | All screens until the next modifier | . | xs | 320px (20rem) and up | . | sm | 500px (31.25rem) and up | . | md | 740px (46.25rem) and up | . | lg | 1120px (70rem) and up | . | xl | 1400px (87.5rem) and up | . ",
     "url": "/docs/utilities/responsive-modifiers/#responsive-modifiers",
     
     "relUrl": "/docs/utilities/responsive-modifiers/#responsive-modifiers"
-  },"94": {
+  },"93": {
     "doc": "Responsive Modifiers",
     "title": "Responsive Modifiers",
     "content": " ",
     "url": "/docs/utilities/responsive-modifiers/",
     
     "relUrl": "/docs/utilities/responsive-modifiers/"
-  },"95": {
+  },"94": {
     "doc": "Tables",
     "title": "Tables",
     "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
     "url": "/docs/ui-components/tables/",
     
     "relUrl": "/docs/ui-components/tables/"
-  },"96": {
+  },"95": {
     "doc": "Typography",
     "title": "Typography Utilities",
     "content": " ",
     "url": "/docs/utilities/typography/#typography-utilities",
     
     "relUrl": "/docs/utilities/typography/#typography-utilities"
-  },"97": {
+  },"96": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font size | Font weight | Line height | Text justification | . ",
     "url": "/docs/utilities/typography/#table-of-contents",
     
     "relUrl": "/docs/utilities/typography/#table-of-contents"
-  },"98": {
+  },"97": {
     "doc": "Typography",
     "title": "Font size",
     "content": "Use the .fs-1 - .fs-10 to set an explicit font-size. | Class | Small screen size font-size | Large screen size font-size | . | .fs-1 | 9px | 10px | . | .fs-2 | 11px | 12px | . | .fs-3 | 12px | 14px | . | .fs-4 | 14px | 16px | . | .fs-5 | 16px | 18px | . | .fs-6 | 18px | 24px | . | .fs-7 | 24px | 32px | . | .fs-8 | 32px | 38px | . | .fs-9 | 38px | 42px | . | .fs-10 | 42px | 48px | . Font size 1 . Font size 2 . Font size 3 . Font size 4 . Font size 5 . Font size 6 . Font size 7 . Font size 8 . Font size 9 . Font size 10 . In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } . ",
     "url": "/docs/utilities/typography/#font-size",
     
     "relUrl": "/docs/utilities/typography/#font-size"
-  },"99": {
+  },"98": {
     "doc": "Typography",
     "title": "Font weight",
     "content": "Use the .fw-300 - .fw-700 to set an explicit font-weight. Font weight 300 . Font weight 400 . Font weight 500 . Font weight 700 . In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } . ",
     "url": "/docs/utilities/typography/#font-weight",
     
     "relUrl": "/docs/utilities/typography/#font-weight"
-  },"100": {
+  },"99": {
     "doc": "Typography",
     "title": "Line height",
     "content": "Use the lh- classes to explicitly apply line height to text. | Class | line-height value | Notes | . | .lh-0 | 0 |   | . | .lh-tight | 1.1 | Default for headings | . | .lh-default | 1.4 | Default for body (paragraphs) | . No Line height No Line height . Tight line height Tight line height . Default line height Default line height . In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } . ",
     "url": "/docs/utilities/typography/#line-height",
     
     "relUrl": "/docs/utilities/typography/#line-height"
-  },"101": {
+  },"100": {
     "doc": "Typography",
     "title": "Text justification",
     "content": "By default text is justified left. Use these text- classes to override settings: . | Class | What it does | . | .text-left | text-align: left | . | .text-right | text-align: right | . | .text-center | text-align: center | . ",
     "url": "/docs/utilities/typography/#text-justification",
     
     "relUrl": "/docs/utilities/typography/#text-justification"
-  },"102": {
+  },"101": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/utilities/typography/",
     
     "relUrl": "/docs/utilities/typography/"
-  },"103": {
+  },"102": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"104": {
+  },"103": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font stack | Responsive type scale | Headings | Body text | Inline elements | Typographic Utilities | . ",
     "url": "/docs/ui-components/typography/#table-of-contents",
     
     "relUrl": "/docs/ui-components/typography/#table-of-contents"
-  },"105": {
+  },"104": {
     "doc": "Typography",
     "title": "Font stack",
     "content": "By default, Just the Docs uses a native system font stack for sans-serif fonts: . system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Segoe UI Emoji\" . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . For monospace type, like code snippets or the &lt;pre&gt; element, Just the Docs uses a native system font stack for monospace fonts: . \"SFMono-Regular\", Menlo, Consolas, Monospace . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . ",
     "url": "/docs/ui-components/typography/#font-stack",
     
     "relUrl": "/docs/ui-components/typography/#font-stack"
-  },"106": {
+  },"105": {
     "doc": "Typography",
     "title": "Responsive type scale",
     "content": "Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size font-size | Large screen size font-size | . | h1, .text-alpha | 32px | 36px | . | h2, .text-beta | 18px | 24px | . | h3, .text-gamma | 16px | 18px | . | h4, .text-delta | 14px | 16px | . | h5, .text-epsilon | 16px | 18px | . | h6, .text-zeta | 18px | 24px | . | body | 14px | 16px | . ",
     "url": "/docs/ui-components/typography/#responsive-type-scale",
     
     "relUrl": "/docs/ui-components/typography/#responsive-type-scale"
-  },"107": {
+  },"106": {
     "doc": "Typography",
     "title": "Headings",
     "content": "Headings are rendered like this: . ",
     "url": "/docs/ui-components/typography/#headings",
     
     "relUrl": "/docs/ui-components/typography/#headings"
-  },"108": {
+  },"107": {
     "doc": "Typography",
     "title": "Heading 1",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"109": {
+  },"108": {
     "doc": "Typography",
     "title": "Heading 2",
     "content": "Heading 3 . Heading 4 . Heading 5 . Heading 6 . # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 . ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"110": {
+  },"109": {
     "doc": "Typography",
     "title": "Body text",
     "content": "Default body text is rendered like this: . Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
     "url": "/docs/ui-components/typography/#body-text",
     
     "relUrl": "/docs/ui-components/typography/#body-text"
-  },"111": {
+  },"110": {
     "doc": "Typography",
     "title": "Inline elements",
     "content": "Text can be bold, italic, or strikethrough. Link to another page. Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](/). ",
     "url": "/docs/ui-components/typography/#inline-elements",
     
     "relUrl": "/docs/ui-components/typography/#inline-elements"
-  },"112": {
+  },"111": {
     "doc": "Typography",
     "title": "Typographic Utilities",
     "content": "There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. View typography utilities . ",
     "url": "/docs/ui-components/typography/#typographic-utilities",
     
     "relUrl": "/docs/ui-components/typography/#typographic-utilities"
-  },"113": {
+  },"112": {
     "doc": "Research & Publications",
     "title": "UI Components",
     "content": "To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed. ",
     "url": "/docs/ui-components#ui-components",
     
     "relUrl": "/docs/ui-components#ui-components"
-  },"114": {
+  },"113": {
     "doc": "Research & Publications",
     "title": "Research & Publications",
     "content": " ",
     "url": "/docs/ui-components",
     
     "relUrl": "/docs/ui-components"
-  },"115": {
+  },"114": {
     "doc": "Mentorship Program",
     "title": "Utilities",
     "content": "CSS utility classes come in handy when you want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. ",
     "url": "/docs/utilities#utilities",
     
     "relUrl": "/docs/utilities#utilities"
-  },"116": {
+  },"115": {
     "doc": "Mentorship Program",
     "title": "Mentorship Program",
     "content": " ",

@@ -4,8 +4,6 @@ title: Resources
 nav_order: 6
 ---
 
-# Customization
-
 {: .no_toc }
 
 ## Table of contents

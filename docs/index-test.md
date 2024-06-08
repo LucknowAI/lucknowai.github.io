@@ -11,10 +11,11 @@ nav_order: 4
 
 This project focuses on developing localized solutions using advanced AI and machine learning techniques.
 
-### Lallan
+## 2. Lallan
 
 - [Lallan - Lucknow Artificial Language and Learning Assistance Network](/projects/lallan)
 
 [Try Lallan](/projects/lallan){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-
+## 3. Project Sign Language
+This project focuses on developing localized solutions using advanced AI and machine learning techniques.

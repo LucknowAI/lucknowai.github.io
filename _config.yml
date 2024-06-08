@@ -33,6 +33,8 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
+   - CHANGELOG.md
+   - MIGRATION.md
  # specific to the theme website:
    - bin/
    - lib/
@@ -46,6 +48,8 @@ exclude:
    - CODE_OF_CONDUCT.md
    - docker-compose.yml
    - Dockerfile
+   - CHANGELOG.md
+   - MIGRATION.md
  # theme test code
    - fixtures/
 

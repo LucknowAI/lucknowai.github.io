@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: About Us
 nav_order: 2
 ---
 # Welcome To Lucknow AI

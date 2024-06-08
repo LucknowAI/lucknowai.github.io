@@ -81,11 +81,6 @@ Open Source AI Research & Mentorship
 
 <!-- {: .important } -->
 
-### About Us
-
-Lucknow AI Labs is dedicated to advancing AI skills among local developers, researchers, and enthusiasts. Join
-collaborative platform for workshops, Meetups, paper discussions, and community growth in the field of AI.
-
 ### Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,

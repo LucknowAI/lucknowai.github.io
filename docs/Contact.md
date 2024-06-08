@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact
+title: Contact Us
 nav_order: 8
 ---
 

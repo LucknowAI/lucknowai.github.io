@@ -91,7 +91,11 @@ These roles require organizational skills and attention to detail, ideal for tho
 ## General Volunteer Application Form
 {: .label .label-red }
 
-- https://forms.gle/Q9pjpaVLpEi5CpRR9
+- **Fill the form given below !**
 
 {: .note }
 Join the movement to make a difference in the community by volunteering with us. Whether you're looking to gain new skills, meet like-minded individuals, we have a variety of opportunities available. By filling out our application form, you'll be taking the first step towards becoming part of a dynamic team dedicated to Accelearte AI Awareness in Lucknow. Our volunteer program is designed to be flexible and accommodating, so whether you have a few hours a week or a few days a month, we have a role that's right for you. So why wait? Fill out our application form today and start making a difference in the lives of others!"
+
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTw6CdAKihCrKLBYHs2pJoHWwjhbi5m_kRx3DciDnyvzZt_Q/viewform?embedded=true" width="640" height="2455" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

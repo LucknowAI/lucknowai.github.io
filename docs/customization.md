@@ -4,11 +4,9 @@ title: Resources
 nav_order: 6
 ---
 
-# Customization
-
 {: .no_toc }
 
-## Table of contents
+# Table of contents
 
 {: .no_toc .text-delta }
 
@@ -19,11 +17,14 @@ nav_order: 6
 ---
 
 ## 1. Awesome Low Resource Indian Languages Hub
-    https://github.com/LucknowAI/Awesome-Low-Resource-Indian-Languages-Hub?tab=readme-ov-file#papers
+[Click Here !][def1]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
 ## 2. Learning Resources
-    https://github.com/LucknowAI/ai_all_resources
+[Click Here !][def2]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
+
+[def1]: https://github.com/LucknowAI/Awesome-Low-Resource-Indian-Languages-Hub?tab=readme-ov-file#papers
+[def2]: https://github.com/LucknowAI/ai_all_resources

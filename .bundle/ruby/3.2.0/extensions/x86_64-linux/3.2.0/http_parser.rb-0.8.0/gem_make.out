@@ -1,0 +1,19 @@
+current directory: /home/runner/lucknowaigithubio/.bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/nix/store/p19biyk23slgqhqmfl7h7cc4c1rnl3ri-ruby-3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/runner/lucknowaigithubio/.bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240911-984-yaxbvo sitelibdir\=./.gem.20240911-984-yaxbvo clean
+
+current directory: /home/runner/lucknowaigithubio/.bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240911-984-yaxbvo sitelibdir\=./.gem.20240911-984-yaxbvo
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/runner/lucknowaigithubio/.bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240911-984-yaxbvo sitelibdir\=./.gem.20240911-984-yaxbvo install
+install -c -p -m 755 ruby_http_parser.so ./.gem.20240911-984-yaxbvo
+
+current directory: /home/runner/lucknowaigithubio/.bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240911-984-yaxbvo sitelibdir\=./.gem.20240911-984-yaxbvo clean

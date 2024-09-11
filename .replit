@@ -1,0 +1,12 @@
+modules = ["web", "nodejs-20", "ruby-3.2"]
+run = "bundle install && bundle exec jekyll serve --host 0.0.0.0 --port 8000"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "bundle exec jekyll serve --host 0.0.0.0 --port 8000"]
+
+[[ports]]
+localPort = 8000
+externalPort = 80

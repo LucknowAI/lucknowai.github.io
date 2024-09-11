@@ -1,0 +1,16 @@
+current directory: /home/runner/lucknowaigithubio/.bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+/nix/store/p19biyk23slgqhqmfl7h7cc4c1rnl3ri-ruby-3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/runner/lucknowaigithubio/.bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240911-984-8bznud sitelibdir\=./.gem.20240911-984-8bznud clean
+
+current directory: /home/runner/lucknowaigithubio/.bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240911-984-8bznud sitelibdir\=./.gem.20240911-984-8bznud
+make: Nothing to be done for 'all'.
+
+current directory: /home/runner/lucknowaigithubio/.bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240911-984-8bznud sitelibdir\=./.gem.20240911-984-8bznud install
+
+current directory: /home/runner/lucknowaigithubio/.bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240911-984-8bznud sitelibdir\=./.gem.20240911-984-8bznud clean

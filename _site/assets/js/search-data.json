@@ -1,830 +1,935 @@
 {"0": {
     "doc": "(10/08/24) Discrod AMA 2024",
-    "title": "Discord AMA 2024",
-    "content": " ",
-    "url": "/docs/layout/10-Aug-2024%20Discord%20AMA/#discord-ama-2024",
+    "title": "Discord AMA Session Summary - LAI &amp; DAO Labs",
+    "content": "Speakers: . | Aaditya, Founder of LAI | Harsh Joshi, Founder of DAO Labs | . Audience: . | Students and working professionals | . ",
+    "url": "/docs/layout/10-Aug-2024%20Discord%20AMA/#discord-ama-session-summary---lai--dao-labs",
     
-    "relUrl": "/docs/layout/10-Aug-2024%20Discord%20AMA/#discord-ama-2024"
+    "relUrl": "/docs/layout/10-Aug-2024%20Discord%20AMA/#discord-ama-session-summary---lai--dao-labs"
   },"1": {
+    "doc": "(10/08/24) Discrod AMA 2024",
+    "title": "Key Discussion Points",
+    "content": "How Students Can Grab Internship Opportunities . Aaditya and Harsh shared insights into finding and securing internships in today’s competitive landscape. They emphasized the importance of networking, leveraging platforms like LinkedIn, attending industry meetups, and participating in relevant online communities. They advised students to tailor their resumes to highlight skills and projects that align with potential internship roles, and to proactively reach out to companies or professionals in their field of interest. How to Make a Good GitHub Repo . The speakers discussed best practices for creating a compelling GitHub repository. Key points included: . | Organized Structure: Use clear directories and maintain a clean project structure. | Descriptive README: Include a comprehensive README file with project overview, setup instructions, usage examples, and contribution guidelines. | Documentation: Regularly update documentation and ensure code is well-commented. | Version Control: Utilize branches effectively and maintain a consistent commit history. | Company Evaluation: Companies often evaluate candidates by reviewing their GitHub profiles. Therefore, good documentation is crucial as it showcases your skills, project quality, and attention to detail. | . Essentials of Proper Documentation and README Files . Effective documentation is crucial for the usability and maintainability of a project. Aaditya and Harsh outlined essential elements of documentation: . | README Files: Should provide a summary of the project, installation steps, usage instructions, and contact information. | Code Comments: Write clear comments to explain complex logic or code sections. | Contributing Guidelines: Provide instructions for contributors on how to report issues, submit changes, and follow coding standards. | . Ideas for Final Year Projects . The session included brainstorming for innovative final year project ideas. Some suggestions were: . | AI-Powered Chatbots: Develop chatbots with advanced conversational abilities for specific domains. | Blockchain-Based Applications: Explore blockchain for secure transactions or decentralized apps. | IoT Solutions: Create IoT-based systems for smart home or environmental monitoring. | Augmented Reality: Build AR applications for educational or entertainment purposes. | . Doubt Solving . The AMA also featured a Q&amp;A segment where students and professionals posed their queries. The speakers addressed questions on various topics such as career advice, project development challenges, and industry trends. This interactive segment provided personalized guidance and solutions to specific issues faced by the attendees. ",
+    "url": "/docs/layout/10-Aug-2024%20Discord%20AMA/#key-discussion-points",
+    
+    "relUrl": "/docs/layout/10-Aug-2024%20Discord%20AMA/#key-discussion-points"
+  },"2": {
+    "doc": "(10/08/24) Discrod AMA 2024",
+    "title": "Conclusion",
+    "content": "The AMA session with Aaditya and Harsh provided valuable insights into career development, project management, and technical documentation. Attendees gained practical advice on securing internships, creating effective GitHub repositories, and enhancing project documentation, along with exploring innovative ideas for their final year projects. The event was a great opportunity for the community to engage directly with industry leaders and address their career and technical queries. ",
+    "url": "/docs/layout/10-Aug-2024%20Discord%20AMA/#conclusion",
+    
+    "relUrl": "/docs/layout/10-Aug-2024%20Discord%20AMA/#conclusion"
+  },"3": {
     "doc": "(10/08/24) Discrod AMA 2024",
     "title": "(10/08/24) Discrod AMA 2024",
     "content": " ",
     "url": "/docs/layout/10-Aug-2024%20Discord%20AMA/",
     
     "relUrl": "/docs/layout/10-Aug-2024%20Discord%20AMA/"
-  },"2": {
+  },"4": {
     "doc": "(13/01/24) Jamie AI Voice Assistant Online Meetup",
     "title": "The Jamie AI Voice Assistant Online Meetup",
     "content": "Summary: . The Jamie AI Voice Assistant Online Meetup, a collaborative effort between Lucknow AI lab and TFUG Lucknow, highlighted an innovative venture to enhance digital accessibility through AI. This online event, held on January 13, 2024, via Google Meet, assembled a diverse group of technology aficionados, developers, and AI enthusiasts to discuss and explore the potential of voice-assisted technology in making digital interfaces more user-friendly. Date: January 13, 2024 Time: 2:30 PM Platform: Google Meet . Organizers: Lucknow AI lab and TFUG Lucknow. Key Contributors: Neel, Surabh, Manso (JavaScript Expert), Mukesh (Streamlit Guru), Jaswir (CEO &amp; AI Developer) . View Recording . ",
     "url": "/docs/layout/13-Jan-2024-Jaime_voice%20_assistant/#the-jamie-ai-voice-assistant-online-meetup",
     
     "relUrl": "/docs/layout/13-Jan-2024-Jaime_voice%20_assistant/#the-jamie-ai-voice-assistant-online-meetup"
-  },"3": {
+  },"5": {
     "doc": "(13/01/24) Jamie AI Voice Assistant Online Meetup",
     "title": "Event Highlights",
     "content": "Introduction and Overview . | The meetup provided an insightful overview of the Jamie AI Voice Assistant project, emphasizing its mission to simplify the digital experience for users. This initiative represents a significant step towards bridging the gap between complex digital technologies and the everyday user. | Spearheaded by a dynamic team comprising Manso, Mukesh, and Jaswir, the project leverages their collective expertise in JavaScript, Streamlit, and AI development to create a versatile and intuitive voice assistant. | Collaboration between Lucknow AI lab and TFUG Lucknow played a pivotal role in organizing and managing this enriching event, which saw significant participation from individuals across various sectors. | . Technical Exploration and Demonstrations . Project Insight . | Attendees were introduced to the foundational goals of Jamie AI, designed to act as a tech-savvy companion that offers assistance with a broad spectrum of digital tasks, from mundane to complex. | . Technical Infrastructure . | A deep dive into the technical underpinnings of Jamie AI, showcasing how Manso’s JavaScript prowess and Mukesh’s Streamlit expertise have contributed to an engaging user interface and responsive front-end experience. | The session highlighted the advanced algorithms employed for image analysis and natural language processing, enabling Jamie AI to understand and execute a wide range of voice commands effectively. | . Demonstrations and Applications . | Real-time demonstrations of Jamie AI in action provided tangible examples of its potential, illustrating how it can assist users in managing smart home devices and navigating digital platforms, thereby reducing the technological barriers for the less digitally savvy. | . Community Engagement and Visionary Future . Engaging the Community . | A significant emphasis was placed on community engagement, with participants invited to contribute ideas for improvements, new features, and potential use cases, fostering a collaborative development environment. | . Vision for the Future . | The Jamie AI team shared their ambitious vision for the voice assistant, discussing plans to expand its functionalities to include navigation assistance, healthcare management, and educational support, among other applications. | . Conclusion and Acknowledgements . The Jamie AI Voice Assistant Online Meetup concluded on a high note, with participants and organizers alike excited about the future directions of the project. The event underscored the transformative potential of Jamie AI in making technology accessible to a broader audience and highlighted the critical role of community involvement in driving technological innovation. Special thanks were extended to Manso, Mukesh, and Jaswir for their dedication and contributions, as well as to all participants for their engagement and enthusiasm. This event report captures the spirit and objectives of the Jamie AI Voice Assistant meetup, reflecting on the collaborative effort to democratize access to technology through AI-driven solutions. ",
     "url": "/docs/layout/13-Jan-2024-Jaime_voice%20_assistant/#event-highlights",
     
     "relUrl": "/docs/layout/13-Jan-2024-Jaime_voice%20_assistant/#event-highlights"
-  },"4": {
+  },"6": {
     "doc": "(13/01/24) Jamie AI Voice Assistant Online Meetup",
     "title": "(13/01/24) Jamie AI Voice Assistant Online Meetup",
     "content": " ",
     "url": "/docs/layout/13-Jan-2024-Jaime_voice%20_assistant/",
     
     "relUrl": "/docs/layout/13-Jan-2024-Jaime_voice%20_assistant/"
-  },"5": {
+  },"7": {
     "doc": "(21/01/24) Startup Success Days India 2023",
     "title": "Startup Success Days India 2023",
     "content": "Summary: . Startup Success Days India 2023, organized by GDG Lucknow in partnership with TFUG Lucknow, was a pivotal event held at Club Orchid, Lucknow. This event series was crafted to unite Founders, Developers, Mentors, VCs, Industry leaders, Googlers, and enthusiasts to discuss and share insights on the forefront of technological innovation, with a special focus on Generative AI, Google Cloud, Google Maps, Android, Web3, and Language Solutions. Date and Time: January 21, 10:00 AM – 4:00 PM . Location: Club Orchid, H-306 Faizabad Road, Lucknow, 226028 . Key Contributors: GDG Lucknow Team &amp; TFUG Lucknow Team . * . *Visit Page ** . ",
     "url": "/docs/layout/21-Jan-24-Startup_Success_days_GdgLko/#startup-success-days-india-2023",
     
     "relUrl": "/docs/layout/21-Jan-24-Startup_Success_days_GdgLko/#startup-success-days-india-2023"
-  },"6": {
+  },"8": {
     "doc": "(21/01/24) Startup Success Days India 2023",
     "title": "Event Highlights",
     "content": "Introduction and Overview . | Inaugural Address: Vasundhara, the GDG Lucknow Organizer, kicked off the event, setting the tone for a day filled with insightful discussions and presentations. | Key Themes: The event revolved around crucial tech and development themes including AI, Career Development, Cloud Computing, Community Building, Enterprise/Business Solutions, Networking, and Women Techmakers. | Objective: The essence of Startup Success Days was to empower startups to leverage Google’s tools and platforms for product development and business growth, while nurturing local ecosystem collaborations. | . Session Summaries . Morning Sessions . | Discussions began with a deep dive into State Management, exploring its essentials, applications, and best practices. | A Practical Guide to GraphQL provided attendees with actionable insights into implementing GraphQL in their projects. | Thriving on Thin Air session offered strategies for launching businesses with minimal resources, emphasizing efficiency and innovation. | The focus then shifted to the World of IoT using a hybrid cloud approach, highlighting the integration of IoT technologies with cloud computing. | AI/ML in Education sector discussion underscored the transformative potential of artificial intelligence and machine learning in enhancing educational experiences and outcomes. | . Afternoon Sessions . | A detailed exploration of Pattern Matching in programming languages, discussing its significance and applications. | Panel Discussion: Fostering a New Generation of Developers, facilitated a dialogue among experts on nurturing tech talent and innovation in the developer community. | The discussion on Decentralization of Web Architecture examined the shift towards a more distributed and user-empowered internet structure. | A Session on Adapting Large Language Models (LLMs) to Low Resource Languages: This session, led by Ankit, delved into the challenges and solutions associated with customizing LLMs for languages with limited digital resources. Ankit provided insights into techniques for training models efficiently, ensuring linguistic diversity and accessibility in AI-driven applications. Ankit also participated in the panel discussion, contributing his expertise to broader conversations about developer support and community growth. | A session on Kubernetes covered the essentials of using Kubernetes for managing containerized applications, focusing on its importance in modern software development. | . Conclusion . The event concluded with closing remarks, reflected on the day’s learnings and encouraged participants to continue exploring and innovating with the tools and knowledge shared. Startup Success Days India 2023 was not just a conference; it was a beacon for startups and technologists, highlighting the importance of collaboration, continuous learning, and technological advancement. Special thanks were extended to all speakers, for invaluable contributions, and to the organizing teams of GDG and TFUG Lucknow for making this event a resounding success. This daylong journey through various facets of technology and business underscored the vibrant potential of the Lucknow tech community and its role in shaping the future of innovation. ",
     "url": "/docs/layout/21-Jan-24-Startup_Success_days_GdgLko/#event-highlights",
     
     "relUrl": "/docs/layout/21-Jan-24-Startup_Success_days_GdgLko/#event-highlights"
-  },"7": {
+  },"9": {
     "doc": "(21/01/24) Startup Success Days India 2023",
     "title": "(21/01/24) Startup Success Days India 2023",
     "content": " ",
     "url": "/docs/layout/21-Jan-24-Startup_Success_days_GdgLko/",
     
     "relUrl": "/docs/layout/21-Jan-24-Startup_Success_days_GdgLko/"
-  },"8": {
+  },"10": {
     "doc": "(23/05/24) Hack-to-Crack 1.0 2024",
-    "title": "Hack-to-Crack 1.0 2024",
-    "content": " ",
-    "url": "/docs/layout/23-May-2024%20Hack%20to%20Crack/#hack-to-crack-10-2024",
+    "title": "Hack to Crack 1.0 AI/ML Hackathon",
+    "content": "Summary: . The “Hack to Crack 1.0” AI/ML Hackathon, hosted by [Community Name], provided participants with an exciting opportunity to tackle real-world problems using cutting-edge AI and ML technologies. This event fostered collaboration, innovation, and hands-on experience, allowing participants to showcase their skills in areas like computer vision, NLP, and cybersecurity. Date: May 23-24, 2024 . The hackathon focused on real-world challenges, with themes including AI for Social Good, Local Language Transcription, Enhancing Cybersecurity with LLMs, and more. View Submission Guidelines . ",
+    "url": "/docs/layout/23-May-2024%20Hack%20to%20Crack/#hack-to-crack-10-aiml-hackathon",
     
-    "relUrl": "/docs/layout/23-May-2024%20Hack%20to%20Crack/#hack-to-crack-10-2024"
-  },"9": {
+    "relUrl": "/docs/layout/23-May-2024%20Hack%20to%20Crack/#hack-to-crack-10-aiml-hackathon"
+  },"11": {
+    "doc": "(23/05/24) Hack-to-Crack 1.0 2024",
+    "title": "Event Highlights",
+    "content": "Hackathon Overview . | Held virtually, the event welcomed a diverse group of participants from students to seasoned professionals, passionate about leveraging AI/ML for innovative solutions. | Teams worked on a range of problems, from developing AI-powered chatbots to detecting and mitigating online fraud using ML. | Participants presented their solutions through GitHub repositories, detailed project presentations, and video demos. | . Key Themes . AI for Social Good . | Empowered underserved communities by developing solutions like sign language translators and image transcription systems for the visually impaired. | . Local Language Transcription and Translation . | Developed tools for transcribing and translating regional Indian languages, aiding communities in accessing information in their native tongues. | . Enhancing Cybersecurity with LLMs . | Built AI/ML systems capable of detecting phishing, malware, and other online threats using advanced LLM models. | . Participant Engagement and Outcomes . | Teams demonstrated innovative solutions in their respective tracks, receiving valuable feedback from judges. | Participants gained experience working with AI/ML models and enhanced their problem-solving skills while collaborating in real-world scenarios. | . Conclusion . “Hack to Crack 1.0” was a successful event that brought together AI/ML enthusiasts to develop impactful solutions for pressing global challenges. The hackathon set the stage for future collaborations and innovation in the AI/ML community. ",
+    "url": "/docs/layout/23-May-2024%20Hack%20to%20Crack/#event-highlights",
+    
+    "relUrl": "/docs/layout/23-May-2024%20Hack%20to%20Crack/#event-highlights"
+  },"12": {
     "doc": "(23/05/24) Hack-to-Crack 1.0 2024",
     "title": "(23/05/24) Hack-to-Crack 1.0 2024",
     "content": " ",
     "url": "/docs/layout/23-May-2024%20Hack%20to%20Crack/",
     
     "relUrl": "/docs/layout/23-May-2024%20Hack%20to%20Crack/"
-  },"10": {
-    "doc": "(25/05/24) GenAI Awadh Summit 2024",
-    "title": "GenAI Awadh Summit 2024",
-    "content": "Summary: . The Gen AI Awadh Summit brought together tech enthusiasts, industry experts, and visionaries to explore the potential of artificial intelligence. Attendees participated in discussions, workshops, and networking opportunities focused on leveraging AI for positive change. The event catered to AI professionals, entrepreneurs, and those interested in the future of technology, aiming to shape the future of AI in Awadh and beyond. Date and Time: May 25, 10:00 AM – 5:00 PM . Location: SSB Hall, Centre for Advanced Studies, Dr. APJ Abdul Kalam Technical University, Vistar Yojna, AKTU CDRI Rd, Naya Khera, Jankipuram, Lucknow, Uttar Pradesh 226031 . Key Contributors: Lucknow AI Team &amp; GDG Lucknow Team . * . *Visit Page ** . ",
-    "url": "/docs/layout/25-May-2024%20GenAI%20Awadh/#genai-awadh-summit-2024",
+  },"13": {
+    "doc": "(25/05/24) Gen AI Awadh Summit",
+    "title": "Gen AI Awadh Summit 2024",
+    "content": "Summary: . The Gen AI Awadh Summit, held on May 25, 2024, brought together tech enthusiasts, industry experts, and innovators at the Centre for Advanced Studies, Dr. APJ Abdul Kalam Technical University in Lucknow, India. Organized by TFUG Lucknow and supported by Hunto AI, the summit delved into the latest advancements in artificial intelligence with a special focus on generative AI. The event featured a series of keynotes, workshops, and a hackathon, showcasing AI’s transformative impact across industries. Date: May 25, 2024 Time: 10:00 AM Venue: 1st Floor, SSB Hall, Dr. APJ Abdul Kalam Technical University, Lucknow, India-226031 . Organizers: TFUG Lucknow Sponsors: Hunto AI Collaborations: Google Developer Groups Lucknow . View Location on Map . ",
+    "url": "/docs/layout/25-May-2024%20GenAI%20Awadh/#gen-ai-awadh-summit-2024",
     
-    "relUrl": "/docs/layout/25-May-2024%20GenAI%20Awadh/#genai-awadh-summit-2024"
-  },"11": {
-    "doc": "(25/05/24) GenAI Awadh Summit 2024",
+    "relUrl": "/docs/layout/25-May-2024%20GenAI%20Awadh/#gen-ai-awadh-summit-2024"
+  },"14": {
+    "doc": "(25/05/24) Gen AI Awadh Summit",
     "title": "Event Highlights",
-    "content": "Introduction and Overview . | Inaugural Address: lorem | Key Themes: lorem | Objective: lorem | . Session Summaries . Morning Sessions . Afternoon Sessions . Conclusion . ",
+    "content": "Registration and Welcome . | Attendees gathered at 10:00 AM for registration, followed by a welcome address and introduction by the organizers. | . Keynote Sessions and Technical Talks . Generative AI Fundamentals . | Speaker: Aaditya (Senior Research Engineer, Organizer TFUG Lucknow) | Aaditya provided a comprehensive introduction to generative AI, highlighting its applications and potential to revolutionize industries. | . Large Language Models in Cybersecurity: Google’s Sec-PaLM and Cloud Security AI Workbench . | Speaker: Madhurendra Sachan | Madhurendra explored the integration of large language models like Sec-PaLM in enhancing cybersecurity, with a focus on Google’s AI security tools. | . Crafting Visions with Gemini: How Text Becomes Visual Masterpieces . | Speaker: Prashant Shukla (Research Associate at IIT Delhi, Co-organizer TFUG Lucknow) | Prashant demonstrated how Gemini AI transforms text into visual creations, highlighting the power of generative models in visual design. | . Afternoon Workshops and Panel Discussions . Fine-Tuning Google’s Large Language Model Gemma with Keras NLP . | Speaker: Abhishek Sahu (Organizer GDG Lucknow, Co-organizer TFUG Lucknow) | Abhishek discussed fine-tuning Google’s language model Gemma, showcasing practical applications in natural language processing. | . Panel Discussion: The Evolution of AI: Past, Present, and Future . | A panel of experts engaged in a lively discussion on AI’s growth and future possibilities, with emphasis on its societal and ethical implications. | . Hackathon and Community Showcase . | The event concluded with a hackathon winner’s felicitation and community project showcase, celebrating innovative AI-driven solutions developed during the summit. | . Conclusion . The Gen AI Awadh Summit left attendees inspired and eager to further explore the potential of AI. The event was a testament to the collaborative spirit of the AI community in Lucknow and the broader impact AI can have on society. ",
     "url": "/docs/layout/25-May-2024%20GenAI%20Awadh/#event-highlights",
     
     "relUrl": "/docs/layout/25-May-2024%20GenAI%20Awadh/#event-highlights"
-  },"12": {
-    "doc": "(25/05/24) GenAI Awadh Summit 2024",
-    "title": "(25/05/24) GenAI Awadh Summit 2024",
+  },"15": {
+    "doc": "(25/05/24) Gen AI Awadh Summit",
+    "title": "(25/05/24) Gen AI Awadh Summit",
     "content": " ",
     "url": "/docs/layout/25-May-2024%20GenAI%20Awadh/",
     
     "relUrl": "/docs/layout/25-May-2024%20GenAI%20Awadh/"
-  },"13": {
+  },"16": {
     "doc": "(26/11/23) Meetup",
     "title": "AI/ML Community Meetup Event",
     "content": "Summary : . All notable discussions and insights from the AI/ML community event are documented in this file. Sunday, 26 November 2023 . The event featured experienced speakers Ankit, Abhishek, and Neil, who shared their insights on various aspects of AI/ML. 🎤 . View Slides . ",
     "url": "/docs/layout/26-nov-2023-meetup/#aiml-community-meetup-event",
     
     "relUrl": "/docs/layout/26-nov-2023-meetup/#aiml-community-meetup-event"
-  },"14": {
+  },"17": {
     "doc": "(26/11/23) Meetup",
     "title": "Event Highlights",
     "content": "Introduction and Overview . | Introduction of speakers Ankit, Abhishek, and Neil, bringing many years of experience in data science and AI/ML. | . AI/ML Domain Focus . | Discussion on Neil’s work in the AI/ML domain, emphasizing the expertise brought to the event. | . Lucknow AI Initiative . | Insight into the Lucknow AI initiative aimed at fostering an AI-focused community. | . ChatGPT and AI Development . | Exploration of technologies like ChatGPT and the need for understanding AI development processes. | . Plan . | Formation of Two Groups: In the following months, we will form two distinct groups - a basic group for beginners and an intermediate group. | Course Selection: The basic group will commence their journey with a Python course, while the intermediate group will dive into a machine learning course. | Weekly Meetups: Post-completion of each course module, we’ll organize weekly meetups. These sessions are designed for doubt clarification and brainstorming, ensuring a thorough understanding of the material. | Educational Video Series: We plan to produce concise, informative videos summarizing each module. These videos will be uploaded to the Lucknow AI YouTube channel. | Benefits of Video Posting: . | Enhanced Visibility: Students’ contributions will be showcased, amplifying their learning achievements. | Website Feature: Contributions will be featured on the Lucknow AI website, providing a platform for wider recognition. | Resume Enhancement: Students can include these accomplishments in their resumes, adding significant value. | Social Sharing: Encouraging students to share their learning journey on LinkedIn and other social platforms for broader professional networking. | . | GitHub Profile Development: Participants are encouraged to create a GitHub profile and consistently upload their module code. - This practice aims to develop a professional and impactful GitHub presence. | Through these initiatives, we aim to foster a robust learning environment, encouraging both skill development and professional growth within the AI community. | . AI as a Continuous Journey . | Emphasis on AI as a journey of continuous learning and exploration, with a series of milestones. | . Community Building and Learning Path . | Plans for activities to support beginners in AI, including mentorship and industry interactions. | . Addressing the ‘Why AI?’ Question . | Discussion on the significance of AI, highlighting recent advancements and impacts of technologies like GPT models. | . Practical Application and Internships . | The importance of practical experience and internships in AI for societal and national impact. | . Networking and Community Support . | Stress on networking within the AI community and supporting each other in learning and career development. | . Future Engagement Strategies . | Plans for future sessions, learning paths, and strategies to maintain active participation. | . Participant Interaction . | Participants engaged in discussions, sharing their interests and backgrounds. | . Concluding Remarks . | Encouragement for ongoing learning in AI/ML, stressing its continuous nature. | . ",
     "url": "/docs/layout/26-nov-2023-meetup/#event-highlights",
     
     "relUrl": "/docs/layout/26-nov-2023-meetup/#event-highlights"
-  },"15": {
+  },"18": {
     "doc": "(26/11/23) Meetup",
     "title": "(26/11/23) Meetup",
     "content": " ",
     "url": "/docs/layout/26-nov-2023-meetup/",
     
     "relUrl": "/docs/layout/26-nov-2023-meetup/"
-  },"16": {
+  },"19": {
     "doc": "(27/04/24) GDSC WOW Lucknow 2024",
     "title": "GDSC WOW Lucknow 2024",
     "content": " ",
     "url": "/docs/layout/27-Apr-2024%20GDSC%20WOW/#gdsc-wow-lucknow-2024",
     
     "relUrl": "/docs/layout/27-Apr-2024%20GDSC%20WOW/#gdsc-wow-lucknow-2024"
-  },"17": {
+  },"20": {
     "doc": "(27/04/24) GDSC WOW Lucknow 2024",
     "title": "(27/04/24) GDSC WOW Lucknow 2024",
     "content": " ",
     "url": "/docs/layout/27-Apr-2024%20GDSC%20WOW/",
     
     "relUrl": "/docs/layout/27-Apr-2024%20GDSC%20WOW/"
-  },"18": {
+  },"21": {
     "doc": "(27/02/24) Build, Train & Deploy Workshop",
     "title": "Build, Train &amp; Deploy Workshop",
     "content": "Summary: . The “Build, Train &amp; Deploy” workshop, hosted by LUCKNOW AI LABS and TFUG Lucknow, provided a deep dive into the world of AI and ML, ranging from basic neural networks to advanced generative AI models. This event offered a comprehensive educational experience, combining theoretical knowledge with practical coding exercises. Date: February 27, 2024 . The workshop has been featured by the Experience Speakers: Ankit, a Senior AI Research Engineer at Saama and an expert in NLP and AI/ML. and Abhishek Sahu, Senior Software Engineer at BFC Capital P. Ltd, having expertise in the Retrieval-Augmented Generation (RAG), and Flutter. View Slides . ",
     "url": "/docs/layout/27-Feb-2024%20AI%20Workshop%20at%20SRMCEM/#build-train--deploy-workshop",
     
     "relUrl": "/docs/layout/27-Feb-2024%20AI%20Workshop%20at%20SRMCEM/#build-train--deploy-workshop"
-  },"19": {
+  },"22": {
     "doc": "(27/02/24) Build, Train & Deploy Workshop",
     "title": "Event Highlights",
     "content": "Introduction and Overview . | Held at Shri Ramswaroop College Of Engineering and Management, Lucknow, this workshop attracted over 200 participants, including AI and ML enthusiasts, students, and professionals eager to enhance their understanding and skills in AI technologies. | The workshop featured an in-depth exploration at every stage of learning in AI/ML concepts, facilitated by hands-on sessions with Google Colab, and provided insights into effective project management using GitHub. | Sessions covered ranged from the foundational principles of neural networks to practical implementations of advanced models like BERT and GPT, emphasizing the application of AI in solving real-world problems. | . Detailed Sessions Breakdown . Ankit’s Comprehensive AI/ML Overview . | Foundational AI Concepts: Ankit began with a strong foundation in neural networks, detailing their design and functionality. This set the stage for understanding more complex AI models. | Advanced AI Models and Techniques: The presentation covered embeddings, attention mechanisms, transformers, and the intricacies of models such as BERT and GPT. Ankit provided practical coding examples, illustrating these concepts’ applications in natural language processing and beyond. | Project Management with GitHub: An essential part of modern AI project development involves using tools like GitHub for collaboration and version control. Ankit’s session offered valuable insights into leveraging GitHub for managing complex AI projects. | . Abhishek Sahu’s RAG Model Workshop . | Tackling Large Language Models Challenges: Abhishek addressed specific issues inherent in LLMs, such as data hallucination and the need for up-to-date information. Through the lens of the RAG model, he presented solutions that enhance model accuracy and reliability. | Practical Demonstrations: Participants were treated to hands-on demonstrations of RAG implementations, highlighting the model’s ability to improve upon traditional LLMs by incorporating additional data sources for more accurate output. | . Audience Engagement and Learning Outcomes . | Diverse Participant Group: The workshop was designed to cater to a wide range of participants, from beginners to seasoned professionals. The diverse audience contributed to rich discussions and a dynamic learning environment. | Skill Enhancement and Knowledge Acquisition: Attendees gained valuable skills in AI model development, from basic neural networks to advanced techniques in generative AI, coupled with practical experience in project management using GitHub. | Community Building and Collaboration: The event fostered a sense of community among AI enthusiasts, encouraging ongoing collaboration, exploration, and innovation in the field of AI. | . Conclusion . The “Build, Train &amp; Deploy” workshop by LUCKNOW AI LABS and TFUG Lucknow was a transformative event in AI and ML education. It not only provided participants with a thorough understanding of AI technologies but also equipped them with the practical skills necessary for their application in real-world scenarios. The workshop underscored the importance of continuous learning, collaboration, and innovation in the ever-evolving AI landscape, setting a precedent for future educational initiatives in the AI community. ",
     "url": "/docs/layout/27-Feb-2024%20AI%20Workshop%20at%20SRMCEM/#event-highlights",
     
     "relUrl": "/docs/layout/27-Feb-2024%20AI%20Workshop%20at%20SRMCEM/#event-highlights"
-  },"20": {
+  },"23": {
     "doc": "(27/02/24) Build, Train & Deploy Workshop",
     "title": "(27/02/24) Build, Train & Deploy Workshop",
     "content": " ",
     "url": "/docs/layout/27-Feb-2024%20AI%20Workshop%20at%20SRMCEM/",
     
     "relUrl": "/docs/layout/27-Feb-2024%20AI%20Workshop%20at%20SRMCEM/"
-  },"21": {
+  },"24": {
     "doc": "(27/01/24) Meetup",
     "title": "AI/ML Community Meetup Event",
     "content": "Summary : . All notable discussions and insights from the AI/ML community event are documented here. Saturday, 27 January 2024 . The event featured an experienced speaker Prashant Shukla who shared his insights on various aspects of AI/ML. 🎤 . View Slides . ",
     "url": "/docs/layout/27-Jan-2024-Image_Processing_and_OpenCV_Webinar/#aiml-community-meetup-event",
     
     "relUrl": "/docs/layout/27-Jan-2024-Image_Processing_and_OpenCV_Webinar/#aiml-community-meetup-event"
-  },"22": {
+  },"25": {
     "doc": "(27/01/24) Meetup",
     "title": "Event Highlights",
     "content": "Introduction and Overview . | The TensorFlow User Group (TFUG) Lucknow, in collaboration with Lucknow AI Labs, hosted an informative webinar on advanced computer vision techniques, focusing on image processing and the OpenCV library. The event brought together a diverse group of computer vision professionals, researchers, and community groups to foster knowledge sharing and collaboration. AI/ML Domain Focus | The session delved into the intricacies of computer vision, with a specific emphasis on state-of-the-art image processing techniques and the powerful OpenCV library. speaker highlighted the real-world applications of these technologies across various industries, showcasing their potential to revolutionize domains such as autonomous vehicles, medical imaging, and visual analytics. Lucknow AI Initiative | The webinar was part of a larger collaborative effort between TFUG Lucknow and Lucknow AI Labs to promote technology education and drive innovation in the field of artificial intelligence. This initiative aims to empower the local community with cutting-edge knowledge and skills, fostering a thriving ecosystem of AI enthusiasts and professionals. | . ChatGPT and AI Development . | Discussions also touched upon the advancements in AI-generated visual content, with a focus on the capabilities of models like ChatGPT in generating and processing images. speaker explored the implications of these developments for the field of computer vision and the potential for AI to transform the way we interact with and analyze visual data. | . Plan . | To support ongoing learning and skill development, the organizers shared plans to provide participants with access to comprehensive learning resources post-event. These resources, including tutorials, documentation, and code samples, will enable attendees to continue advancing their knowledge and expertise in computer vision and OpenCV. | Furthermore, the organizers expressed their intention to explore additional collaborative events focused on specific AI subdomain areas. These targeted sessions will provide deeper insights into niche topics and foster specialized skill development within the community. | . AI as a Continuous Journey . | The speaker emphasized that image processing and computer vision are rapidly evolving fields, necessitating a continuous learning approach. They stressed the importance of staying updated with the latest advancements, techniques, and tools to remain at the forefront of this dynamic domain. | . Community Building and Learning Path . | The webinar served as a platform for networking and knowledge exchange among peers and related communities. Attendees had the opportunity to connect with like-minded individuals, share experiences, and explore potential collaborations. | The event provided a solid foundation for members to further their skills in computer vision and OpenCV. The organizers outlined a learning path that included hands-on workshops, project-based learning, and mentorship opportunities to support participants in their journey towards mastery. | . Addressing the ‘Why AI?’ Question . | The speaker addressed the fundamental question of why AI and computer vision matter in today’s world. They highlighted the diverse real-world applications of image processing and computer vision, ranging from autonomous vehicles and robotics to medical diagnostics and surveillance systems. — By showcasing the tangible impact of these technologies, the event emphasized the significance of investing time and effort in learning and advancing in this field. | . Practical Application and Internships . | To bridge the gap between theory and practice, the webinar demonstrated applied uses of OpenCV across various industries. speaker shared real-world case studies and examples, illustrating how computer vision techniques are being leveraged to solve complex problems and drive innovation. | The organizers also discussed the importance of internships and practical experience in the field of AI and computer vision. They encouraged participants to seek out opportunities to work on real-world projects and gain hands-on experience, enhancing their employability and industry readiness. | . Networking and Community Support . | The event facilitated meaningful interactions and networking opportunities among members of TFUG, Lucknow AI Labs, and other related groups. Attendees had the chance to connect with industry experts, researchers, and fellow enthusiasts, fostering a supportive community that encourages knowledge sharing and collaboration. | . Future Engagement Strategies . | To sustain the momentum and support ongoing learning, the organizers shared plans to provide additional learning resources post-webinar. These resources, including tutorials, documentation, and curated content, will enable participants to deepen their understanding of computer vision and OpenCV. | The organizers also expressed interest in hosting recurring computer vision-focused gatherings, such as workshops, hackathons, and expert talks. These events will provide a platform for continuous skill development, networking, and exposure to the latest trends and technologies in the field. | . Participant Interaction . | The webinar incorporated an interactive Q&amp;A session, allowing participants to engage with the speaker and seek clarification on various aspects of computer vision and OpenCV. The discussions were lively and insightful, reflecting the enthusiasm and curiosity of the attendees. | . Concluding Remarks . | The event concluded on a high note, with the speaker emphasizing the immense potential and vibrant future of the Lucknow AI community. They encouraged participants to continue their learning journey, embrace the challenges and opportunities in the field of computer vision, and contribute to the growth of the AI ecosystem in the region. | The organizers expressed their gratitude to the speaker, participants, and collaborators for their support and engagement, reaffirming their commitment to fostering a thriving AI community in Lucknow. | . ",
     "url": "/docs/layout/27-Jan-2024-Image_Processing_and_OpenCV_Webinar/#event-highlights",
     
     "relUrl": "/docs/layout/27-Jan-2024-Image_Processing_and_OpenCV_Webinar/#event-highlights"
-  },"23": {
+  },"26": {
     "doc": "(27/01/24) Meetup",
     "title": "(27/01/24) Meetup",
     "content": " ",
     "url": "/docs/layout/27-Jan-2024-Image_Processing_and_OpenCV_Webinar/",
     
     "relUrl": "/docs/layout/27-Jan-2024-Image_Processing_and_OpenCV_Webinar/"
-  },"24": {
-    "doc": "(31/08/24) Google I/O Extended Lucknow 2024",
-    "title": "Google I/O Extended Lucknow 2024",
-    "content": " ",
-    "url": "/docs/layout/31-Aug-2024%20Google%20IO%20Extend/#google-io-extended-lucknow-2024",
+  },"27": {
+    "doc": "(29/06/24) Build with AI 2024",
+    "title": "Build with AI",
+    "content": "Summary: . The “Build with AI” event series, hosted by Google Developer Groups, was an immersive two-day experience designed to equip developers with the latest AI tools and integration techniques. Held on June 29 and 30, 2024, the event featured a range of sessions from industry experts, hands-on workshops, and interactive discussions. Here’s a detailed overview of the event highlights and key takeaways. Date: June 29-30, 2024 Venue: Online Event . Organizers: Google Developer Groups Collaborations: Various AI and ML Experts . ",
+    "url": "/docs/layout/29-Jun-2024%20Build%20with%20AI/#build-with-ai",
     
-    "relUrl": "/docs/layout/31-Aug-2024%20Google%20IO%20Extend/#google-io-extended-lucknow-2024"
-  },"25": {
-    "doc": "(31/08/24) Google I/O Extended Lucknow 2024",
-    "title": "(31/08/24) Google I/O Extended Lucknow 2024",
+    "relUrl": "/docs/layout/29-Jun-2024%20Build%20with%20AI/#build-with-ai"
+  },"28": {
+    "doc": "(29/06/24) Build with AI 2024",
+    "title": "Event Highlights",
+    "content": "Day 1 - June 29 . LLM INFERENCE using Mediapipe with Gemma . | Speaker: Kartikey Rawat (Open Source Manager at CodeLabs | Google Developer Expert in ML) Kartikey delved into using Mediapipe for LLM inference, showcasing its capabilities and applications in AI projects. His session provided insights into leveraging Mediapipe for real-time AI solutions. | . AI-Powered Malware: The Evolving Threat Landscape . | Speaker: Shrutirupa Banerjee (Senior Security Researcher at Quick Heal Technologies) Shrutirupa discussed the rise of AI-powered malware and the associated security challenges. Her talk highlighted strategies for mitigating threats and enhancing security measures against evolving AI-driven cyber risks. | . Localised Intelligence in AI for a Richer AI-UX . | Speaker: Harsh Joshi (Founder, DAO Studio) Harsh explored how localized intelligence can improve AI user experiences. He emphasized the importance of tailoring AI solutions to specific regional and cultural contexts to enhance user engagement. | . Day 2 - June 30 . LLM Powered Application using Advanced RAG Methodology SELF-RAG . | Speaker: Jyotishko Biswas (Head of AI for HP Global Treasury) Jyotishko presented on automating contract compliance in Fortune 500 firms using SELF-RAG methodology. His session provided practical insights into applying advanced RAG techniques for efficient document management. | . Generative AI Fundamentals . | Speaker: Ankit Pal (Senior Research Engineer at Saama | Organizer TFUG Lucknow) Ankit covered the fundamentals of Generative AI, including its principles and applications. His talk was designed to provide a solid foundation for understanding and implementing Generative AI technologies. | . Workshop: Intro to RAG with Gemini and Custom Data . | Speaker: Abhishek Sahu (Senior Software Engineer at BFC | Co-Organizer GDG, TFUG Lucknow) Abhishek conducted a hands-on workshop on RAG with Gemini, guiding attendees through integrating custom data into RAG workflows. The session was interactive and aimed at practical implementation. | . Networking &amp; Swag Distribution . The event featured a networking session, allowing participants to connect with speakers and peers. Google swag was distributed, adding a fun conclusion to the event. Conclusion . The “Build with AI” series successfully provided valuable knowledge and skills on various aspects of AI. Attendees gained practical experience with AI tools, learned from industry experts, and connected with the developer community, making the event a significant step in advancing their AI journey. ",
+    "url": "/docs/layout/29-Jun-2024%20Build%20with%20AI/#event-highlights",
+    
+    "relUrl": "/docs/layout/29-Jun-2024%20Build%20with%20AI/#event-highlights"
+  },"29": {
+    "doc": "(29/06/24) Build with AI 2024",
+    "title": "(29/06/24) Build with AI 2024",
+    "content": " ",
+    "url": "/docs/layout/29-Jun-2024%20Build%20with%20AI/",
+    
+    "relUrl": "/docs/layout/29-Jun-2024%20Build%20with%20AI/"
+  },"30": {
+    "doc": "(31/08/24) Google I/O Extended Lucknow",
+    "title": "Google I/O Extended Lucknow 2023",
+    "content": "Summary: . The Google I/O Extended event in Lucknow took place at Integral University on Kursi Road, offering a platform for developers, designers, and tech enthusiasts to gather, learn, and exchange insights on the latest trends in technology. The event was packed with engaging sessions from expert speakers, interactive activities, and plenty of networking opportunities. Here’s a comprehensive overview of the event highlights and key takeaways. Date: September 10, 2023 Time: 10:00 AM Venue: Integral University, Kursi Road, Dashauli, Uttar Pradesh 226026 . Organizers: GDG Lucknow Collaborations: Google Developer Groups India . View Location on Map . ",
+    "url": "/docs/layout/31-Aug-2024%20Google%20IO%20Extend/#google-io-extended-lucknow-2023",
+    
+    "relUrl": "/docs/layout/31-Aug-2024%20Google%20IO%20Extend/#google-io-extended-lucknow-2023"
+  },"31": {
+    "doc": "(31/08/24) Google I/O Extended Lucknow",
+    "title": "Event Highlights",
+    "content": "Registration and Welcome . | The event kicked off at 10:00 AM with registration, where attendees were required to present their Entry Pass and a valid photo ID for verification. No on-site registration was available, and participants were reminded to bring their passes in advance. | . Key Sessions and Insights . Learning Containers Before You Jump on the Clouds . | Speaker: Mritunjay Sharma (Software Engineer at Chainguard) Mritunjay provided a deep dive into the role of containers in modern cloud-native applications. He shared best practices for deploying containers efficiently, emphasizing their benefits for scalability and security. | . Beyond the Pixel: The Human Side of Design . | Speaker: Vanshita Singh (Co-Organizer at GDG Noida, WTM Ambassador, UI/UX Designer) Vanshita explored the emotional and psychological elements of design, emphasizing the importance of user-centered design principles that go beyond aesthetics. Her talk highlighted how understanding user behavior can lead to more effective design solutions. | . Quiz Session . A fun and interactive quiz session was conducted to test participants’ knowledge on tech topics covered during the event. This engaging activity offered a lively break for all attendees. Integrating Gemini AI with Jetpack Compose . | Speaker: Akash Verma Akash introduced the audience to Gemini AI and demonstrated how to integrate it with Jetpack Compose, Google’s modern UI toolkit for Android. He showed how developers can leverage AI to create more responsive and intelligent Android apps. | . Build a Seamless and Intuitive Product with Jakob Nielsen’s Heuristic Principles . | Speaker: Aryendra Prakash Singh (Co-Organizer at GDG Noida, Design Lead at Publicis Sapient) Aryendra presented Jakob Nielsen’s 10 Usability Heuristics, providing practical advice on applying these principles to create intuitive and user-friendly products. | . Introduction to Project IDX and Firebase Genkit | Build an Agent-Powered App with Generative AI . Attendees were introduced to Google’s latest tools, Project IDX and Firebase Genkit, which facilitate the development of AI-powered applications. This session showcased how to build apps that integrate Generative AI, offering new ways to enhance app functionality. Networking &amp; Swag Distribution . The event concluded with a networking session, where participants had the opportunity to engage with speakers and fellow developers. Google swag was distributed, adding a fun and memorable touch to the end of the day. Conclusion . Google I/O Extended Lucknow 2023 was a highly informative and engaging event. Attendees gained valuable insights into containers, AI integration, product design, and usability, all while building stronger connections within the local developer community. ",
+    "url": "/docs/layout/31-Aug-2024%20Google%20IO%20Extend/#event-highlights",
+    
+    "relUrl": "/docs/layout/31-Aug-2024%20Google%20IO%20Extend/#event-highlights"
+  },"32": {
+    "doc": "(31/08/24) Google I/O Extended Lucknow",
+    "title": "(31/08/24) Google I/O Extended Lucknow",
     "content": " ",
     "url": "/docs/layout/31-Aug-2024%20Google%20IO%20Extend/",
     
     "relUrl": "/docs/layout/31-Aug-2024%20Google%20IO%20Extend/"
-  },"26": {
+  },"33": {
+    "doc": "AI Baithak",
+    "title": "🎉 AI Baithak ke Sadasya 🎉",
+    "content": "Meet the tech-savvy members of our community! 🚀 These are the masterminds driving innovation with AI, machine learning, and blockchain. ",
+    "url": "/docs/AI-Baithak/#-ai-baithak-ke-sadasya-",
+    
+    "relUrl": "/docs/AI-Baithak/#-ai-baithak-ke-sadasya-"
+  },"34": {
+    "doc": "AI Baithak",
+    "title": "🎯 Rag Rishi",
+    "content": "Name: Abhishek Sahu Description: Abhishek is a flutter developer by profession, but his heart truly beats for RAG (Retrieval-Augmented Generation). Wherever he sees documents, the first words out of his mouth are, “Arey, ispe RAG kyun nahi laga rahe ho?” His passion for optimizing retrieval systems and vector databases makes him a true RAG devotee 📚. But wait, there’s more—Abhishek is also into actual Raag! 🎶 When he’s not diving into neural networks, he’s probably singing classical Indian ragas, proving that his skills extend beyond just tech. Whether it’s a complex query or a classical tune, Rag Rishi will always find the right note! 🎼 More about Rag Rishi . ",
+    "url": "/docs/AI-Baithak/#-rag-rishi",
+    
+    "relUrl": "/docs/AI-Baithak/#-rag-rishi"
+  },"35": {
+    "doc": "AI Baithak",
+    "title": "🛠️ Machine Mantri",
+    "content": "Name: Prashant Description: Prashant, aka Machine Mantri, runs his own ministry of robots and AI! From making bots play drums 🥁 to ruling the world of Arduino and edge devices, he’s got it all under control. When he’s not coding a bot’s next move, you’ll find him binge-watching his favorite anime for even more futuristic inspiration 🌟. If there’s a tech problem, Machine Mantri will solve it—probably with a side of robot rock music! 🎸🤖 More about Machine Mantri . ",
+    "url": "/docs/AI-Baithak/#%EF%B8%8F-machine-mantri",
+    
+    "relUrl": "/docs/AI-Baithak/#️-machine-mantri"
+  },"36": {
+    "doc": "AI Baithak",
+    "title": "🔗 Blockchain Babu",
+    "content": "Name: Harsh Joshi Description: Harsh’s mantra is simple: “Centralization ko chhodo, sab kuch blockchain pe lao!” Whether it’s AI, chai, or even your friendships, Harsh believes everything should run on a decentralized ledger 🔐. From smart contracts to Web3, Blockchain Babu ke hote hue, even your chai breaks might get decentralized! ☕ More about Blockchain Babu . ",
+    "url": "/docs/AI-Baithak/#-blockchain-babu",
+    
+    "relUrl": "/docs/AI-Baithak/#-blockchain-babu"
+  },"37": {
+    "doc": "AI Baithak",
+    "title": "🎤 Speech Shastri",
+    "content": "Name: Gauraangi Description: Gauraangi, aka Speech Shastri, doesn’t just hear voices—she makes AI listen to them! A master of turning sound into smarts, she’s the one who cracked the code at Hack2Crack Hackathon, leaving everyone wondering if she secretly trains AI by making it recite Sanskrit shlokas. 📜 From building speech models to fine-tuning them like a classical Raag 🎶, Speech Shastri’s mantra is simple: “If it talks, I’ll make AI understand it!” When she’s not making machines listen, she’s probably convincing them to sing back! 🎵 More about Speech Shastri . ",
+    "url": "/docs/AI-Baithak/#-speech-shastri",
+    
+    "relUrl": "/docs/AI-Baithak/#-speech-shastri"
+  },"38": {
+    "doc": "AI Baithak",
+    "title": "🤖 Diffusion Dada",
+    "content": "Name: Kaif Description: Kaif is your go-to guy when it comes to anything related to image-based models. You’ve got a blurry image, an artifact problem, or just a random curiosity? Don’t worry, Kaif’s first reaction is always, “Chalo Stable Diffusion lagate hai ispe!” His life revolves around collecting data, fine-tuning models, and optimizing the diffusion process as if it were his morning chai ☕. Whether it’s upscaling, inpainting, or generating new visuals, Kaif can tackle it all—just don’t be surprised if he starts giving life advice based on latent spaces. When in doubt, let Diffusion Dada sort your pixels out! 🎨 More about Diffusion Dada . ",
+    "url": "/docs/AI-Baithak/#-diffusion-dada",
+    
+    "relUrl": "/docs/AI-Baithak/#-diffusion-dada"
+  },"39": {
+    "doc": "AI Baithak",
+    "title": "🎙️ Join Our Discord",
+    "content": "Got any questions related to images, RAG, blockchain, or AI? Feel free to ask our members on Discord! . Join Lucknow AI Discord . ",
+    "url": "/docs/AI-Baithak/#%EF%B8%8F-join-our-discord",
+    
+    "relUrl": "/docs/AI-Baithak/#️-join-our-discord"
+  },"40": {
+    "doc": "AI Baithak",
+    "title": "AI Baithak",
+    "content": " ",
+    "url": "/docs/AI-Baithak/",
+    
+    "relUrl": "/docs/AI-Baithak/"
+  },"41": {
     "doc": "Contact Us",
     "title": "Contact Us",
     "content": " ",
     "url": "/docs/Contact/",
     
     "relUrl": "/docs/Contact/"
-  },"27": {
+  },"42": {
     "doc": "Volunteer Opportunities",
     "title": "Volunteer Opportunities at Lucknow AI",
     "content": ". | Content Development and Education | Technical and IT Support | Creative and Multimedia | Community Engagement and Outreach | Research and Development | Organizational and Administrative Support | General Volunteer Application Form | . ",
     "url": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#volunteer-opportunities-at-lucknow-ai",
     
     "relUrl": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#volunteer-opportunities-at-lucknow-ai"
-  },"28": {
+  },"43": {
     "doc": "Volunteer Opportunities",
     "title": "Content Development and Education",
     "content": ". | Content Creation: Help in articles, blogs, educational content on AI/ML. | Workshops/Webinars: Helping in Conducting and facilitating educational sessions. | Mentoring: Guiding Juniors/students in AI/ML. | . Opportunities in this category are ideal for those with a knack for teaching and content creation. ",
     "url": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#content-development-and-education",
     
     "relUrl": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#content-development-and-education"
-  },"29": {
+  },"44": {
     "doc": "Volunteer Opportunities",
     "title": "Technical and IT Support",
     "content": ". | IT Management: Support for digital infrastructure and resource management. | GitHub Maintenance: Managing PRs and project upkeep. | Website Management: Updating and ensuring website functionality. | . Technical roles . ",
     "url": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#technical-and-it-support",
     
     "relUrl": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#technical-and-it-support"
-  },"30": {
+  },"45": {
     "doc": "Volunteer Opportunities",
     "title": "Creative and Multimedia",
     "content": ". | Graphic Design: Creating visual content for digital platforms and events. | Photography/Videography: Documenting events for promotional use. | . These roles are perfect for creatively inclined individuals with skills in design and multimedia. ",
     "url": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#creative-and-multimedia",
     
     "relUrl": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#creative-and-multimedia"
-  },"31": {
+  },"46": {
     "doc": "Volunteer Opportunities",
     "title": "Community Engagement and Outreach",
     "content": ". | Community Outreach: Engaging and promoting the mission in various communities. | Social Media: Managing online groups and content dissemination. | Group Administration: Overseeing Discord and WhatsApp groups. | . Engagement roles are suited for those with strong communication skills and a passion for community building. ",
     "url": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#community-engagement-and-outreach",
     
     "relUrl": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#community-engagement-and-outreach"
-  },"32": {
+  },"47": {
     "doc": "Volunteer Opportunities",
     "title": "Research and Development",
     "content": ". | Research Projects: Collaborative innovation and project coordination in AI/ML. | . Ideal for individuals interested in cutting-edge AI/ML research and development. ",
     "url": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#research-and-development",
     
     "relUrl": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#research-and-development"
-  },"33": {
+  },"48": {
     "doc": "Volunteer Opportunities",
     "title": "Organizational and Administrative Support",
     "content": ". | Fundraising: Assisting in fundraising and sponsor relations. | Legal/Compliance: Ensuring legal adherence and managing intellectual property. | Translation/Localization: Making content accessible in multiple languages. | Event Organization: Planning and executing meetups and events. | . These roles require organizational skills and attention to detail, ideal for those who excel in administrative tasks. ",
     "url": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#organizational-and-administrative-support",
     
     "relUrl": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#organizational-and-administrative-support"
-  },"34": {
+  },"49": {
     "doc": "Volunteer Opportunities",
     "title": "General Volunteer Application Form",
     "content": ". | Fill the form given below ! | . Join the movement to make a difference in the community by volunteering with us. Whether you’re looking to gain new skills, meet like-minded individuals, we have a variety of opportunities available. By filling out our application form, you’ll be taking the first step towards becoming part of a dynamic team dedicated to Accelearte AI Awareness in Lucknow. Our volunteer program is designed to be flexible and accommodating, so whether you have a few hours a week or a few days a month, we have a role that’s right for you. So why wait? Fill out our application form today and start making a difference in the lives of others!” . Loading… ",
     "url": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#general-volunteer-application-form",
     
     "relUrl": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/#general-volunteer-application-form"
-  },"35": {
+  },"50": {
     "doc": "Volunteer Opportunities",
     "title": "Volunteer Opportunities",
     "content": " ",
     "url": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/",
     
     "relUrl": "/docs/Volunteer%20Opportunities%20at%20Lucknow%20AI/"
-  },"36": {
+  },"51": {
     "doc": "Buttons",
     "title": "Buttons",
     "content": " ",
     "url": "/docs/ui-components/buttons/",
     
     "relUrl": "/docs/ui-components/buttons/"
-  },"37": {
+  },"52": {
     "doc": "Buttons",
     "title": "Table of contents",
     "content": ". | Basic button styles . | Links that look like buttons | Button element | . | Using utilities with buttons . | Button size | Spacing between buttons | . | . ",
     "url": "/docs/ui-components/buttons/#table-of-contents",
     
     "relUrl": "/docs/ui-components/buttons/#table-of-contents"
-  },"38": {
+  },"53": {
     "doc": "Buttons",
     "title": "Basic button styles",
     "content": "Links that look like buttons . Link button . Link button Link button Link button . Link button . [Link button](https://just-the-docs.com){: .btn } [Link button](https://just-the-docs.com){: .btn .btn-purple } [Link button](https://just-the-docs.com){: .btn .btn-blue } [Link button](https://just-the-docs.com){: .btn .btn-green } [Link button](https://just-the-docs.com){: .btn .btn-outline } . Button element . GitHub Flavored Markdown does not support the button element, so you’ll have to use inline HTML for this: . Button element &lt;button type=\"button\" name=\"button\" class=\"btn\"&gt;Button element&lt;/button&gt; . ",
     "url": "/docs/ui-components/buttons/#basic-button-styles",
     
     "relUrl": "/docs/ui-components/buttons/#basic-button-styles"
-  },"39": {
+  },"54": {
     "doc": "Buttons",
     "title": "Using utilities with buttons",
     "content": "Button size . Wrap the button in a container that uses the font-size utility classes to scale buttons: . Big ass button . Tiny ass button . &lt;span class=\"fs-8\"&gt; [Link button](https://just-the-docs.com){: .btn } &lt;/span&gt; &lt;span class=\"fs-3\"&gt; [Tiny ass button](https://just-the-docs.com){: .btn } &lt;/span&gt; . Spacing between buttons . Use the margin utility classes to add spacing between two buttons in the same block. Button with space Button . Button with more space Button . [Button with space](https://just-the-docs.com){: .btn .btn-purple .mr-2 } [Button](https://just-the-docs.com){: .btn .btn-blue } [Button with more space](https://just-the-docs.com){: .btn .btn-green .mr-4 } [Button](https://just-the-docs.com){: .btn .btn-blue } . ",
     "url": "/docs/ui-components/buttons/#using-utilities-with-buttons",
     
     "relUrl": "/docs/ui-components/buttons/#using-utilities-with-buttons"
-  },"40": {
+  },"55": {
     "doc": "Callouts",
     "title": "Callouts",
     "content": "New (v0.4.0) . Markdown does not include support for callouts. However, you can style text as a callout using a Markdown extension supported by kramdown: block IALs. Common kinds of callouts include highlight, important, new, note, and warning. These callout names are not pre-defined by the theme: you need to define your own names. When you have configured the color and (optional) title for a callout, you can apply it to a paragraph, or to a block quote with several paragraphs, as illustrated below.1 . An untitled callout . {: .highlight } A paragraph . A paragraph . A single paragraph callout . {: .note } A paragraph . A paragraph . {: .note-title } &gt; My note title &gt; &gt; A paragraph with a custom title callout . My note title . A paragraph with a custom title callout . A multi-paragraph callout . {: .important } &gt; A paragraph &gt; &gt; Another paragraph &gt; &gt; The last paragraph . A paragraph . Another paragraph . The last paragraph . {: .important-title } &gt; My important title &gt; &gt; A paragraph &gt; &gt; Another paragraph &gt; &gt; The last paragraph . My important title . A paragraph . Another paragraph . The last paragraph . An indented callout . &gt; {: .highlight } A paragraph . A paragraph . Indented multi-paragraph callouts . &gt; {: .new } &gt; &gt; A paragraph &gt; &gt; &gt; &gt; Another paragraph &gt; &gt; &gt; &gt; The last paragraph . A paragraph . Another paragraph . The last paragraph . Nested callouts . {: .important } &gt; {: .warning } &gt; A paragraph . A paragraph . Opaque background . {: .important } &gt; {: .opaque } &gt; &lt;div markdown=\"block\"&gt; &gt; {: .warning } &gt; A paragraph &gt; &lt;/div&gt; . A paragraph . | You can put the callout markup either before or after its content. &#8617; . | . ",
     "url": "/docs/ui-components/callouts/",
     
     "relUrl": "/docs/ui-components/callouts/"
-  },"41": {
+  },"56": {
     "doc": "Code",
     "title": "Code",
     "content": " ",
     "url": "/docs/ui-components/code/",
     
     "relUrl": "/docs/ui-components/code/"
-  },"42": {
+  },"57": {
     "doc": "Code",
     "title": "Table of contents",
     "content": ". | Inline code | Syntax highlighted code blocks | Code blocks with rendered examples | Mermaid diagram code blocks . | Using a local mermaid library | Using mermaid with AsciiDoc | . | Copy button | . ",
     "url": "/docs/ui-components/code/#table-of-contents",
     
     "relUrl": "/docs/ui-components/code/#table-of-contents"
-  },"43": {
+  },"58": {
     "doc": "Code",
     "title": "Inline code",
     "content": "Code can be rendered inline by wrapping it in single back ticks. Lorem ipsum dolor sit amet, &lt;inline code snippet&gt; adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     "url": "/docs/ui-components/code/#inline-code",
     
     "relUrl": "/docs/ui-components/code/#inline-code"
-  },"44": {
+  },"59": {
     "doc": "Code",
     "title": "Heading with &lt;inline code snippet&gt; in it.",
     "content": "Lorem ipsum dolor sit amet, `&lt;inline code snippet&gt;` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ## Heading with `&lt;inline code snippet&gt;` in it. ",
     "url": "/docs/ui-components/code/#heading-with-inline-code-snippet-in-it",
     
     "relUrl": "/docs/ui-components/code/#heading-with-inline-code-snippet-in-it"
-  },"45": {
+  },"60": {
     "doc": "Code",
     "title": "Syntax highlighted code blocks",
     "content": "Use Jekyll’s built-in syntax highlighting with Rouge for code blocks by using three backticks, followed by the language name: . // Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } . ```js // Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } ``` . ",
     "url": "/docs/ui-components/code/#syntax-highlighted-code-blocks",
     
     "relUrl": "/docs/ui-components/code/#syntax-highlighted-code-blocks"
-  },"46": {
+  },"61": {
     "doc": "Code",
     "title": "Code blocks with rendered examples",
     "content": "To demonstrate front end code, sometimes it’s useful to show a rendered example of that code. After including the styles from your project that you’ll need to show the rendering, you can use a &lt;div&gt; with the code-example class, followed by the code block syntax. If you want to render your output with Markdown instead of HTML, use the markdown=\"1\" attribute to tell Jekyll that the code you are rendering will be in Markdown format… This is about to get meta… . Link button . [Link button](https://just-the-docs.com){: .btn } . &lt;div class=\"code-example\" markdown=\"1\"&gt; [Link button](https://just-the-docs.com){: .btn } &lt;/div&gt; ```markdown [Link button](https://just-the-docs.com){: .btn } ``` . ",
     "url": "/docs/ui-components/code/#code-blocks-with-rendered-examples",
     
     "relUrl": "/docs/ui-components/code/#code-blocks-with-rendered-examples"
-  },"47": {
+  },"62": {
     "doc": "Code",
     "title": "Mermaid diagram code blocks",
     "content": "New (v0.4.0) . Mermaid allows you to add diagrams and visualizations using Markdown code blocks. It is disabled by default. However, you can turn on support for mermaid by adding a mermaid key to your _config.yml. The minimum configuration requires a version key (matching a version in jsDelivr): . mermaid: # Version of mermaid library # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/ version: \"9.1.3\" . Additional configuration options are loaded through _includes/mermaid_config.js. By default, the contents of the file are the empty object: . // _includes/mermaid_config.js {} . This loads the default settings. The contents of this object should follow mermaid’s configuration API. For example, to override the theme, change _includes/mermaid_config.js to: . // _includes/mermaid_config.js { theme: \"forest\" } . Once mermaid is installed, it can be used in markdown files. The markdown for a simple flowchart example might look like the following: . ```mermaid graph TD; A--&gt;B; A--&gt;C; B--&gt;D; C--&gt;D; ``` . which renders: . graph TD; A--&gt;B; A--&gt;C; B--&gt;D; C--&gt;D; . Note: for demonstration purposes, we’ve enabled mermaid on this site. It is still disabled by default, and users need to opt-in to use it. Using a local mermaid library . To load a local version of mermaid, also use the path key to specify the location of the library; e.g. mermaid: version: \"10.1.0\" # for (v10+) path: \"/assets/js/mermaid.esm.min.mjs\" # for (&lt;v10): # path: \"/assets/js/mermaid.min.js\" # Note: copy both `mermaid.esm.min.mjs` (v10+) or `mermaid.min.js` (&lt;v10) and the associated # `.map` file from the specified version of `mermaid/dist` to `/assets/js/`. For mermaid versions &gt;=10, this file is imported directly as an ESM module (rather than as a plain &lt;script&gt; tag); users should use the mermaid.esm.min.mjs file. In contrast, for mermaid versions &lt;10, this file is loaded as a script tag; it should be a standalone CJS file (i.e. mermaid.min.js). Mermaid versions 10.0 - 10.1 (and possibly, future releases) still encode relative imports in mermaid.esm.min.mjs. Local users must copy all of the contents of the dist folder to the specified path (preserving the relative location of the files). Just the Docs is actively monitoring mermaid releases; an upstream fix is planned. Using mermaid with AsciiDoc . Users of AsciiDoc (e.g. via jekyll-asciidoc) may need additional configuration to use mermaid. By default, AsciiDoc generates HTML markup that mermaid cannot properly parse. The simplest way to resolve this is to use a passthrough block: . ++++ &lt;pre class=\"language-mermaid\"&gt; graph TD; A--&gt;B; A--&gt;C; B--&gt;D; C--&gt;D; &lt;/pre&gt; ++++ . Alternatively, community member @flyx has contributed a Ruby extension that does not require extra markup. The extension is available as a GitHub Gist. Thank you to @flyx! . The asciidoctor-diagram extension which also supports mermaid is not recommended for use with Just the Docs, since it requires separate configuration e.g. for theming, and is known to not be trivial to set up. ",
     "url": "/docs/ui-components/code/#mermaid-diagram-code-blocks",
     
     "relUrl": "/docs/ui-components/code/#mermaid-diagram-code-blocks"
-  },"48": {
+  },"63": {
     "doc": "Code",
     "title": "Copy button",
     "content": "New (v0.4.0) . The copy button for code blocks can be enabled or disabled via the enable_copy_code_button key in _config.yml. By default, the value of this key is false; users need to opt-in. # For copy button on code enable_copy_code_button: true . Note that this feature requires JavaScript; if JavaScript is disabled in the browser, this feature will not work. In addition, this feature uses navigator.clipboard, which is only available in secure contexts (such as over HTTPS). If the site is viewed in an insecure context, the copy button will not work (relevant issue: #1202). ",
     "url": "/docs/ui-components/code/#copy-button",
     
     "relUrl": "/docs/ui-components/code/#copy-button"
-  },"49": {
+  },"64": {
     "doc": "Color",
     "title": "Color Utilities",
     "content": " ",
     "url": "/docs/utilities/color/#color-utilities",
     
     "relUrl": "/docs/utilities/color/#color-utilities"
-  },"50": {
+  },"65": {
     "doc": "Color",
     "title": "Table of contents",
     "content": ". | Light Greys | Dark Greys | Purples | Blues | Greens | Yellows | Reds | . All the colors used in Just the Docs have been systematized into a series of variables that have been extended to both font color and background color utility classes. ",
     "url": "/docs/utilities/color/#table-of-contents",
     
     "relUrl": "/docs/utilities/color/#table-of-contents"
-  },"51": {
+  },"66": {
     "doc": "Color",
     "title": "Light Greys",
     "content": "| Color value | Font color utility | Background color utility | . | grey-lt-000 | .text-grey-lt-000 | .bg-grey-lt-000 | . | grey-lt-100 | .text-grey-lt-100 | .bg-grey-lt-100 | . | grey-lt-200 | .text-grey-lt-200 | .bg-grey-lt-200 | . | grey-lt-300 | .text-grey-lt-300 | .bg-grey-lt-300 | . ",
     "url": "/docs/utilities/color/#light-greys",
     
     "relUrl": "/docs/utilities/color/#light-greys"
-  },"52": {
+  },"67": {
     "doc": "Color",
     "title": "Dark Greys",
     "content": "| Color value | Font color utility | Background color utility | . | grey-dk-000 | .text-grey-dk-000 | .bg-grey-dk-000 | . | grey-dk-100 | .text-grey-dk-100 | .bg-grey-dk-100 | . | grey-dk-200 | .text-grey-dk-200 | .bg-grey-dk-200 | . | grey-dk-250 | .text-grey-dk-250 | .bg-grey-dk-250 | . | grey-dk-300 | .text-grey-dk-300 | .bg-grey-dk-300 | . ",
     "url": "/docs/utilities/color/#dark-greys",
     
     "relUrl": "/docs/utilities/color/#dark-greys"
-  },"53": {
+  },"68": {
     "doc": "Color",
     "title": "Purples",
     "content": "| Color value | Font color utility | Background color utility | . | purple-000 | .text-purple-000 | .bg-purple-000 | . | purple-100 | .text-purple-100 | .bg-purple-100 | . | purple-200 | .text-purple-200 | .bg-purple-200 | . | purple-300 | .text-purple-300 | .bg-purple-300 | . ",
     "url": "/docs/utilities/color/#purples",
     
     "relUrl": "/docs/utilities/color/#purples"
-  },"54": {
+  },"69": {
     "doc": "Color",
     "title": "Blues",
     "content": "| Color value | Font color utility | Background color utility | . | blue-000 | .text-blue-000 | .bg-blue-000 | . | blue-100 | .text-blue-100 | .bg-blue-100 | . | blue-200 | .text-blue-200 | .bg-blue-200 | . | blue-300 | .text-blue-300 | .bg-blue-300 | . ",
     "url": "/docs/utilities/color/#blues",
     
     "relUrl": "/docs/utilities/color/#blues"
-  },"55": {
+  },"70": {
     "doc": "Color",
     "title": "Greens",
     "content": "| Color value | Font color utility | Background color utility | . | green-000 | .text-green-000 | .bg-green-000 | . | green-100 | .text-green-100 | .bg-green-100 | . | green-200 | .text-green-200 | .bg-green-200 | . | green-300 | .text-green-300 | .bg-green-300 | . ",
     "url": "/docs/utilities/color/#greens",
     
     "relUrl": "/docs/utilities/color/#greens"
-  },"56": {
+  },"71": {
     "doc": "Color",
     "title": "Yellows",
     "content": "| Color value | Font color utility | Background color utility | . | yellow-000 | .text-yellow-000 | .bg-yellow-000 | . | yellow-100 | .text-yellow-100 | .bg-yellow-100 | . | yellow-200 | .text-yellow-200 | .bg-yellow-200 | . | yellow-300 | .text-yellow-300 | .bg-yellow-300 | . ",
     "url": "/docs/utilities/color/#yellows",
     
     "relUrl": "/docs/utilities/color/#yellows"
-  },"57": {
+  },"72": {
     "doc": "Color",
     "title": "Reds",
     "content": "| Color value | Font color utility | Background color utility | . | red-000 | .text-red-000 | .bg-red-000 | . | red-100 | .text-red-100 | .bg-red-100 | . | red-200 | .text-red-200 | .bg-red-200 | . | red-300 | .text-red-300 | .bg-red-300 | . ",
     "url": "/docs/utilities/color/#reds",
     
     "relUrl": "/docs/utilities/color/#reds"
-  },"58": {
+  },"73": {
     "doc": "Color",
     "title": "Color",
     "content": " ",
     "url": "/docs/utilities/color/",
     
     "relUrl": "/docs/utilities/color/"
-  },"59": {
+  },"74": {
     "doc": "About Us",
     "title": "Welcome To Lucknow AI",
     "content": "Scientia potentia est (knowledge is power) . Hi , Thank you all for joining the community! . I wanted to share the story behind why we started this and what drives us. I recently moved to Lucknow and wanted to connect with fellow developers, open-source enthusiasts, and hackers. However, I found that Lucknow lacks such a technology culture and community. I remember wishing as a college student that I had a mentor to guide me and clarify my doubts. I want the next generation to have those opportunities. So I spoke with friends from Lucknow who now work at various companies and agreed to give back by mentoring youth interested in AI &amp; ML. With that goal, We founded Lucknow AI to advance AI literacy and skills through collaborative workshops, meetups, paper discussions, and community growth. I am Aaditya (Ankit), a senior research engineer at Saama AI Research Lab with over 6+ years in core AI research. I love hacking things together, building open-source tools, and publishing state-of-the-art research. You can find more about my background &amp; research at aadityaura.github.io . You might be surprised to know that no one in the Lucknow AI community is paid or sponsored. We are just a group of coding geeks and hackers who are passionate about growing the local AI ecosystem! . We nurture Lucknow AI like our own child, volunteering time outside work or college to support the community. Seniors mentor newcomers not due to any obligation but out of a genuine desire to uplift. We contribute open-source code, curate datasets, brainstorm ideas, analyze research papers and more in the quest to push the boundaries of what AI can achieve. And we do it together as one unstoppable, collaborative force! . This is a safe space where you can learn, teach, create, and grow. Imagine the breakthrough innovations we can create when we come together as a supportive, tight-knit community! Let’s put Lucknow on the map in AI and have fun along the way. If you share this vision, then you have found your tribe. Welcome home! . Excited for the days ahead, ~ Lucknow AI . ",
     "url": "/docs/configuration/#welcome-to-lucknow-ai",
     
     "relUrl": "/docs/configuration/#welcome-to-lucknow-ai"
-  },"60": {
+  },"75": {
     "doc": "About Us",
     "title": "About Us",
     "content": " ",
     "url": "/docs/configuration/",
     
     "relUrl": "/docs/configuration/"
-  },"61": {
+  },"76": {
     "doc": "Resources",
     "title": "Table of contents",
     "content": ". | Awesome Low Resource Indian Languages Hub | Learning Resources | . ",
     "url": "/docs/customization/#table-of-contents",
     
     "relUrl": "/docs/customization/#table-of-contents"
-  },"62": {
+  },"77": {
     "doc": "Resources",
     "title": "1. Awesome Low Resource Indian Languages Hub",
     "content": "Click Here ! . ",
     "url": "/docs/customization/#1-awesome-low-resource-indian-languages-hub",
     
     "relUrl": "/docs/customization/#1-awesome-low-resource-indian-languages-hub"
-  },"63": {
+  },"78": {
     "doc": "Resources",
     "title": "2. Learning Resources",
     "content": "Click Here ! . ",
     "url": "/docs/customization/#2-learning-resources",
     
     "relUrl": "/docs/customization/#2-learning-resources"
-  },"64": {
+  },"79": {
     "doc": "Resources",
     "title": "Resources",
     "content": " ",
     "url": "/docs/customization/",
     
     "relUrl": "/docs/customization/"
-  },"65": {
+  },"80": {
     "doc": "Default layout child page",
     "title": "Default layout child page",
     "content": "This is a child page that uses the same minimal layout as its parent page. ",
     "url": "/docs/layout/minimal/default-child/",
     
     "relUrl": "/docs/layout/minimal/default-child/"
-  },"66": {
+  },"81": {
     "doc": "Projects",
     "title": "Projects",
     "content": " ",
     "url": "/docs/index-test/",
     
     "relUrl": "/docs/index-test/"
-  },"67": {
+  },"82": {
     "doc": "Projects",
     "title": "1. Project Awadhi",
     "content": "This project focuses on developing localized solutions using advanced AI and machine learning techniques. ",
     "url": "/docs/index-test/#1-project-awadhi",
     
     "relUrl": "/docs/index-test/#1-project-awadhi"
-  },"68": {
+  },"83": {
     "doc": "Projects",
     "title": "2. Lallan",
     "content": ". | Lallan - Lucknow Artificial Language and Learning Assistance Network | . Try Lallan . ",
     "url": "/docs/index-test/#2-lallan",
     
     "relUrl": "/docs/index-test/#2-lallan"
-  },"69": {
+  },"84": {
     "doc": "Projects",
     "title": "3. Project Sign Language",
     "content": "This project focuses on developing localized solutions using advanced AI and machine learning techniques. ",
     "url": "/docs/index-test/#3-project-sign-language",
     
     "relUrl": "/docs/index-test/#3-project-sign-language"
-  },"70": {
+  },"85": {
     "doc": "Home",
     "title": "Lucknow AI Labs",
     "content": "Open Source AI Research &amp; Mentorship . Get started now Try Lucknow-GPT . Contributing . When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in our GitHub repo. Thank you to the contributors of Lucknow AI! . | | | . Code of Conduct . Lucknow AI is committed to fostering a welcoming community. View our Code of Conduct on our GitHub repository. Source: https://gdglucknow.web.app ",
     "url": "/#lucknow-ai-labs",
     
     "relUrl": "/#lucknow-ai-labs"
-  },"71": {
+  },"86": {
     "doc": "Home",
     "title": "Home",
     "content": "Change Theme . ",
     "url": "/",
     
     "relUrl": "/"
-  },"72": {
+  },"87": {
     "doc": "Labels",
     "title": "Labels",
     "content": "Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue. Default label . Blue label . Stable . New release . Coming soon . Deprecated . Default label {: .label } Blue label {: .label .label-blue } Stable {: .label .label-green } New release {: .label .label-purple } Coming soon {: .label .label-yellow } Deprecated {: .label .label-red } . ",
     "url": "/docs/ui-components/labels/",
     
     "relUrl": "/docs/ui-components/labels/"
-  },"73": {
+  },"88": {
     "doc": "Lallan",
     "title": "Lallan",
     "content": " ",
     "url": "/projects/lallan/",
     
     "relUrl": "/projects/lallan/"
-  },"74": {
+  },"89": {
     "doc": "Lallan",
     "title": "Lallan UI",
     "content": " ",
     "url": "/projects/lallan/#lallan-ui",
     
     "relUrl": "/projects/lallan/#lallan-ui"
-  },"75": {
+  },"90": {
     "doc": "Lallan",
     "title": "About Lallan",
     "content": "| Collected and contributed unstructured data for the Lucknow Large Language Model (LLM) project. | Utilized contextual embeddings to enhance semantic search and retrieval capabilities. | Integrated Google's state-of-the-art Gemini LLM for extracting answers along with embedded context from local data sources. | Implemented FastAPI backend services to support the deployment of the Retrieval-Augmented Generation (RAG) system. | Integrated FastAPI with Gradio to create an intuitive and user-friendly UI for the chatbot, improving accessibility and ease of use. | | | ",
     "url": "/projects/lallan/#about-lallan",
     
     "relUrl": "/projects/lallan/#about-lallan"
-  },"76": {
+  },"91": {
     "doc": "Events & Meetups",
     "title": "Events & Meetups",
     "content": " ",
     "url": "/docs/layout/layout/",
     
     "relUrl": "/docs/layout/layout/"
-  },"77": {
+  },"92": {
     "doc": "Events & Meetups",
     "title": "Layout Utilities",
     "content": " ",
     "url": "/docs/utilities/layout/#layout-utilities",
     
     "relUrl": "/docs/utilities/layout/#layout-utilities"
-  },"78": {
+  },"93": {
     "doc": "Events & Meetups",
     "title": "Table of contents",
     "content": ". | Spacing | Horizontal Alignment | Vertical Alignment | Display | . ",
     "url": "/docs/utilities/layout/#table-of-contents",
     
     "relUrl": "/docs/utilities/layout/#table-of-contents"
-  },"79": {
+  },"94": {
     "doc": "Events & Meetups",
     "title": "Spacing",
     "content": "These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively. | Classname prefix | What it does | . | .m- | margin | . | .mx- | margin-left, margin-right | . | .my- | margin top, margin bottom | . | .mt- | margin-top | . | .mr- | margin-right | . | .mb- | margin-bottom | . | .ml- | margin-left | . | Classname prefix | What it does | . | .p- | padding | . | .px- | padding-left, padding-right | . | .py- | padding top, padding bottom | . | .pt- | padding-top | . | .pr- | padding-right | . | .pb- | padding-bottom | . | .pl- | padding-left | . Spacing values are based on a 1rem = 16px spacing scale, broken down into these units: . | Spacer/suffix | Size in rems | Rem converted to px | . | 1 | 0.25rem | 4px | . | 2 | 0.5rem | 8px | . | 3 | 0.75rem | 12px | . | 4 | 1rem | 16px | . | 5 | 1.5rem | 24px | . | 6 | 2rem | 32px | . | 7 | 2.5rem | 40px | . | 8 | 3rem | 48px | . | auto | auto | auto | . Use mx-auto to horizontally center elements. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This paragraph will have a margin bottom of 1rem/16px on large screens. {: .mb-lg-4 } This paragraph will have 2rem/32px of padding on the right and left at all screen sizes. {: .px-6 } . ",
     "url": "/docs/utilities/layout/#spacing",
     
     "relUrl": "/docs/utilities/layout/#spacing"
-  },"80": {
+  },"95": {
     "doc": "Events & Meetups",
     "title": "Horizontal Alignment",
     "content": "| Classname | What it does | . | .float-left | float: left | . | .float-right | float: right | . | .flex-justify-start | justify-content: flex-start | . | .flex-justify-end | justify-content: flex-end | . | .flex-justify-between | justify-content: space-between | . | .flex-justify-around | justify-content: space-around | . Note: any of the flex- classes must be used on a parent element that has d-flex applied to it. ",
     "url": "/docs/utilities/layout/#horizontal-alignment",
     
     "relUrl": "/docs/utilities/layout/#horizontal-alignment"
-  },"81": {
+  },"96": {
     "doc": "Events & Meetups",
     "title": "Vertical Alignment",
     "content": "| Classname | What it does | . | .v-align-baseline | vertical-align: baseline | . | .v-align-bottom | vertical-align: bottom | . | .v-align-middle | vertical-align: middle | . | .v-align-text-bottom | vertical-align: text-bottom | . | .v-align-text-top | vertical-align: text-top | . | .v-align-top | vertical-align: top | . ",
     "url": "/docs/utilities/layout/#vertical-alignment",
     
     "relUrl": "/docs/utilities/layout/#vertical-alignment"
-  },"82": {
+  },"97": {
     "doc": "Events & Meetups",
     "title": "Display",
     "content": "Display classes aid in adapting the layout of the elements on a page: . | Class |   | . | .d-block | display: block | . | .d-flex | display: flex | . | .d-inline | display: inline | . | .d-inline-block | display: inline-block | . | .d-none | display: none | . Use these classes in conjunction with the responsive modifiers. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This button will be hidden until medium screen sizes: [ A button ](#url) {: .d-none .d-md-inline-block } These headings will be `inline-block`: ### heading 3 {: .d-inline-block } ### heading 3 {: .d-inline-block } . ",
     "url": "/docs/utilities/layout/#display",
     
     "relUrl": "/docs/utilities/layout/#display"
-  },"83": {
+  },"98": {
     "doc": "Events & Meetups",
     "title": "Events & Meetups",
     "content": " ",
     "url": "/docs/utilities/layout/",
     
     "relUrl": "/docs/utilities/layout/"
-  },"84": {
+  },"99": {
     "doc": "Code with line numbers",
     "title": "Code snippets with line numbers",
     "content": "The default settings for HTML compression are incompatible with the HTML produced by Jekyll (4.1.1 or earlier) for line numbers from highlighted code – both when using Kramdown code fences and when using Liquid highlight tags. To avoid non-conforming HTML and unsatisfactory layout, HTML compression can be turned off by using the following configuration option: . compress_html: ignore: envs: all . When using Kramdown code fences, line numbers are turned on globally by the following configuration option: . kramdown: syntax_highlighter_opts: block: line_numbers: true . Line numbers can then be suppressed locally using Liquid tags (without the linenos option) instead of fences: . {% highlight some_language %} Some code {% endhighlight %} . ",
     "url": "/docs/ui-components/code/line-numbers/#code-snippets-with-line-numbers",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#code-snippets-with-line-numbers"
-  },"85": {
+  },"100": {
     "doc": "Code with line numbers",
     "title": "Workarounds",
     "content": "To use HTML compression together with line numbers, all highlighted code needs to be wrapped using one of the following workarounds. (The variable name some_var can be changed to avoid clashes; it can also be replaced by code – but note that code=code cannot be removed). Code fences (three backticks) . {% capture some_var %} ```some_language Some code ``` {% endcapture %} {% assign some_var = some_var | markdownify %} {% include fix_linenos.html code=some_var %} . Liquid highlighting . {% capture some_var %} {% highlight some_language linenos %} Some code {% endhighlight %} {% endcapture %} {% include fix_linenos.html code=some_var %} . Credit: The original version of the above workaround was suggested by Dmitry Hrabrov at https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901. ",
     "url": "/docs/ui-components/code/line-numbers/#workarounds",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#workarounds"
-  },"86": {
+  },"101": {
     "doc": "Code with line numbers",
     "title": "Examples",
     "content": "✅ Using code fences + workaround (will only show line numbers if enabled globally in _config.yml): . // Javascript code with syntax highlighting in fences var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } . ✅ Using liquid highlighting + workaround: . | 1 2 3 4 . | # Ruby code with syntax highlighting and fixed line numbers using Liquid GitHubPages::Dependencies.gems.each do |gem, version| s.add_dependency(gem, \"= #{version}\") end . | . Narrow code stays close to the line numbers: . | 1 2 3 . | def foo puts 'foo' end . | . The following generates incorrect and invalid HTML. It should not be used as a positive example; the improper layout (with the broken HTML tags) is intentional. ❌ With the compression options used for the theme docs, the following example illustrates the incorrect formatting arising from the incompatibility of HTML compression and the non-conforming HTML produced by Jekyll for line numbers: . | 1 2 3 . | def foo puts 'foo' end . | . ",
     "url": "/docs/ui-components/code/line-numbers/#examples",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#examples"
-  },"87": {
+  },"102": {
     "doc": "Code with line numbers",
     "title": "Code with line numbers",
     "content": " ",
     "url": "/docs/ui-components/code/line-numbers/",
     
     "relUrl": "/docs/ui-components/code/line-numbers/"
-  },"88": {
+  },"103": {
     "doc": "Lists",
     "title": "Lists",
     "content": " ",
     "url": "/docs/ui-components/lists/",
     
     "relUrl": "/docs/ui-components/lists/"
-  },"89": {
+  },"104": {
     "doc": "Lists",
     "title": "Table of contents",
     "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
     "url": "/docs/ui-components/lists/#table-of-contents",
     
     "relUrl": "/docs/ui-components/lists/#table-of-contents"
-  },"90": {
+  },"105": {
     "doc": "Lists",
     "title": "Unordered list",
     "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
     "url": "/docs/ui-components/lists/#unordered-list",
     
     "relUrl": "/docs/ui-components/lists/#unordered-list"
-  },"91": {
+  },"106": {
     "doc": "Lists",
     "title": "Ordered list",
     "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
     "url": "/docs/ui-components/lists/#ordered-list",
     
     "relUrl": "/docs/ui-components/lists/#ordered-list"
-  },"92": {
+  },"107": {
     "doc": "Lists",
     "title": "Task list",
     "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
     "url": "/docs/ui-components/lists/#task-list",
     
     "relUrl": "/docs/ui-components/lists/#task-list"
-  },"93": {
+  },"108": {
     "doc": "Lists",
     "title": "Definition list",
     "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
     "url": "/docs/ui-components/lists/#definition-list",
     
     "relUrl": "/docs/ui-components/lists/#definition-list"
-  },"94": {
+  },"109": {
     "doc": "Minimal layout child page",
     "title": "Minimal layout child page",
     "content": "This is a child page that uses the same minimal layout as its parent page. ",
     "url": "/docs/layout/minimal/minimal-child/",
     
     "relUrl": "/docs/layout/minimal/minimal-child/"
-  },"95": {
+  },"110": {
     "doc": "Minimal layout test",
     "title": "Minimal layout test",
     "content": "Return to main website. This page demonstrates the packaged minimal layout, which does not render the sidebar or header. It can be used for standalone pages. It is also an example of using the new modular site components to define custom layouts; see “Custom layouts and includes” in the customization docs for more information. ",
     "url": "/docs/minimal-test/",
     
     "relUrl": "/docs/minimal-test/"
-  },"96": {
+  },"111": {
     "doc": "A minimal layout page",
     "title": "A minimal layout page",
     "content": "This page illustrates the built-in layout minimal. One of its child pages also uses the minimal layout; the other child pages uses the default layout. ",
     "url": "/docs/layout/minimal/minimal/",
     
     "relUrl": "/docs/layout/minimal/minimal/"
-  },"97": {
+  },"112": {
     "doc": "Responsive Modifiers",
     "title": "Responsive modifiers",
     "content": "Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size | . | (none) | All screens until the next modifier | . | xs | 320px (20rem) and up | . | sm | 500px (31.25rem) and up | . | md | 740px (46.25rem) and up | . | lg | 1120px (70rem) and up | . | xl | 1400px (87.5rem) and up | . ",
     "url": "/docs/utilities/responsive-modifiers/#responsive-modifiers",
     
     "relUrl": "/docs/utilities/responsive-modifiers/#responsive-modifiers"
-  },"98": {
+  },"113": {
     "doc": "Responsive Modifiers",
     "title": "Responsive Modifiers",
     "content": " ",
     "url": "/docs/utilities/responsive-modifiers/",
     
     "relUrl": "/docs/utilities/responsive-modifiers/"
-  },"99": {
+  },"114": {
     "doc": "Tables",
     "title": "Tables",
     "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
     "url": "/docs/ui-components/tables/",
     
     "relUrl": "/docs/ui-components/tables/"
-  },"100": {
+  },"115": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"101": {
+  },"116": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font stack | Responsive type scale | Headings | Body text | Inline elements | Typographic Utilities | . ",
     "url": "/docs/ui-components/typography/#table-of-contents",
     
     "relUrl": "/docs/ui-components/typography/#table-of-contents"
-  },"102": {
+  },"117": {
     "doc": "Typography",
     "title": "Font stack",
     "content": "By default, Just the Docs uses a native system font stack for sans-serif fonts: . system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Segoe UI Emoji\" . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . For monospace type, like code snippets or the &lt;pre&gt; element, Just the Docs uses a native system font stack for monospace fonts: . \"SFMono-Regular\", Menlo, Consolas, Monospace . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . ",
     "url": "/docs/ui-components/typography/#font-stack",
     
     "relUrl": "/docs/ui-components/typography/#font-stack"
-  },"103": {
+  },"118": {
     "doc": "Typography",
     "title": "Responsive type scale",
     "content": "Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size font-size | Large screen size font-size | . | h1, .text-alpha | 32px | 36px | . | h2, .text-beta | 18px | 24px | . | h3, .text-gamma | 16px | 18px | . | h4, .text-delta | 14px | 16px | . | h5, .text-epsilon | 16px | 18px | . | h6, .text-zeta | 18px | 24px | . | body | 14px | 16px | . ",
     "url": "/docs/ui-components/typography/#responsive-type-scale",
     
     "relUrl": "/docs/ui-components/typography/#responsive-type-scale"
-  },"104": {
+  },"119": {
     "doc": "Typography",
     "title": "Headings",
     "content": "Headings are rendered like this: . ",
     "url": "/docs/ui-components/typography/#headings",
     
     "relUrl": "/docs/ui-components/typography/#headings"
-  },"105": {
+  },"120": {
     "doc": "Typography",
     "title": "Heading 1",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"106": {
+  },"121": {
     "doc": "Typography",
     "title": "Heading 2",
     "content": "Heading 3 . Heading 4 . Heading 5 . Heading 6 . # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 . ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"107": {
+  },"122": {
     "doc": "Typography",
     "title": "Body text",
     "content": "Default body text is rendered like this: . Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
     "url": "/docs/ui-components/typography/#body-text",
     
     "relUrl": "/docs/ui-components/typography/#body-text"
-  },"108": {
+  },"123": {
     "doc": "Typography",
     "title": "Inline elements",
     "content": "Text can be bold, italic, or strikethrough. Link to another page. Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](/). ",
     "url": "/docs/ui-components/typography/#inline-elements",
     
     "relUrl": "/docs/ui-components/typography/#inline-elements"
-  },"109": {
+  },"124": {
     "doc": "Typography",
     "title": "Typographic Utilities",
     "content": "There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. View typography utilities . ",
     "url": "/docs/ui-components/typography/#typographic-utilities",
     
     "relUrl": "/docs/ui-components/typography/#typographic-utilities"
-  },"110": {
+  },"125": {
     "doc": "Typography",
     "title": "Typography Utilities",
     "content": " ",
     "url": "/docs/utilities/typography/#typography-utilities",
     
     "relUrl": "/docs/utilities/typography/#typography-utilities"
-  },"111": {
+  },"126": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font size | Font weight | Line height | Text justification | . ",
     "url": "/docs/utilities/typography/#table-of-contents",
     
     "relUrl": "/docs/utilities/typography/#table-of-contents"
-  },"112": {
+  },"127": {
     "doc": "Typography",
     "title": "Font size",
     "content": "Use the .fs-1 - .fs-10 to set an explicit font-size. | Class | Small screen size font-size | Large screen size font-size | . | .fs-1 | 9px | 10px | . | .fs-2 | 11px | 12px | . | .fs-3 | 12px | 14px | . | .fs-4 | 14px | 16px | . | .fs-5 | 16px | 18px | . | .fs-6 | 18px | 24px | . | .fs-7 | 24px | 32px | . | .fs-8 | 32px | 38px | . | .fs-9 | 38px | 42px | . | .fs-10 | 42px | 48px | . Font size 1 . Font size 2 . Font size 3 . Font size 4 . Font size 5 . Font size 6 . Font size 7 . Font size 8 . Font size 9 . Font size 10 . In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } . ",
     "url": "/docs/utilities/typography/#font-size",
     
     "relUrl": "/docs/utilities/typography/#font-size"
-  },"113": {
+  },"128": {
     "doc": "Typography",
     "title": "Font weight",
     "content": "Use the .fw-300 - .fw-700 to set an explicit font-weight. Font weight 300 . Font weight 400 . Font weight 500 . Font weight 700 . In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } . ",
     "url": "/docs/utilities/typography/#font-weight",
     
     "relUrl": "/docs/utilities/typography/#font-weight"
-  },"114": {
+  },"129": {
     "doc": "Typography",
     "title": "Line height",
     "content": "Use the lh- classes to explicitly apply line height to text. | Class | line-height value | Notes | . | .lh-0 | 0 |   | . | .lh-tight | 1.1 | Default for headings | . | .lh-default | 1.4 | Default for body (paragraphs) | . No Line height No Line height . Tight line height Tight line height . Default line height Default line height . In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } . ",
     "url": "/docs/utilities/typography/#line-height",
     
     "relUrl": "/docs/utilities/typography/#line-height"
-  },"115": {
+  },"130": {
     "doc": "Typography",
     "title": "Text justification",
     "content": "By default text is justified left. Use these text- classes to override settings: . | Class | What it does | . | .text-left | text-align: left | . | .text-right | text-align: right | . | .text-center | text-align: center | . ",
     "url": "/docs/utilities/typography/#text-justification",
     
     "relUrl": "/docs/utilities/typography/#text-justification"
-  },"116": {
+  },"131": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/utilities/typography/",
     
     "relUrl": "/docs/utilities/typography/"
-  },"117": {
+  },"132": {
     "doc": "Research & Publications",
     "title": "Research & Publications",
     "content": " ",
     "url": "/docs/ui-components",
     
     "relUrl": "/docs/ui-components"
-  },"118": {
+  },"133": {
     "doc": "Mentorship Program",
     "title": "Mentorship Program",
     "content": " ",

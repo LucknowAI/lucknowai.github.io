@@ -10,7 +10,7 @@ nav_order: 7
 
 ### Summary:
 
-The "Hack to Crack 1.0" AI/ML Hackathon, hosted by [Community Name], provided participants with an exciting opportunity to tackle real-world problems using cutting-edge AI and ML technologies. This event fostered collaboration, innovation, and hands-on experience, allowing participants to showcase their skills in areas like computer vision, NLP, and cybersecurity.  
+The "Hack to Crack 1.0" AI/ML Hackathon, hosted by Lucknow AI Labs, provided participants with an exciting opportunity to tackle real-world problems using cutting-edge AI and ML technologies. This event fostered collaboration, innovation, and hands-on experience, allowing participants to showcase their skills in areas like computer vision, NLP, and cybersecurity.  
 
 {: .note }  
 > > Date: May 23-24, 2024  

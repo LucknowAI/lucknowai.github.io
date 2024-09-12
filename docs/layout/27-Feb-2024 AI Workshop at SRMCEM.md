@@ -1,5 +1,5 @@
 ---
-title: (21/02/23) Build, Train & Deploy Workshop
+title: (27/02/24) Build, Train & Deploy Workshop
 parent: Events & Meetups
 layout: default
 nav_order: 5

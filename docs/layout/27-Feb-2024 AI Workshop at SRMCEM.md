@@ -9,7 +9,7 @@ nav_order: 5
 
 ### Summary:
 
-The "Build, Train & Deploy" workshop, hosted by LUCKNOW AI LABS and TFUG Lucknow, provided a deep dive into the world of
+The "Build, Train & Deploy" workshop, hosted by TFUG Lucknow and collaborated by LUCKNOW AI LABS, provided a deep dive into the world of
 AI and ML, ranging from basic neural networks to advanced generative AI models. This event offered a comprehensive
 educational experience, combining theoretical knowledge with practical coding exercises.
 

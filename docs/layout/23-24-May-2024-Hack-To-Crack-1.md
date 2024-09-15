@@ -2,7 +2,7 @@
 title: 23-24-May-2024-Hack-To-Crack-1.0
 parent: Events & Meetups
 layout: default
-nav_order: 2
+nav_order: 7
 ---
 
 AI/ML Community Event - Summary :

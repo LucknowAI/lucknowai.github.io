@@ -4,6 +4,7 @@ PATH
     just-the-docs (0.6.2)
       jekyll (>= 3.8.5)
       jekyll-include-cache
+      jekyll-remote-include
       jekyll-seo-tag (>= 2.0)
       rake (>= 12.3.1)
 

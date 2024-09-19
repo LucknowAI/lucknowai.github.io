@@ -532,397 +532,768 @@
     "relUrl": "/docs/customization/#table-of-contents"
   },"76": {
     "doc": "Resources",
-    "title": "1. Awesome Low Resource Indian Languages Hub",
-    "content": "Click Here ! . ",
-    "url": "/docs/customization/#1-awesome-low-resource-indian-languages-hub",
+    "title": "1. AI-Career-Toolkit",
+    "content": ". ",
+    "url": "/docs/customization/#1-ai-career-toolkit",
     
-    "relUrl": "/docs/customization/#1-awesome-low-resource-indian-languages-hub"
+    "relUrl": "/docs/customization/#1-ai-career-toolkit"
   },"77": {
     "doc": "Resources",
+    "title": "🚀 AI-Career-Toolkit",
+    "content": "A comprehensive resource hub for launching and advancing careers in AI, ML, and related fields. ",
+    "url": "/docs/customization/",
+    
+    "relUrl": "/docs/customization/"
+  },"78": {
+    "doc": "Resources",
+    "title": "🌟 What’s Inside",
+    "content": ". | 📝 Resume Templates: Tailored for AI/ML roles | 💼 Portfolio Project Ideas: Inspire your next showcase project | 🎤 Interview Prep: Common questions and best practices | 🔍 Job Search Strategies: Tips for finding and landing AI positions | 🗺️ Learning Roadmaps: Curated paths for different AI specializations | 📊 Industry Insights: Stay updated with the latest AI trends | . ",
+    "url": "/docs/customization/#-whats-inside",
+    
+    "relUrl": "/docs/customization/#-whats-inside"
+  },"79": {
+    "doc": "Resources",
+    "title": "Resume Templates",
+    "content": "| Repository | Description | Stars | Last Updated | . | home | A beautiful portfolio template for developers | | | . | Portfolio-Website-Template | A simple and elegant portfolio template | | | . | freemo | A free, modern portfolio template | | | . | portfolio-template-v2 | A sleek, customizable portfolio template | | | . | free-developer-portfolio-template | A modern, responsive portfolio template for developers | | | . | albert-html | A clean and minimalist portfolio template | | | . | portfolio | A versatile portfolio template with various sections | | | . | diy-portfolio | A customizable, DIY portfolio template | | | . ",
+    "url": "/docs/customization/#resume-templates",
+    
+    "relUrl": "/docs/customization/#resume-templates"
+  },"80": {
+    "doc": "Resources",
+    "title": "🎯 Our Mission",
+    "content": "To empower the next generation of AI professionals with practical tools, templates, and knowledge to stand out in a competitive job market. ",
+    "url": "/docs/customization/#-our-mission",
+    
+    "relUrl": "/docs/customization/#-our-mission"
+  },"81": {
+    "doc": "Resources",
+    "title": "🤝 Contributing",
+    "content": "We welcome contributions! Whether you’re sharing your success story, a helpful resource, or improving existing content, your input helps the community grow. ",
+    "url": "/docs/customization/#-contributing",
+    
+    "relUrl": "/docs/customization/#-contributing"
+  },"82": {
+    "doc": "Resources",
+    "title": "📚 Start Your AI Career Journey",
+    "content": "Explore the toolkit, build your skills, and take the next step in your AI career. Your future in AI starts here! . AI-Career-Toolkit is a community-driven project. Use these resources as inspiration and adapt them to showcase your unique skills and experiences. ",
+    "url": "/docs/customization/#-start-your-ai-career-journey",
+    
+    "relUrl": "/docs/customization/#-start-your-ai-career-journey"
+  },"83": {
+    "doc": "Resources",
     "title": "2. Learning Resources",
-    "content": "Click Here ! . ",
+    "content": ". ",
     "url": "/docs/customization/#2-learning-resources",
     
     "relUrl": "/docs/customization/#2-learning-resources"
-  },"78": {
+  },"84": {
+    "doc": "Resources",
+    "title": "An Ultimate Compilation of AI Resources for Mathematics, Machine Learning and Deep Learning",
+    "content": " ",
+    "url": "/docs/customization/#an-ultimate-compilation-of-ai-resources-for-mathematics-machine-learning-and-deep-learning",
+    
+    "relUrl": "/docs/customization/#an-ultimate-compilation-of-ai-resources-for-mathematics-machine-learning-and-deep-learning"
+  },"85": {
+    "doc": "Resources",
+    "title": "Knowledge Not Shared is wasted. - Clan Jacobs",
+    "content": "This collection is a compilation of Excellent ML and DL Tutorials created by the people below . | Andrej Karpathy blog | Brandon Roher | Andrew Trask | Jay Alammar | Sebastian Ruder | Distill | StatQuest with Josh Starmer | sentdex | Lex Fridman | 3Blue1Brown | Alexander Amini | The Coding Train | Christopher Olah ",
+    "url": "/docs/customization/#knowledge-not-shared-is-wasted---clan-jacobs",
+    
+    "relUrl": "/docs/customization/#knowledge-not-shared-is-wasted---clan-jacobs"
+  },"86": {
+    "doc": "Resources",
+    "title": "Communities to Follow",
+    "content": "| AI Coimbatore Join here🔗⬇️ . | Telegram : For Daily Updates | Facebook : Coimbatore School of AI | . | TensorFlow User Group Coimbatore . | Meetup : TFUGCbe | Facebook : TFUGCbe | . | . ",
+    "url": "/docs/customization/#communities-to-follow",
+    
+    "relUrl": "/docs/customization/#communities-to-follow"
+  },"87": {
+    "doc": "Resources",
+    "title": "This Repo is Created and Maintained by",
+    "content": "Navaneeth Malingan . ",
+    "url": "/docs/customization/#this-repo-is-created-and-maintained-by",
+    
+    "relUrl": "/docs/customization/#this-repo-is-created-and-maintained-by"
+  },"88": {
+    "doc": "Resources",
+    "title": "Why Data Science and how to get started?",
+    "content": ". | 🖥️ HOW TO GET STARTED WITH MACHINE LEARNING! | How to Build a Meaningful Career in Data Science | My Self-Created Artificial Intelligence Masters Degree | PyImageSearch | 5 Beginner Friendly Steps to Learn Machine Learning and Data Science with Python | . ",
+    "url": "/docs/customization/#why-data-science-and-how-to-get-started",
+    
+    "relUrl": "/docs/customization/#why-data-science-and-how-to-get-started"
+  },"89": {
+    "doc": "Resources",
+    "title": "Intro to ML",
+    "content": ". | Luis Serrano: A Friendly Introduction to Machine Learning | StatQuest: A Gentle Introduction to Machine Learning | Machine Learning For Everyone Summarize’s Machine Learning algorithms and their applications in simple words with real-world examples. | . ",
+    "url": "/docs/customization/#intro-to-ml",
+    
+    "relUrl": "/docs/customization/#intro-to-ml"
+  },"90": {
+    "doc": "Resources",
+    "title": "Anyone can do Machine Learning",
+    "content": ". | Teachable Machine Train a computer to recognize your own images, sounds, &amp; poses. A fast, easy way to create machine learning models for your sites, apps, and more – no expertise or coding required. | . ",
+    "url": "/docs/customization/#anyone-can-do-machine-learning",
+    
+    "relUrl": "/docs/customization/#anyone-can-do-machine-learning"
+  },"91": {
+    "doc": "Resources",
+    "title": "MOOCs",
+    "content": ". | Machine Learning by Andrew Ng, Stanford IMDB 10/10 LOL :P | Datacamp : Data Engineer with Python | Intro to Machine Learning Topics Covered Naive Bayes, SVM, Decision Trees, Regressions, Outliers, Clustering, Feature Scaling, Text Learning, Feature Selection, PCA, Validation, Evaluation Metrics | Intro to TensorFlow for Deep Learning The Best Course for Learning TensorFlow | End-to-End Machine Learning | NVIDIA DEEP LEARNING INSTITUTE | Introduction to Machine Learning for Coders! | Practical Deep Learning for Coders, v3 | FastAI | . ",
+    "url": "/docs/customization/#moocs",
+    
+    "relUrl": "/docs/customization/#moocs"
+  },"92": {
+    "doc": "Resources",
+    "title": "Courses from Top Universities",
+    "content": "### Stanford University . | CS221 - Artificial Intelligence: Principles and Techniques by Percy Liang and Dorsa Sadigh | CS229 - Machine Learning by Andrew Ng | CS230 - Deep Learning by Andrew Ng | CS231n - Convolutional Neural Networks for Visual Recognition by Fei-Fei Li and Andrej Karpathy | CS224n - Natural Language Processing with Deep Learning by Christopher Manning | CS234 - Reinforcement Learning by Emma Brunskill | CS330 - Deep Multi-task and Meta Learning by Chelsea Finn | CS25 - Transformers United | . ### Carnegie Mellon University . | CS/LTI 11-711: Advanced NLP by Graham Neubig | CS/LTI 11-747: Neural Networks for NLP by Graham Neubig | CS/LTI 11-737: Multilingual NLP by Graham Neubig | CS/LTI 11-777: Multimodal Machine Learning by Louis-Philippe Morency | CS/LTI 11-785: Introduction to Deep Learning by Bhiksha Raj and Rita Singh | CS/LTI Low Resource NLP Bootcamp 2020 by Graham Neubig | . ### Massachusetts Institute of Technology . | 6.S191 - Introduction to Deep Learning by Alexander Amini and Ava Amini | 6.S094 - Deep Learning by Lex Fridman | 6.S192 - Deep Learning for Art, Aesthetics, and Creativity by Ali Jahanian | . ### University College London . | COMP M050 Reinforcement Learning by David Silver | . ",
+    "url": "/docs/customization/#courses-from-top-universities",
+    
+    "relUrl": "/docs/customization/#courses-from-top-universities"
+  },"93": {
+    "doc": "Resources",
+    "title": "YouTube ML Playlists",
+    "content": ". | Machine Learning by StatQuest with Josh Starmer | Intelligence and Learning by The Coding Train | . ",
+    "url": "/docs/customization/#youtube-ml-playlists",
+    
+    "relUrl": "/docs/customization/#youtube-ml-playlists"
+  },"94": {
+    "doc": "Resources",
+    "title": "Machine Learning Glossary",
+    "content": ". | This glossary defines general machine learning terms in a variety of domains, as well as terms specific to TensorFlow. | . ",
+    "url": "/docs/customization/#machine-learning-glossary",
+    
+    "relUrl": "/docs/customization/#machine-learning-glossary"
+  },"95": {
+    "doc": "Resources",
+    "title": "Machine Learning Fundamentals (These terms will be often used in the below algorithms)",
+    "content": ". | Bias and Variance | Cross Validation | Machine Learning Fundamentals: The Confusion Matrix | Sensitivity and Specivicity | ROC and AUC, Clearly Explained! | StatQuest: R-squared explained | Regularization Part 1: Ridge Regression | Regularization Part 2: Lasso Regression | Maximum Likelihood | Covariance and Correlation Part 1: Covariance | Statistics Fundamentals: The Mean, Variance and Standard Deviation | Statistics Fundamentals: Population Parameters | Glossary: Statistics | Glossary: Machine Learning | Looking at R-Squared | . ",
+    "url": "/docs/customization/#machine-learning-fundamentals-these-terms-will-be-often-used-in-the-below-algorithms",
+    
+    "relUrl": "/docs/customization/#machine-learning-fundamentals-these-terms-will-be-often-used-in-the-below-algorithms"
+  },"96": {
+    "doc": "Resources",
+    "title": "Math",
+    "content": ". | Mathematics for Machine Learning In this post I have compiled great e-resources (MOOC, YouTube Lectures, Books) for learning Mathematics for Machine Learning. | Mathematics for Machine Learning - Book One great book for all things math for machine learning. (free eBook) | I highly Recommend you to go through the following resources by 3Blue1Brown . | Essence of Linear Algrbra▶️ | Essene of Calculus▶️ | Differential equations▶️ | . | Gilbert Strang: Linear Algebra vs Calculus▶️ | Basics of Integral Calculus in Tamil▶️ | New fast.ai course: Computational Linear Algebra | Linear Algebra Book | . ",
+    "url": "/docs/customization/#math",
+    
+    "relUrl": "/docs/customization/#math"
+  },"97": {
+    "doc": "Resources",
+    "title": "Python",
+    "content": ". | Python Programming Tutorials by Socratica▶️ | Python Tutorial by w3schools📙 | Learning Python Programming📙 | . ",
+    "url": "/docs/customization/#python",
+    
+    "relUrl": "/docs/customization/#python"
+  },"98": {
+    "doc": "Resources",
+    "title": "Numpy",
+    "content": ". | A Visual Intro to NumPy and Data Representation | CS231n : Python Numpy Tutorial | NumPy resources : part of the End-to-End Machine Learning library | 100 numpy exercises (with solutions) | 101 NumPy Exercises for Data Analysis (Python) | Numpy Tutorial – Introduction to ndarray | Sci-Py Lectures : NumPy: creating and manipulating numerical data | Python NumPy Tutorial for Beginners▶️ Learn the basics of the NumPy library in this tutorial for beginners. It provides background information on how NumPy works and how it compares to Python’s Built-in lists. This video goes through how to write code with NumPy. It starts with the basics of creating arrays and then gets into more advanced stuff. The video covers creating arrays, indexing, math, statistics, reshaping, and more. | Python NumPy Tutorial – Learn NumPy Arrays With Examples | Python Numpy Array Tutorial | NumPy Tutorial: Data analysis with Python | Deep Learning Prerequisites: The Numpy Stack in Python▶️ | . ",
+    "url": "/docs/customization/#numpy",
+    
+    "relUrl": "/docs/customization/#numpy"
+  },"99": {
+    "doc": "Resources",
+    "title": "Pandas",
+    "content": ". | A Gentle Visual Intro to Data Analysis in Python Using Pandas | Data analysis in Python with pandas by Data School▶️ | Best practices with pandas by Data School▶️ | Python Pandas Tutorial: A Complete Introduction for Beginners | . ",
+    "url": "/docs/customization/#pandas",
+    
+    "relUrl": "/docs/customization/#pandas"
+  },"100": {
+    "doc": "Resources",
+    "title": "Machine Learning YouTube Playlists",
+    "content": ". | CodeBasics: Machine Learning Tutorial Python▶️ | StatQuest: Machine Learning▶️ | sentdex: Machine Learning with Python▶️ | Simplilearn: Machine Learning Tutorial Videos▶️ | Machine Learning Tutorial in Python▶️ | deeplizard: Machine Learning &amp; Deep Learning Fundamentals▶️ | . ",
+    "url": "/docs/customization/#machine-learning-youtube-playlists",
+    
+    "relUrl": "/docs/customization/#machine-learning-youtube-playlists"
+  },"101": {
+    "doc": "Resources",
+    "title": "ML, DL Visual Explainers",
+    "content": ". | MLU-EXPLAIN | CNN Explainer | . Note: Below you can find the best lectures for popular Machine Learning Algorithms . ",
+    "url": "/docs/customization/#ml-dl-visual-explainers",
+    
+    "relUrl": "/docs/customization/#ml-dl-visual-explainers"
+  },"102": {
+    "doc": "Resources",
+    "title": "Linear Regression",
+    "content": ". | Linear Regression: A friendly introduction by Luis Serrano▶️ | Statistics 101: Linear Regression, The Very Basics▶️ | Regression Line Fitting Playground | Regression Curve Fitting Playground | . ",
+    "url": "/docs/customization/#linear-regression",
+    
+    "relUrl": "/docs/customization/#linear-regression"
+  },"103": {
+    "doc": "Resources",
+    "title": "Logistic Regression",
+    "content": ". | [Linear Regression vs Logistic Regression | Data Science Training | Edureka](https://www.youtube.com/watch?v=OCwZyYH14uw)▶️ | . | Logistic Regression and the Perceptron Algorithm: A friendly introduction by Luis Serrano▶️ | . ",
+    "url": "/docs/customization/#logistic-regression",
+    
+    "relUrl": "/docs/customization/#logistic-regression"
+  },"104": {
+    "doc": "Resources",
+    "title": "Decision Tree",
+    "content": ". | StatQuest: Decision Trees▶️ | StatQuest: Decision Trees, Part 2 - Feature Selection and Missing Data▶️ | Decision Tree Introduction with example📙 | Decision Tree📙 | | [Python | Decision Tree Regression using sklearn](https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/)📙 | . | | [ML | Logistic Regression v/s Decision Tree Classification](https://www.geeksforgeeks.org/ml-logistic-regression-v-s-decision-tree-classification/)📙 | . | . ",
+    "url": "/docs/customization/#decision-tree",
+    
+    "relUrl": "/docs/customization/#decision-tree"
+  },"105": {
+    "doc": "Resources",
+    "title": "Random Forest",
+    "content": ". | StatQuest: Random Forests Part 1 - Building, Using and Evaluating▶️ | StatQuest: Random Forests Part 2: Missing data and clustering▶️ | Random Forests for Complete Beginners📙 | . ",
+    "url": "/docs/customization/#random-forest",
+    
+    "relUrl": "/docs/customization/#random-forest"
+  },"106": {
+    "doc": "Resources",
+    "title": "Boosting Machine Learning",
+    "content": ". | [Boosting Machine Learning Tutorial | Adaptive Boosting, Gradient Boosting, XGBoost | Edureka](https://www.youtube.com/watch?v=kho6oANGu_A)▶️ | . | AdaBoost, Clearly Explained▶️ | Gradient Boost Part 1: Regression Main Ideas▶️ | Gradient Boost Part 2: Regression Details▶️ | Gradient Boost Part 3: Classification▶️ | Gradient Boost Part 4: Classification Details▶️ | XGBoost Part1: XGBoost Trees for Regression▶️ | XGBoost Part 2: XGBoost Trees For Classification▶️ | Ensemble methods Sci-kit learn | . ",
+    "url": "/docs/customization/#boosting-machine-learning",
+    
+    "relUrl": "/docs/customization/#boosting-machine-learning"
+  },"107": {
+    "doc": "Resources",
+    "title": "SVM",
+    "content": ". | Support Vector Machines (SVMs): A friendly introduction by Luis Serrano▶️ | Support Vector Machines, Clearly Explained!!! by StatQuest▶️ | Support Vector Machines Part 2: The Polynomial Kernel by StatQuest▶️ | Support Vector Machines Part 3: The Radial (RBF) Kernel by StatQuest▶️ | How Support Vector Machines work / How to open a black box▶️ | Support Vector Machines - The Math of Intelligence (Week 1)▶️ | Demystifying Support Vector Machines📙 | Support Vector Machine (SVM) - Fun and Easy Machine Learning▶️ | . ",
+    "url": "/docs/customization/#svm",
+    
+    "relUrl": "/docs/customization/#svm"
+  },"108": {
+    "doc": "Resources",
+    "title": "Bayes Theorem",
+    "content": ". | Bayes theorem, and making probability intuitive▶️ | A friendly introduction to Bayes Theorem and Hidden Markov Models▶️ | The Bayesian Trap▶️ | Naive Bayes classifier: A friendly approach▶️ | . ",
+    "url": "/docs/customization/#bayes-theorem",
+    
+    "relUrl": "/docs/customization/#bayes-theorem"
+  },"109": {
+    "doc": "Resources",
+    "title": "K-Nearest Neighbors",
+    "content": ". | KNN from Scratch📙 | Machine Learning Basics with the K-Nearest Neighbors Algorithm📙 | . ",
+    "url": "/docs/customization/#k-nearest-neighbors",
+    
+    "relUrl": "/docs/customization/#k-nearest-neighbors"
+  },"110": {
+    "doc": "Resources",
+    "title": "K-Means",
+    "content": ". | StatQuest: K-means clustering▶️ | Machine Learning Tutorial Python - 13: K Means Clustering▶️ | K Means Clustering Algorithm - K Means Example in Python - Machine Learning Algorithms - Edureka▶️ | . ",
+    "url": "/docs/customization/#k-means",
+    
+    "relUrl": "/docs/customization/#k-means"
+  },"111": {
+    "doc": "Resources",
+    "title": "Principal Component Analysis (PCA)",
+    "content": ". | StatQuest: PCA main ideas in only 5 minutes!!!▶️ | StatQuest: Principal Component Analysis (PCA), Step-by-Step▶️ | Principal Component Analysis (PCA) by Luis Serrano▶️ | . ",
+    "url": "/docs/customization/#principal-component-analysis-pca",
+    
+    "relUrl": "/docs/customization/#principal-component-analysis-pca"
+  },"112": {
+    "doc": "Resources",
+    "title": "Probabilistic Graphical Models",
+    "content": ". | Probabilistic Graphical Models Specialization | . ",
+    "url": "/docs/customization/#probabilistic-graphical-models",
+    
+    "relUrl": "/docs/customization/#probabilistic-graphical-models"
+  },"113": {
+    "doc": "Resources",
+    "title": "Gradient Descent from Scratch",
+    "content": "The Best . | Linear Regression using Gradient Descent📙 | Gradient Descent, Step-by-Step▶️ | Stochastic Gradient Descent, Clearly Explained!!!▶️ | How Optimization Works A short series on the fundamentals of optimization for machine learning | Linear Regression using Gradient Descent . | Code | . | Polynomial Regression | Gradient Descent in Linear Regression - Math📙 | Neural Network Backpropagation Basics For Dummies▶️ | . Extra Good Ones . | 3.4: Linear Regression with Gradient Descent - Intelligence and Learning▶️ | 3.5: Mathematics of Gradient Descent - Intelligence and Learning▶️ | 3.5a: Calculus: Power Rule - Intelligence and Learning▶️ | 3.5b: Calculus: Chain Rule - Intelligence and Learning▶️ | 3.5c: Calculus: Partial Derivative - Intelligence and Learning▶️ | . Vanishing Gradient . | Vanishing Gradient Problem▶️ | How to overcome Vanishing Gradient Problem▶️ | . How to Handle Local Minima . | https://datascience.stackexchange.com/questions/24534/does-gradient-descent-always-converge-to-an-optimum | https://datascience.stackexchange.com/questions/18802/does-mlp-always-find-local-minimum | https://www.coursera.org/learn/deep-neural-network/lecture/RFANA/the-problem-of-local-optima | . ",
+    "url": "/docs/customization/#gradient-descent-from-scratch",
+    
+    "relUrl": "/docs/customization/#gradient-descent-from-scratch"
+  },"114": {
+    "doc": "Resources",
+    "title": "Scikit-learn",
+    "content": ". | An introduction to machine learning with scikit-learn📙 | Python Machine Learning: Scikit-Learn Tutorial | . ",
+    "url": "/docs/customization/#scikit-learn",
+    
+    "relUrl": "/docs/customization/#scikit-learn"
+  },"115": {
+    "doc": "Resources",
+    "title": "Deep Learning",
+    "content": ". | DEEP BLUEBERRY BOOK This is a tiny and very focused collection of links about deep learning. If you’ve always wanted to learn deep learning stuff but don’t know where to start, you might have stumbled upon the right place! | 6.S191: Introduction to Deep Learning (2019) . | Class Lectures (YouTube) - MIT 6.S191: Introduction to Deep Learning | Lab | . | MIT 6.S191 Introduction to Deep Learning (2020) | MIT 6.S191 Introduction to Deep Learning (2023) (YouTube) | MIT Deep Learning Basics: Introduction and Overview | MIT Deep Learning by Lex Fridman . | Deep Learning Lectures (YouTube) | . | Deep Learning in Tamil | . Deep Leraning Books . | The Deep Learning Textbook from Ian Goodfellow, Yoshua Bengio, and Aaron Courville | Neural Networks And Deep Learning by Michael Nielsen | Grokking Deep Learning by Andrew Trask | . Deep Lerning Papers . | Deep Learning Papers Reading Roadmap | . ",
+    "url": "/docs/customization/#deep-learning",
+    
+    "relUrl": "/docs/customization/#deep-learning"
+  },"116": {
+    "doc": "Resources",
+    "title": "NN",
+    "content": ". | A friendly introduction to Deep Learning and Neural Networks▶️ | Machine Learning for Beginners: An Introduction to Neural Networks📙 A simple explanation of how they work and how to implement one from scratch in Python. | A Visual and Interactive Guide to the Basics of Neural Networks📙 | A Visual And Interactive Look at Basic Neural Network Math📙 | Neural Network Architectures▶️ | Neural Networks Demystified by Welch Labs▶️ . | Supporting code for short YouTube series Neural Networks Demystified. | . | Neural networks Series by 3Blue1Brows▶️ | . ",
+    "url": "/docs/customization/#nn",
+    
+    "relUrl": "/docs/customization/#nn"
+  },"117": {
+    "doc": "Resources",
+    "title": "Computer Vision",
+    "content": ". | CS131 Computer Vision: Foundations and Applications Fall 2019 | CS231A: Computer Vision, From 3D Reconstruction to Recognition Winter 2018 | CS231n Convolutional Neural Networks for Visual Recognition | . CNN . | CS231n: Convolutional Neural Networks for Visual Recognition Spring 2019 | CS231n: Convolutional Neural Networks for Visual Recognition | A friendly introduction to Convolutional Neural Networks and Image Recognition | A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way | Tensorflow Convolutional Neural Network (CNN) | Convolutional Networks Book | CNNs, Part 1: An Introduction to Convolutional Neural Networks | CS231n Winter 2016 BY Andrej Karpathy 15 Videos | Intuitive understanding of 1D, 2D, and 3D Convolutions in Convolutional Neural Networks | CNN ExplainerAn interactive visualization system designed to help non-experts learn about Convolutional Neural Networks (CNNs) | . Object Detection . Evolution Of Object Detection Networks by Cogneethi . Deep-dive tutorial on Object Detection. Intuition lectures on topics ranging from Classical CV techniques like HOG, SIFT to Convolutional Neural Network based techniques like Overfeat, Faster RCNN etc. You will learn how the ideas have evolved from some of the earliest papers to current ones. And hence the name Evolution of Object Detection Networks. | [SIFT | Scale Invariant Feature Transform](https://www.youtube.com/watch?v=ttD3pvM6pEI&amp;list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&amp;index=19&amp;ab_channel=Cogneethi) | . | | [Hog Intuition | Histogram of Oriented Gradients](https://www.youtube.com/watch?v=Qwc3a8cOKRU&amp;list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&amp;index=20&amp;ab_channel=Cogneethi) | . | | [NMS | Non Max Suppression](https://www.youtube.com/watch?v=07jFApuhh4I&amp;list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&amp;index=25&amp;ab_channel=Cogneethi) | . | | [Object Localization | Bounding Box Regression](https://www.youtube.com/watch?v=LZRfHkTNQqo&amp;list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&amp;index=49&amp;ab_channel=Cogneethi) | . | Object Detection | RCNN | | [Spatial Pyramid Matching | SPM](https://www.youtube.com/watch?v=6MwuK2wHlOg&amp;list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&amp;index=70&amp;t=92s&amp;ab_channel=Cogneethi) | . | SPPNet Object Detection | Fast RCNN Network | Faster RCNN | Yolo v4 Object Detection - How it Works &amp; Why it’s So Amazing! | Frameworks and Libraries . | Detectron2 by Facebook AI | MMDetection | MediaPipe | YOLO | TensorFlow Object Detection API | Computer Vision Recipes | . | Labeling Tools . | LabelImg | Roboflow | Label Studio | . | Code samples . | YOLO-Object-Counting-API | . | . 3D Object Detection . | [Announcing the Objectron Dataset | Google AI Blog](https://ai.googleblog.com/2020/11/announcing-objectron-dataset.html) | . | | [MediaPipe Objectron | Objectron (3D Object Detection)](https://google.github.io/mediapipe/solutions/objectron.html) | . | . Image Segmentation . | Computer Vision Tutorial: A Step-by-Step Introduction to Image Segmentation Techniques (Part 1) | . GANs . | A Friendly Introduction to Generative Adversarial Networks (GANs) by Luis Serrano | Generative Adversarial Networks (GANs) by Ahlad Kumar | Building our first simple GAN | Face editing with Generative Adversarial Networks | Variational Autoencoders | Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch) | Generative Models | . Style Transfer . | TensorFlow CNN for fast style transfer ⚡🖥🎨🖼 | . ",
+    "url": "/docs/customization/#computer-vision",
+    
+    "relUrl": "/docs/customization/#computer-vision"
+  },"118": {
+    "doc": "Resources",
+    "title": "NLP",
+    "content": ". | CS224n: Natural Language Processing with Deep Learning | NLP and The Reformer | The Illustrated Word2vec | . RNN . | Illustrated Guide to Recurrent Neural Networks: Understanding the Intuition | Anyone Can Learn To Code an LSTM-RNN in Python (Part 1: RNN) Baby steps to your neural network’s first memories. | The Unreasonable Effectiveness of Recurrent Neural Networks | An Introduction to Recurrent Neural Networks for Beginners A simple walkthrough of what RNNs are, how they work, and how to build one from scratch in Python. | Attention and Augmented Recurrent Neural Networks by Distill | Visualizing memorization in RNNs by Distill Inspecting gradient magnitudes in context can be a powerful tool to see when recurrent units use short-term or long-term contextual understanding. | Deep Learning for NLP: ANNs, RNNs and LSTMs explained! | . LSTM . | Understanding LSTM Networks | LSTM implementation explained | A Gentle Introduction to LSTM Autoencoders | . Transformers and Self Attention . Visual Guide to Transformer Neural Networks (Highly Recommended) . | Part 1 - Position Embeddings | Part 2 - Multi-Head &amp; Self Attention | Part 3 - Decoder’s Masked Attention | NLP Transformers Attention Playlist | The Illustrated Transformer | The Annotated Transformer | Transformers Paper and Code | Transformers from Scratch | Transformers Notes | Transformers, Explained: Understand the Model Behind GPT-3, BERT, and T5 | A comprehensive overview of Transformer variants. | How to become an NLP &amp; Transformer Model Guru | [MASTERCLASS] Transformers | Attention Models BERT . | Explaining BERT Simply Using Sketches | A Visual Guide to Using BERT for the First Time | The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning) | BERT Explained: State of the art language model for NLP | BioBERT, a language representation model for biomedical domain, especially designed for biomedical text mining tasks such as biomedical named entity recognition, relation extraction, question answering, etc | . GPT . | The Illustrated GPT-2 (Visualizing Transformer Language Models) | . ",
+    "url": "/docs/customization/#nlp",
+    
+    "relUrl": "/docs/customization/#nlp"
+  },"119": {
+    "doc": "Resources",
+    "title": "Reinforcement Learning",
+    "content": ". | Deep Reinforcement Learning Course 🕹️ A Free course in Deep Reinforcement Learning from beginner to expert. | Implementation of Reinforcement Learning Algorithms. Python, OpenAI Gym, Tensorflow. Exercises and Solutions to accompany Sutton’s Book and David Silver’s course. | Unity Machine Learning Agents Toolkit | 🖥️ WRITING MY FIRST MACHINE LEARNING GAME! (1/4) | Deep Reinforcement Learning: Pong from Pixels by Andrej Karpathy | A Beginner’s Guide to Deep Reinforcement Learning | An Introduction to Unity ML-Agents | Deep Reinforcement Learning Algorithms with PyTorch | LECTURES: Introduction to Reinforcement Learning - David Silver | BOOK: Reinforcement Learning - An Introduction by Sutton and Barto | BOOK: Deep Reinforcement Learning Hands On by Maxim Lapan | . ",
+    "url": "/docs/customization/#reinforcement-learning",
+    
+    "relUrl": "/docs/customization/#reinforcement-learning"
+  },"120": {
+    "doc": "Resources",
+    "title": "PyTorch",
+    "content": ". | Udacity : Deep Learning with PyTorch | Deep Learning (PyTorch) : Code | Udacity : Secure AI | TORCHSCRIPT | PyTorchZeroToAll (in English) Sung Kim a Series of 14 Videos . | Supporting Code | Slides | . | . ",
+    "url": "/docs/customization/#pytorch",
+    
+    "relUrl": "/docs/customization/#pytorch"
+  },"121": {
+    "doc": "Resources",
+    "title": "TensorFlow",
+    "content": ". | Introduction to TensorFlow 2.0: Easier for beginners, and more powerful for experts (TF World ‘19) | TensorFlow Lite: Solution for running ML on-device (TF World ‘19) | Machine Learning in JavaScript (TensorFlow Dev Summit 2018) | TensorFlow.js Quick Start | Keras vs. tf.keras: What’s the difference in TensorFlow 2.0? | How To Run TensorFlow Lite on Raspberry Pi for Object Detection | | [How computers learn to recognize objects instantly | Joseph Redmon](https://www.youtube.com/watch?v=Cgxsv1riJhI) | . | . TensorFlow Courses . | Intro to TensorFlow for Deep Learning | TensorFlow in Practice Specialization : Coursera | TensorFlow: Data and Deployment Specialization : Coursera | . PyTorch Vs TensorFlow . | Why is PyTorch becoming so popular among machine learning engineers? | . ",
+    "url": "/docs/customization/#tensorflow",
+    
+    "relUrl": "/docs/customization/#tensorflow"
+  },"122": {
+    "doc": "Resources",
+    "title": "Transfer Learning",
+    "content": ". | Transfer Learning with Keras and Deep Learning | A Comprehensive Hands-on Guide to Transfer Learning with Real-World Applications in Deep Learning | TensorFlow Core Tutorials | . ",
+    "url": "/docs/customization/#transfer-learning",
+    
+    "relUrl": "/docs/customization/#transfer-learning"
+  },"123": {
+    "doc": "Resources",
+    "title": "Deploy Models",
+    "content": ". | Machine Learning in 5 Minutes: How to deploy a ML model (SurveyMonkey Engineer explains) | Deploy Machine Learning Models with Django | MlFlow - An open source platform for the machine learning lifecycle | TensorFlow: Data and Deployment Specialization | . ",
+    "url": "/docs/customization/#deploy-models",
+    
+    "relUrl": "/docs/customization/#deploy-models"
+  },"124": {
+    "doc": "Resources",
+    "title": "MlOps",
+    "content": ". | MLOps Primer - 2021 A collection of resources to learn about MLOps. ",
+    "url": "/docs/customization/#mlops",
+    
+    "relUrl": "/docs/customization/#mlops"
+  },"125": {
+    "doc": "Resources",
+    "title": "Code",
+    "content": "| codebasics/py | Google Codelabs | . ",
+    "url": "/docs/customization/#code",
+    
+    "relUrl": "/docs/customization/#code"
+  },"126": {
+    "doc": "Resources",
+    "title": "CheatSheets",
+    "content": ". | Artificial Intelligence | Machine Learning | Deep Learning | Machine Learning tips and tricks | Data Science Tools | Machine Learning with R | CHRIS ALBON Cheat Sheets and Flash Cards | MLOps Tooling Landscape v2 (+84 new tools) - Dec ‘20 | Mathematical tools | Ordinary Differential Equations for Engineers | . ",
+    "url": "/docs/customization/#cheatsheets",
+    
+    "relUrl": "/docs/customization/#cheatsheets"
+  },"127": {
+    "doc": "Resources",
+    "title": "Edge ML Kits",
+    "content": ". | Nvidia Jetson Nano Developer Kit | Intel® Neural Compute Stick 2 (Intel® NCS2) | Coral | . ",
+    "url": "/docs/customization/#edge-ml-kits",
+    
+    "relUrl": "/docs/customization/#edge-ml-kits"
+  },"128": {
+    "doc": "Resources",
+    "title": "Data Science Competitions",
+    "content": ". | Kaggle | . ",
+    "url": "/docs/customization/#data-science-competitions",
+    
+    "relUrl": "/docs/customization/#data-science-competitions"
+  },"129": {
+    "doc": "Resources",
+    "title": "Important Youtube🎬 Channels in the field of AI/ML/RL/DS",
+    "content": ". | 3Blue1Brown | StatQuest with Josh Starmer | Sentdex | Luis Serrano | Brandon Rohrer | deeplizard | Tech With Tim | Microsoft Research | Corey Schafer | Data School | Two Minute Papers | Welch Labs | Simplilearn | Great Learning | DeepLearning.TV | TensorFlow | Deeplearning.ai | Code Bullet | edureka! | Lex Fridman | The Artificial Intelligence Channel | freeCodeCamp.org | CloudxLab | Alexander Amini | Jeff Heaton | Abhishek Thakur | The Coding Train | . ",
+    "url": "/docs/customization/#important-youtube-channels-in-the-field-of-aimlrlds",
+    
+    "relUrl": "/docs/customization/#important-youtube-channels-in-the-field-of-aimlrlds"
+  },"130": {
+    "doc": "Resources",
+    "title": "Reference",
+    "content": ". | 🖥️ HOW TO GET STARTED WITH MACHINE LEARNING! | My Self-Created Artificial Intelligence Masters Degree | https://end-to-end-machine-learning.teachable.com/courses/667372/lectures/11900568 | ML Fundamentals by StatQuest | Machine Learning with Python by sentdex | 5 Beginner Friendly Steps to Learn Machine Learning and Data Science with Python - Daniel Bourke | Data School | Neural Networks and Deep Learning | https://www.machinelearningisfun.com/ | https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471 | https://medium.com/greyatom | https://greyatom.com/glabs | | [John Searle: “Consciousness in Artificial Intelligence” | Talks at Google](https://www.youtube.com/watch?v=rHKwIYsPXLg) | . | https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week3-classification-regression | https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning | . ",
+    "url": "/docs/customization/#reference",
+    
+    "relUrl": "/docs/customization/#reference"
+  },"131": {
     "doc": "Resources",
     "title": "Resources",
     "content": " ",
     "url": "/docs/customization/",
     
     "relUrl": "/docs/customization/"
-  },"79": {
+  },"132": {
     "doc": "Default layout child page",
     "title": "Default layout child page",
     "content": "This is a child page that uses the same minimal layout as its parent page. ",
     "url": "/docs/layout/minimal/default-child/",
     
     "relUrl": "/docs/layout/minimal/default-child/"
-  },"80": {
+  },"133": {
     "doc": "Projects",
     "title": "Projects",
     "content": " ",
     "url": "/docs/index-test/",
     
     "relUrl": "/docs/index-test/"
-  },"81": {
+  },"134": {
     "doc": "Projects",
     "title": "1. Project Awadhi",
     "content": "This project focuses on developing localized solutions using advanced AI and machine learning techniques. ",
     "url": "/docs/index-test/#1-project-awadhi",
     
     "relUrl": "/docs/index-test/#1-project-awadhi"
-  },"82": {
+  },"135": {
     "doc": "Projects",
     "title": "2. Lallan",
     "content": ". | Lallan - Lucknow Artificial Language and Learning Assistance Network | . Try Lallan . ",
     "url": "/docs/index-test/#2-lallan",
     
     "relUrl": "/docs/index-test/#2-lallan"
-  },"83": {
+  },"136": {
     "doc": "Projects",
     "title": "3. Project Sign Language",
     "content": "This project focuses on developing localized solutions using advanced AI and machine learning techniques. ",
     "url": "/docs/index-test/#3-project-sign-language",
     
     "relUrl": "/docs/index-test/#3-project-sign-language"
-  },"84": {
+  },"137": {
     "doc": "Home",
     "title": "Lucknow AI Labs",
     "content": "Open Source AI Research &amp; Mentorship . Get started now Try Lucknow-GPT . Contributing . When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in our GitHub repo. Thank you to the contributors of Lucknow AI! . | | | | . Code of Conduct . Lucknow AI is committed to fostering a welcoming community. View our Code of Conduct on our GitHub repository. Source: https://gdglucknow.web.app ",
     "url": "/#lucknow-ai-labs",
     
     "relUrl": "/#lucknow-ai-labs"
-  },"85": {
+  },"138": {
     "doc": "Home",
     "title": "Home",
     "content": "Change Theme . ",
     "url": "/",
     
     "relUrl": "/"
-  },"86": {
+  },"139": {
     "doc": "Labels",
     "title": "Labels",
     "content": "Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue. Default label . Blue label . Stable . New release . Coming soon . Deprecated . Default label {: .label } Blue label {: .label .label-blue } Stable {: .label .label-green } New release {: .label .label-purple } Coming soon {: .label .label-yellow } Deprecated {: .label .label-red } . ",
     "url": "/docs/ui-components/labels/",
     
     "relUrl": "/docs/ui-components/labels/"
-  },"87": {
+  },"140": {
     "doc": "Lallan",
     "title": "Lallan",
     "content": " ",
     "url": "/projects/lallan/",
     
     "relUrl": "/projects/lallan/"
-  },"88": {
+  },"141": {
     "doc": "Lallan",
     "title": "Lallan UI",
     "content": " ",
     "url": "/projects/lallan/#lallan-ui",
     
     "relUrl": "/projects/lallan/#lallan-ui"
-  },"89": {
+  },"142": {
     "doc": "Lallan",
     "title": "About Lallan",
     "content": "| Collected and contributed unstructured data for the Lucknow Large Language Model (LLM) project. | Utilized contextual embeddings to enhance semantic search and retrieval capabilities. | Integrated Google's state-of-the-art Gemini LLM for extracting answers along with embedded context from local data sources. | Implemented FastAPI backend services to support the deployment of the Retrieval-Augmented Generation (RAG) system. | Integrated FastAPI with Gradio to create an intuitive and user-friendly UI for the chatbot, improving accessibility and ease of use. | | | ",
     "url": "/projects/lallan/#about-lallan",
     
     "relUrl": "/projects/lallan/#about-lallan"
-  },"90": {
+  },"143": {
     "doc": "Events & Meetups",
     "title": "Events & Meetups",
     "content": " ",
     "url": "/docs/layout/layout/",
     
     "relUrl": "/docs/layout/layout/"
-  },"91": {
+  },"144": {
     "doc": "Events & Meetups",
     "title": "Layout Utilities",
     "content": " ",
     "url": "/docs/utilities/layout/#layout-utilities",
     
     "relUrl": "/docs/utilities/layout/#layout-utilities"
-  },"92": {
+  },"145": {
     "doc": "Events & Meetups",
     "title": "Table of contents",
     "content": ". | Spacing | Horizontal Alignment | Vertical Alignment | Display | . ",
     "url": "/docs/utilities/layout/#table-of-contents",
     
     "relUrl": "/docs/utilities/layout/#table-of-contents"
-  },"93": {
+  },"146": {
     "doc": "Events & Meetups",
     "title": "Spacing",
     "content": "These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively. | Classname prefix | What it does | . | .m- | margin | . | .mx- | margin-left, margin-right | . | .my- | margin top, margin bottom | . | .mt- | margin-top | . | .mr- | margin-right | . | .mb- | margin-bottom | . | .ml- | margin-left | . | Classname prefix | What it does | . | .p- | padding | . | .px- | padding-left, padding-right | . | .py- | padding top, padding bottom | . | .pt- | padding-top | . | .pr- | padding-right | . | .pb- | padding-bottom | . | .pl- | padding-left | . Spacing values are based on a 1rem = 16px spacing scale, broken down into these units: . | Spacer/suffix | Size in rems | Rem converted to px | . | 1 | 0.25rem | 4px | . | 2 | 0.5rem | 8px | . | 3 | 0.75rem | 12px | . | 4 | 1rem | 16px | . | 5 | 1.5rem | 24px | . | 6 | 2rem | 32px | . | 7 | 2.5rem | 40px | . | 8 | 3rem | 48px | . | auto | auto | auto | . Use mx-auto to horizontally center elements. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This paragraph will have a margin bottom of 1rem/16px on large screens. {: .mb-lg-4 } This paragraph will have 2rem/32px of padding on the right and left at all screen sizes. {: .px-6 } . ",
     "url": "/docs/utilities/layout/#spacing",
     
     "relUrl": "/docs/utilities/layout/#spacing"
-  },"94": {
+  },"147": {
     "doc": "Events & Meetups",
     "title": "Horizontal Alignment",
     "content": "| Classname | What it does | . | .float-left | float: left | . | .float-right | float: right | . | .flex-justify-start | justify-content: flex-start | . | .flex-justify-end | justify-content: flex-end | . | .flex-justify-between | justify-content: space-between | . | .flex-justify-around | justify-content: space-around | . Note: any of the flex- classes must be used on a parent element that has d-flex applied to it. ",
     "url": "/docs/utilities/layout/#horizontal-alignment",
     
     "relUrl": "/docs/utilities/layout/#horizontal-alignment"
-  },"95": {
+  },"148": {
     "doc": "Events & Meetups",
     "title": "Vertical Alignment",
     "content": "| Classname | What it does | . | .v-align-baseline | vertical-align: baseline | . | .v-align-bottom | vertical-align: bottom | . | .v-align-middle | vertical-align: middle | . | .v-align-text-bottom | vertical-align: text-bottom | . | .v-align-text-top | vertical-align: text-top | . | .v-align-top | vertical-align: top | . ",
     "url": "/docs/utilities/layout/#vertical-alignment",
     
     "relUrl": "/docs/utilities/layout/#vertical-alignment"
-  },"96": {
+  },"149": {
     "doc": "Events & Meetups",
     "title": "Display",
     "content": "Display classes aid in adapting the layout of the elements on a page: . | Class |   | . | .d-block | display: block | . | .d-flex | display: flex | . | .d-inline | display: inline | . | .d-inline-block | display: inline-block | . | .d-none | display: none | . Use these classes in conjunction with the responsive modifiers. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This button will be hidden until medium screen sizes: [ A button ](#url) {: .d-none .d-md-inline-block } These headings will be `inline-block`: ### heading 3 {: .d-inline-block } ### heading 3 {: .d-inline-block } . ",
     "url": "/docs/utilities/layout/#display",
     
     "relUrl": "/docs/utilities/layout/#display"
-  },"97": {
+  },"150": {
     "doc": "Events & Meetups",
     "title": "Events & Meetups",
     "content": " ",
     "url": "/docs/utilities/layout/",
     
     "relUrl": "/docs/utilities/layout/"
-  },"98": {
+  },"151": {
     "doc": "Code with line numbers",
     "title": "Code snippets with line numbers",
     "content": "The default settings for HTML compression are incompatible with the HTML produced by Jekyll (4.1.1 or earlier) for line numbers from highlighted code – both when using Kramdown code fences and when using Liquid highlight tags. To avoid non-conforming HTML and unsatisfactory layout, HTML compression can be turned off by using the following configuration option: . compress_html: ignore: envs: all . When using Kramdown code fences, line numbers are turned on globally by the following configuration option: . kramdown: syntax_highlighter_opts: block: line_numbers: true . Line numbers can then be suppressed locally using Liquid tags (without the linenos option) instead of fences: . {% highlight some_language %} Some code {% endhighlight %} . ",
     "url": "/docs/ui-components/code/line-numbers/#code-snippets-with-line-numbers",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#code-snippets-with-line-numbers"
-  },"99": {
+  },"152": {
     "doc": "Code with line numbers",
     "title": "Workarounds",
     "content": "To use HTML compression together with line numbers, all highlighted code needs to be wrapped using one of the following workarounds. (The variable name some_var can be changed to avoid clashes; it can also be replaced by code – but note that code=code cannot be removed). Code fences (three backticks) . {% capture some_var %} ```some_language Some code ``` {% endcapture %} {% assign some_var = some_var | markdownify %} {% include fix_linenos.html code=some_var %} . Liquid highlighting . {% capture some_var %} {% highlight some_language linenos %} Some code {% endhighlight %} {% endcapture %} {% include fix_linenos.html code=some_var %} . Credit: The original version of the above workaround was suggested by Dmitry Hrabrov at https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901. ",
     "url": "/docs/ui-components/code/line-numbers/#workarounds",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#workarounds"
-  },"100": {
+  },"153": {
     "doc": "Code with line numbers",
     "title": "Examples",
     "content": "✅ Using code fences + workaround (will only show line numbers if enabled globally in _config.yml): . // Javascript code with syntax highlighting in fences var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } . ✅ Using liquid highlighting + workaround: . | 1 2 3 4 . | # Ruby code with syntax highlighting and fixed line numbers using Liquid GitHubPages::Dependencies.gems.each do |gem, version| s.add_dependency(gem, \"= #{version}\") end . | . Narrow code stays close to the line numbers: . | 1 2 3 . | def foo puts 'foo' end . | . The following generates incorrect and invalid HTML. It should not be used as a positive example; the improper layout (with the broken HTML tags) is intentional. ❌ With the compression options used for the theme docs, the following example illustrates the incorrect formatting arising from the incompatibility of HTML compression and the non-conforming HTML produced by Jekyll for line numbers: . | 1 2 3 . | def foo puts 'foo' end . | . ",
     "url": "/docs/ui-components/code/line-numbers/#examples",
     
     "relUrl": "/docs/ui-components/code/line-numbers/#examples"
-  },"101": {
+  },"154": {
     "doc": "Code with line numbers",
     "title": "Code with line numbers",
     "content": " ",
     "url": "/docs/ui-components/code/line-numbers/",
     
     "relUrl": "/docs/ui-components/code/line-numbers/"
-  },"102": {
+  },"155": {
     "doc": "Lists",
     "title": "Lists",
     "content": " ",
     "url": "/docs/ui-components/lists/",
     
     "relUrl": "/docs/ui-components/lists/"
-  },"103": {
+  },"156": {
     "doc": "Lists",
     "title": "Table of contents",
     "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
     "url": "/docs/ui-components/lists/#table-of-contents",
     
     "relUrl": "/docs/ui-components/lists/#table-of-contents"
-  },"104": {
+  },"157": {
     "doc": "Lists",
     "title": "Unordered list",
     "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
     "url": "/docs/ui-components/lists/#unordered-list",
     
     "relUrl": "/docs/ui-components/lists/#unordered-list"
-  },"105": {
+  },"158": {
     "doc": "Lists",
     "title": "Ordered list",
     "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
     "url": "/docs/ui-components/lists/#ordered-list",
     
     "relUrl": "/docs/ui-components/lists/#ordered-list"
-  },"106": {
+  },"159": {
     "doc": "Lists",
     "title": "Task list",
     "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
     "url": "/docs/ui-components/lists/#task-list",
     
     "relUrl": "/docs/ui-components/lists/#task-list"
-  },"107": {
+  },"160": {
     "doc": "Lists",
     "title": "Definition list",
     "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
     "url": "/docs/ui-components/lists/#definition-list",
     
     "relUrl": "/docs/ui-components/lists/#definition-list"
-  },"108": {
+  },"161": {
     "doc": "Minimal layout child page",
     "title": "Minimal layout child page",
     "content": "This is a child page that uses the same minimal layout as its parent page. ",
     "url": "/docs/layout/minimal/minimal-child/",
     
     "relUrl": "/docs/layout/minimal/minimal-child/"
-  },"109": {
+  },"162": {
     "doc": "Minimal layout test",
     "title": "Minimal layout test",
     "content": "Return to main website. This page demonstrates the packaged minimal layout, which does not render the sidebar or header. It can be used for standalone pages. It is also an example of using the new modular site components to define custom layouts; see “Custom layouts and includes” in the customization docs for more information. ",
     "url": "/docs/minimal-test/",
     
     "relUrl": "/docs/minimal-test/"
-  },"110": {
+  },"163": {
     "doc": "A minimal layout page",
     "title": "A minimal layout page",
     "content": "This page illustrates the built-in layout minimal. One of its child pages also uses the minimal layout; the other child pages uses the default layout. ",
     "url": "/docs/layout/minimal/minimal/",
     
     "relUrl": "/docs/layout/minimal/minimal/"
-  },"111": {
+  },"164": {
     "doc": "Responsive Modifiers",
     "title": "Responsive modifiers",
     "content": "Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size | . | (none) | All screens until the next modifier | . | xs | 320px (20rem) and up | . | sm | 500px (31.25rem) and up | . | md | 740px (46.25rem) and up | . | lg | 1120px (70rem) and up | . | xl | 1400px (87.5rem) and up | . ",
     "url": "/docs/utilities/responsive-modifiers/#responsive-modifiers",
     
     "relUrl": "/docs/utilities/responsive-modifiers/#responsive-modifiers"
-  },"112": {
+  },"165": {
     "doc": "Responsive Modifiers",
     "title": "Responsive Modifiers",
     "content": " ",
     "url": "/docs/utilities/responsive-modifiers/",
     
     "relUrl": "/docs/utilities/responsive-modifiers/"
-  },"113": {
+  },"166": {
     "doc": "Tables",
     "title": "Tables",
     "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
     "url": "/docs/ui-components/tables/",
     
     "relUrl": "/docs/ui-components/tables/"
-  },"114": {
+  },"167": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"115": {
+  },"168": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font stack | Responsive type scale | Headings | Body text | Inline elements | Typographic Utilities | . ",
     "url": "/docs/ui-components/typography/#table-of-contents",
     
     "relUrl": "/docs/ui-components/typography/#table-of-contents"
-  },"116": {
+  },"169": {
     "doc": "Typography",
     "title": "Font stack",
     "content": "By default, Just the Docs uses a native system font stack for sans-serif fonts: . system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Segoe UI Emoji\" . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . For monospace type, like code snippets or the &lt;pre&gt; element, Just the Docs uses a native system font stack for monospace fonts: . \"SFMono-Regular\", Menlo, Consolas, Monospace . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . ",
     "url": "/docs/ui-components/typography/#font-stack",
     
     "relUrl": "/docs/ui-components/typography/#font-stack"
-  },"117": {
+  },"170": {
     "doc": "Typography",
     "title": "Responsive type scale",
     "content": "Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size font-size | Large screen size font-size | . | h1, .text-alpha | 32px | 36px | . | h2, .text-beta | 18px | 24px | . | h3, .text-gamma | 16px | 18px | . | h4, .text-delta | 14px | 16px | . | h5, .text-epsilon | 16px | 18px | . | h6, .text-zeta | 18px | 24px | . | body | 14px | 16px | . ",
     "url": "/docs/ui-components/typography/#responsive-type-scale",
     
     "relUrl": "/docs/ui-components/typography/#responsive-type-scale"
-  },"118": {
+  },"171": {
     "doc": "Typography",
     "title": "Headings",
     "content": "Headings are rendered like this: . ",
     "url": "/docs/ui-components/typography/#headings",
     
     "relUrl": "/docs/ui-components/typography/#headings"
-  },"119": {
+  },"172": {
     "doc": "Typography",
     "title": "Heading 1",
     "content": " ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"120": {
+  },"173": {
     "doc": "Typography",
     "title": "Heading 2",
     "content": "Heading 3 . Heading 4 . Heading 5 . Heading 6 . # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 . ",
     "url": "/docs/ui-components/typography/",
     
     "relUrl": "/docs/ui-components/typography/"
-  },"121": {
+  },"174": {
     "doc": "Typography",
     "title": "Body text",
     "content": "Default body text is rendered like this: . Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
     "url": "/docs/ui-components/typography/#body-text",
     
     "relUrl": "/docs/ui-components/typography/#body-text"
-  },"122": {
+  },"175": {
     "doc": "Typography",
     "title": "Inline elements",
     "content": "Text can be bold, italic, or strikethrough. Link to another page. Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](/). ",
     "url": "/docs/ui-components/typography/#inline-elements",
     
     "relUrl": "/docs/ui-components/typography/#inline-elements"
-  },"123": {
+  },"176": {
     "doc": "Typography",
     "title": "Typographic Utilities",
     "content": "There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. View typography utilities . ",
     "url": "/docs/ui-components/typography/#typographic-utilities",
     
     "relUrl": "/docs/ui-components/typography/#typographic-utilities"
-  },"124": {
+  },"177": {
     "doc": "Typography",
     "title": "Typography Utilities",
     "content": " ",
     "url": "/docs/utilities/typography/#typography-utilities",
     
     "relUrl": "/docs/utilities/typography/#typography-utilities"
-  },"125": {
+  },"178": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font size | Font weight | Line height | Text justification | . ",
     "url": "/docs/utilities/typography/#table-of-contents",
     
     "relUrl": "/docs/utilities/typography/#table-of-contents"
-  },"126": {
+  },"179": {
     "doc": "Typography",
     "title": "Font size",
     "content": "Use the .fs-1 - .fs-10 to set an explicit font-size. | Class | Small screen size font-size | Large screen size font-size | . | .fs-1 | 9px | 10px | . | .fs-2 | 11px | 12px | . | .fs-3 | 12px | 14px | . | .fs-4 | 14px | 16px | . | .fs-5 | 16px | 18px | . | .fs-6 | 18px | 24px | . | .fs-7 | 24px | 32px | . | .fs-8 | 32px | 38px | . | .fs-9 | 38px | 42px | . | .fs-10 | 42px | 48px | . Font size 1 . Font size 2 . Font size 3 . Font size 4 . Font size 5 . Font size 6 . Font size 7 . Font size 8 . Font size 9 . Font size 10 . In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } . ",
     "url": "/docs/utilities/typography/#font-size",
     
     "relUrl": "/docs/utilities/typography/#font-size"
-  },"127": {
+  },"180": {
     "doc": "Typography",
     "title": "Font weight",
     "content": "Use the .fw-300 - .fw-700 to set an explicit font-weight. Font weight 300 . Font weight 400 . Font weight 500 . Font weight 700 . In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } . ",
     "url": "/docs/utilities/typography/#font-weight",
     
     "relUrl": "/docs/utilities/typography/#font-weight"
-  },"128": {
+  },"181": {
     "doc": "Typography",
     "title": "Line height",
     "content": "Use the lh- classes to explicitly apply line height to text. | Class | line-height value | Notes | . | .lh-0 | 0 |   | . | .lh-tight | 1.1 | Default for headings | . | .lh-default | 1.4 | Default for body (paragraphs) | . No Line height No Line height . Tight line height Tight line height . Default line height Default line height . In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } . ",
     "url": "/docs/utilities/typography/#line-height",
     
     "relUrl": "/docs/utilities/typography/#line-height"
-  },"129": {
+  },"182": {
     "doc": "Typography",
     "title": "Text justification",
     "content": "By default text is justified left. Use these text- classes to override settings: . | Class | What it does | . | .text-left | text-align: left | . | .text-right | text-align: right | . | .text-center | text-align: center | . ",
     "url": "/docs/utilities/typography/#text-justification",
     
     "relUrl": "/docs/utilities/typography/#text-justification"
-  },"130": {
+  },"183": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "/docs/utilities/typography/",
     
     "relUrl": "/docs/utilities/typography/"
-  },"131": {
+  },"184": {
     "doc": "Research & Publications",
     "title": "Research & Publications",
     "content": " ",
     "url": "/docs/ui-components",
     
     "relUrl": "/docs/ui-components"
-  },"132": {
+  },"185": {
     "doc": "Mentorship Program",
     "title": "Mentorship Program",
     "content": " ",

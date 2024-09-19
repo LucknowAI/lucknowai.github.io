@@ -7,6 +7,6 @@ ENV LANGUAGE en_US.UTF-8
 WORKDIR /usr/src/app
 
 COPY Gemfile just-the-docs.gemspec ./
-RUN gem install bundler && bundle install && gem install jekyll-remote-include
+RUN gem install bundler && bundle install
 
 EXPOSE 4000

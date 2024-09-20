@@ -7,4 +7,4 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 
 gem "html-proofer", "~> 5.0", :group => :development
 
-gem 'jekyll-remote-include'
+gem "faraday-retry"

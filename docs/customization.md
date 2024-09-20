@@ -16,21 +16,18 @@ nav_order: 6
 {:toc}
 
 ---
-
 ## 1. AI-Career-Toolkit
+
 
 {% comment %}
 ## AI_career_toolkit
-
 {% endcomment %}
-
-{% remote_include https://raw.githubusercontent.com/AayushSharma-1/AI-Career-Toolkit/main/README.md %}
+---
+{% include ai_career_toolkit.md %}
 
 
 ---
-
 ## 2. Learning Resources
-<!-- [Click Here !][def2]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } -->
 
 
 <!-- Prevent Jekyll from processing the README for TOC -->
@@ -39,6 +36,8 @@ nav_order: 6
 ## AI_all_resources readme
 
 {% endcomment %}
-<!-- Start of README content, but hidden from TOC generation -->
+---
+{% include ai_all_resources.md %}
 
-{% remote_include https://raw.githubusercontent.com/LucknowAI/ai_all_resources/master/README.md %}
+
+

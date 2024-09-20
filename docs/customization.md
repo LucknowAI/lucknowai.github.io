@@ -10,7 +10,7 @@ nav_order: 6
 
 {: .no_toc .text-delta }
 
-1. Awesome Low Resource Indian Languages Hub
+1. AI Career Toolkit
 2. Learning Resources
 
 {:toc}

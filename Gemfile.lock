@@ -4,7 +4,6 @@ PATH
     just-the-docs (0.6.2)
       jekyll (>= 3.8.5)
       jekyll-include-cache
-      jekyll-remote-include
       jekyll-seo-tag (>= 2.0)
       rake (>= 12.3.1)
 
@@ -37,6 +36,8 @@ GEM
       faraday-net_http (>= 2.0, < 3.2)
     faraday-net_http (3.1.0)
       net-http
+    faraday-retry (2.2.1)
+      faraday (~> 2.0)
     ffi (1.16.3)
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
@@ -80,7 +81,6 @@ GEM
       octokit (>= 4, < 7, != 4.4.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
-    jekyll-remote-include (1.0.2)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
@@ -151,10 +151,10 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (>= 2.3.5)
+  faraday-retry
   html-proofer (~> 5.0)
   jekyll-github-metadata (>= 2.15)
   jekyll-include-cache
-  jekyll-remote-include
   just-the-docs!
 
 BUNDLED WITH

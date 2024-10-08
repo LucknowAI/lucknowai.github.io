@@ -36,7 +36,7 @@ function initNav() {
   const siteNav = document.getElementById('site-nav');
   const mainHeader = document.getElementById('main-header');
   const menuButton = document.getElementById('menu-button');
-  
+
   disableHeadStyleSheets();
 
   jtd.addEvent(menuButton, 'click', function(e){
@@ -52,67 +52,53 @@ function initNav() {
       menuButton.ariaPressed = false;
     }
   });
-
-  {%- if site.search_enabled != false and site.search.button %}
-  const searchInput = document.getElementById('search-input');
-  const searchButton = document.getElementById('search-button');
-
-  jtd.addEvent(searchButton, 'click', function(e){
-    e.preventDefault();
-
-    mainHeader.classList.add('nav-open');
-    searchInput.focus();
-  });
-  {%- endif %}
 }
 
 // The <head> element is assumed to include the following stylesheets:
-// 0. a <link> to /assets/css/just-the-docs-default.css
-// 1. a <link> to /assets/css/just-the-docs-head-nav.css
-// 2. a <style> containing the result of _includes/css/activation.scss.liquid.
-// It also includes any styles provided by users in _includes/head_custom.html.
-// Stylesheet 2 may be missing (compression can remove empty <style> elements)
-// so disableHeadStyleSheet() needs to access it by its id.
+// - a <link> to /assets/css/just-the-docs-head-nav.css,
+//             with id 'jtd-head-nav-stylesheet'
+// - a <style> containing the result of _includes/css/activation.scss.liquid.
+// To avoid relying on the order of stylesheets (which can change with HTML
+// compression, user-added JavaScript, and other side effects), stylesheets
+// are only interacted with via ID
 
 function disableHeadStyleSheets() {
-  document.styleSheets[1].disabled = true;
+  const headNav = document.getElementById('jtd-head-nav-stylesheet');
+  if (headNav) {
+    headNav.disabled = true;
+  }
+
   const activation = document.getElementById('jtd-nav-activation');
   if (activation) {
     activation.disabled = true;
   }
 }
-
-{%- if site.search_enabled != false %}
 // Site search
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', '{{ "assets/js/search-data.json" | relative_url }}', true);
+  request.open('GET', '/assets/js/search-data.json', true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {
       var docs = JSON.parse(request.responseText);
 
-      lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[\s\-/]+/" }}
+      lunr.tokenizer.separator = /[\s/]+/
 
       var index = lunr(function(){
         this.ref('id');
         this.field('title', { boost: 200 });
         this.field('content', { boost: 2 });
-        {%- if site.search.rel_url != false %}
         this.field('relUrl');
-        {%- endif %}
         this.metadataWhitelist = ['position']
 
         for (var i in docs) {
-          {% include lunr/custom-index.js %}
+          
           this.add({
             id: i,
             title: docs[i].title,
             content: docs[i].content,
-            {%- if site.search.rel_url != false %}
             relUrl: docs[i].relUrl
-            {%- endif %}
           });
         }
       });
@@ -276,7 +262,7 @@ function searchLoaded(index, docs) {
             var previewEnd = position[0] + position[1];
             var ellipsesBefore = true;
             var ellipsesAfter = true;
-            for (var k = 0; k < {{ site.search.preview_words_before | default: 5 }}; k++) {
+            for (var k = 0; k < 3; k++) {
               var nextSpace = doc.content.lastIndexOf(' ', previewStart - 2);
               var nextDot = doc.content.lastIndexOf('. ', previewStart - 2);
               if ((nextDot >= 0) && (nextDot > nextSpace)) {
@@ -291,7 +277,7 @@ function searchLoaded(index, docs) {
               }
               previewStart = nextSpace + 1;
             }
-            for (var k = 0; k < {{ site.search.preview_words_after | default: 10 }}; k++) {
+            for (var k = 0; k < 3; k++) {
               var nextSpace = doc.content.indexOf(' ', previewEnd + 1);
               var nextDot = doc.content.indexOf('. ', previewEnd + 1);
               if ((nextDot >= 0) && (nextDot < nextSpace)) {
@@ -351,7 +337,7 @@ function searchLoaded(index, docs) {
         resultLink.appendChild(resultPreviews);
 
         var content = doc.content;
-        for (var j = 0; j < Math.min(previewPositions.length, {{ site.search.previews | default: 3 }}); j++) {
+        for (var j = 0; j < Math.min(previewPositions.length, 2); j++) {
           var position = previewPositions[j];
 
           var resultPreview = document.createElement('div');
@@ -367,13 +353,10 @@ function searchLoaded(index, docs) {
           }
         }
       }
-
-      {%- if site.search.rel_url != false %}
       var resultRelUrl = document.createElement('span');
       resultRelUrl.classList.add('search-result-rel-url');
       resultRelUrl.innerText = doc.relUrl;
       resultTitle.appendChild(resultRelUrl);
-      {%- endif %}
     }
 
     function addHighlightedText(parent, text, start, end, positions) {
@@ -463,7 +446,6 @@ function searchLoaded(index, docs) {
     }
   });
 }
-{%- endif %}
 
 // Switch theme
 
@@ -474,18 +456,35 @@ jtd.getTheme = function() {
 
 jtd.setTheme = function(theme) {
   var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', '{{ "assets/css/just-the-docs-" | relative_url }}' + theme + '.css');
+  cssFile.setAttribute('href', '/assets/css/just-the-docs-' + theme + '.css');
 }
 
 // Note: pathname can have a trailing slash on a local jekyll server
 // and not have the slash on GitHub Pages
 
 function navLink() {
-  var href = document.location.pathname;
-  if (href.endsWith('/') && href != '/') {
-    href = href.slice(0, -1);
+  var pathname = document.location.pathname;
+
+  var navLink = document.getElementById('site-nav').querySelector('a[href="' + pathname + '"]');
+  if (navLink) {
+    return navLink;
   }
-  return document.getElementById('site-nav').querySelector('a[href="' + href + '"], a[href="' + href + '/"]');
+
+  // The `permalink` setting may produce navigation links whose `href` ends with `/` or `.html`.
+  // To find these links when `/` is omitted from or added to pathname, or `.html` is omitted:
+
+  if (pathname.endsWith('/') && pathname != '/') {
+    pathname = pathname.slice(0, -1);
+  }
+
+  if (pathname != '/') {
+    navLink = document.getElementById('site-nav').querySelector('a[href="' + pathname + '"], a[href="' + pathname + '/"], a[href="' + pathname + '.html"]');
+    if (navLink) {
+      return navLink;
+    }
+  }
+
+  return null; // avoids `undefined`
 }
 
 // Scroll site-nav to ensure the link to the current page is visible
@@ -493,8 +492,7 @@ function navLink() {
 function scrollNav() {
   const targetLink = navLink();
   if (targetLink) {
-    const rect = targetLink.getBoundingClientRect();
-    document.getElementById('site-nav').scrollBy(0, rect.top - 3*rect.height);
+    targetLink.scrollIntoView({ block: "center" });
     targetLink.removeAttribute('href');
   }
 }
@@ -521,18 +519,15 @@ function activateNav() {
 // Document ready
 
 jtd.onReady(function(){
-  initNav();
-  {%- if site.search_enabled != false %}
+  if (document.getElementById('site-nav')) {
+    initNav();
+    activateNav();
+    scrollNav();
+  }
   initSearch();
-  {%- endif %}
-  activateNav();
-  scrollNav();
 });
 
 // Copy button on code
-
-
-{%- if site.enable_copy_code_button != false %}
 
 jtd.onReady(function(){
 
@@ -574,8 +569,5 @@ jtd.onReady(function(){
 
 });
 
-{%- endif %}
-
 })(window.jtd = window.jtd || {});
 
-{% include js/custom.js %}

@@ -71,7 +71,7 @@ _Navaneeth Malingan_
 - [FastAI](https://www.fast.ai/)
 
 ## Courses from Top Universities
-  ### Stanford University
+ - ### Stanford University
   - [CS221 - Artificial Intelligence: Principles and Techniques by Percy Liang and Dorsa Sadigh](https://www.youtube.com/playlist?list=PLoROMvodv4rOca_Ovz1DvdtWuz8BfSWL2)
   - [CS229 - Machine Learning by Andrew Ng](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
   - [CS230 - Deep Learning by Andrew Ng](https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb)
@@ -81,7 +81,7 @@ _Navaneeth Malingan_
   - [ CS330 - Deep Multi-task and Meta Learning by Chelsea Finn](https://www.youtube.com/playlist?list=PLoROMvodv4rNjRoawgt72BBNwL2V7doGI)
   - [CS25 - Transformers United](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
 
-  ### Carnegie Mellon University
+ - ### Carnegie Mellon University
   - [CS/LTI 11-711: Advanced NLP by Graham Neubig](https://www.youtube.com/playlist?list=PL8PYTP1V4I8D0UkqW2fEhgLrnlDW9QK7z)
   - [CS/LTI 11-747: Neural Networks for NLP by Graham Neubig](https://www.youtube.com/playlist?list=PL8PYTP1V4I8AkaHEJ7lOOrlex-pcxS-XV)
   - [CS/LTI 11-737: Multilingual NLP by Graham Neubig](https://www.youtube.com/playlist?list=PL8PYTP1V4I8BhCpzfdKKdd1OnTfLcyZr7)
@@ -89,12 +89,12 @@ _Navaneeth Malingan_
   - [CS/LTI 11-785: Introduction to Deep Learning by Bhiksha Raj and Rita Singh](https://www.youtube.com/channel/UC8hYZGEkI2dDO8scT8C5UQA/playlists)
   - [CS/LTI Low Resource NLP Bootcamp 2020 by Graham Neubig](https://www.youtube.com/playlist?list=PL8PYTP1V4I8A1CpCzURXAUa6H4HO7PF2c)
 
-  ### Massachusetts Institute of Technology
+ - ### Massachusetts Institute of Technology
   - [6.S191 - Introduction to Deep Learning by Alexander Amini and Ava Amini](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)
   - [6.S094 - Deep Learning by Lex Fridman](https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
   - [6.S192 - Deep Learning for Art, Aesthetics, and Creativity by Ali Jahanian](https://www.youtube.com/playlist?list=PLCpMvp7ftsnIbNwRnQJbDNRqO6qiN3EyH)
 
-  ### University College London
+ - ### University College London
   - [COMP M050 Reinforcement Learning by David Silver](https://www.youtube.com/watch?v=2pWv7GOvuf0)
 
 
@@ -191,8 +191,8 @@ _Note: Below you can find the best lectures for popular Machine Learning Algorit
 
 ## Logistic Regression
 
-- [Linear Regression vs Logistic Regression | Data Science Training | Edureka](https://www.youtube.com/watch?v=OCwZyYH14uw)▶️
-- [Logistic Regression and the Perceptron Algorithm: A friendly introduction by Luis Serrano](https://www.youtube.com/watch?v=jbluHIgBmBo)▶️
+- Linear Regression vs Logistic Regression | Data Science Training | [Edureka](https://www.youtube.com/watch?v=OCwZyYH14uw)▶️
+- Logistic Regression and the Perceptron Algorithm: A friendly introduction by Luis Serrano | | (https://www.youtube.com/watch?v=jbluHIgBmBo)▶️
 
 ## Decision Tree
 
@@ -200,8 +200,8 @@ _Note: Below you can find the best lectures for popular Machine Learning Algorit
 - [StatQuest: Decision Trees, Part 2 - Feature Selection and Missing Data](https://www.youtube.com/watch?v=wpNl-JwwplA)▶️
 - [Decision Tree Introduction with example](https://www.geeksforgeeks.org/decision-tree-introduction-example/)📙
 - [Decision Tree](https://www.geeksforgeeks.org/decision-tree/)📙
-- [Python | Decision Tree Regression using sklearn](https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/)📙
-- [ML | Logistic Regression v/s Decision Tree Classification](https://www.geeksforgeeks.org/ml-logistic-regression-v-s-decision-tree-classification/)📙
+- Python | Decision Tree Regression using sklearn | (https://www.geeksforgeeks.org/python-decision-tree-regression-using-sklearn/)📙
+- ML | Logistic Regression v/s Decision Tree Classification | (https://www.geeksforgeeks.org/ml-logistic-regression-v-s-decision-tree-classification/)📙
 
 ## Random Forest
 
@@ -211,7 +211,7 @@ _Note: Below you can find the best lectures for popular Machine Learning Algorit
 
 ## Boosting Machine Learning
 
-- [Boosting Machine Learning Tutorial | Adaptive Boosting, Gradient Boosting, XGBoost | Edureka](https://www.youtube.com/watch?v=kho6oANGu_A)▶️
+- Boosting Machine Learning Tutorial | Adaptive Boosting, Gradient Boosting, XGBoost | [Edureka](https://www.youtube.com/watch?v=kho6oANGu_A)▶️
 - [AdaBoost, Clearly Explained](https://www.youtube.com/watch?v=LsK-xG1cLYA)▶️
 - [Gradient Boost Part 1: Regression Main Ideas](https://www.youtube.com/watch?v=3CC4N4z3GJc)▶️
 - [Gradient Boost Part 2: Regression Details](https://www.youtube.com/watch?v=2xudPOBz-vs)▶️
@@ -357,13 +357,13 @@ _Note: Below you can find the best lectures for popular Machine Learning Algorit
 _Deep-dive tutorial on Object Detection. Intuition lectures on topics ranging from Classical CV techniques like HOG, SIFT to Convolutional Neural Network based techniques like Overfeat, Faster RCNN etc. You will learn how the ideas have evolved from some of the earliest papers to current ones. 
 And hence the name Evolution of Object Detection Networks._
 
-- [SIFT | Scale Invariant Feature Transform](https://www.youtube.com/watch?v=ttD3pvM6pEI&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=19&ab_channel=Cogneethi)
-- [Hog Intuition | Histogram of Oriented Gradients](https://www.youtube.com/watch?v=Qwc3a8cOKRU&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=20&ab_channel=Cogneethi)
-- [NMS | Non Max Suppression](https://www.youtube.com/watch?v=07jFApuhh4I&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=25&ab_channel=Cogneethi)
-- [Object Localization | Bounding Box Regression](https://www.youtube.com/watch?v=LZRfHkTNQqo&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=49&ab_channel=Cogneethi)
+- SIFT | Scale Invariant Feature Transform | (https://www.youtube.com/watch?v=ttD3pvM6pEI&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=19&ab_channel=Cogneethi)
+- Hog Intuition | Histogram of Oriented Gradients | (https://www.youtube.com/watch?v=Qwc3a8cOKRU&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=20&ab_channel=Cogneethi)
+- NMS | Non Max Suppression | (https://www.youtube.com/watch?v=07jFApuhh4I&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=25&ab_channel=Cogneethi)
+- Object Localization | Bounding Box Regression | (https://www.youtube.com/watch?v=LZRfHkTNQqo&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=49&ab_channel=Cogneethi)
 - [Object Detection](https://www.youtube.com/watch?v=77XJeT-Z-uE&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=50&t=3s&ab_channel=Cogneethi)
 - [RCNN](https://www.youtube.com/watch?v=dtIZVJAcLxE&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=60&t=1s&ab_channel=Cogneethi)
-- [Spatial Pyramid Matching | SPM](https://www.youtube.com/watch?v=6MwuK2wHlOg&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=70&t=92s&ab_channel=Cogneethi)
+- Spatial Pyramid Matching | SPM | (https://www.youtube.com/watch?v=6MwuK2wHlOg&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=70&t=92s&ab_channel=Cogneethi)
 - [SPPNet Object Detection](https://www.youtube.com/watch?v=M3lx8GHrEsg&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=72&ab_channel=Cogneethi)
 - [Fast RCNN Network](https://www.youtube.com/watch?v=ZBPQ7Hd46m4&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=77&t=14s&ab_channel=Cogneethi)
 - [Faster RCNN](https://www.youtube.com/watch?v=po59qI5LJGU&list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S&index=80&ab_channel=Cogneethi)
@@ -384,8 +384,8 @@ And hence the name Evolution of Object Detection Networks._
 
 #### 3D Object Detection
 
-- [Announcing the Objectron Dataset | Google AI Blog](https://ai.googleblog.com/2020/11/announcing-objectron-dataset.html)
-- [MediaPipe Objectron | Objectron (3D Object Detection)](https://google.github.io/mediapipe/solutions/objectron.html)
+- Announcing the Objectron Dataset | Google AI Blog | (https://ai.googleblog.com/2020/11/announcing-objectron-dataset.html)
+- MediaPipe Objectron | Objectron (3D Object Detection) | (https://google.github.io/mediapipe/solutions/objectron.html)
 
 ### Image Segmentation
 
@@ -488,7 +488,7 @@ And hence the name Evolution of Object Detection Networks._
 - [TensorFlow.js Quick Start](https://www.youtube.com/watch?v=Y_XM3Bu-4yc)
 - [Keras vs. tf.keras: What’s the difference in TensorFlow 2.0?](https://www.pyimagesearch.com/2019/10/21/keras-vs-tf-keras-whats-the-difference-in-tensorflow-2-0/)
 - [How To Run TensorFlow Lite on Raspberry Pi for Object Detection](https://www.youtube.com/watch?v=aimSGOAUI8Y)
-- [How computers learn to recognize objects instantly | Joseph Redmon](https://www.youtube.com/watch?v=Cgxsv1riJhI)
+- How computers learn to recognize objects instantly | Joseph Redmon | (https://www.youtube.com/watch?v=Cgxsv1riJhI)
 
 ### TensorFlow Courses
 
@@ -579,16 +579,16 @@ And hence the name Evolution of Object Detection Networks._
 
 - [🖥️ HOW TO GET STARTED WITH MACHINE LEARNING!](https://www.youtube.com/watch?v=I74ymkoNTnw)
 - [My Self-Created Artificial Intelligence Masters Degree](https://hackernoon.com/my-self-created-ai-masters-degree-ddc7aae92d0e)
-- https://end-to-end-machine-learning.teachable.com/courses/667372/lectures/11900568
+- (https://end-to-end-machine-learning.teachable.com/courses/667372/lectures/11900568)
 - [ML Fundamentals by StatQuest](https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
 - [Machine Learning with Python by sentdex](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
 - [5 Beginner Friendly Steps to Learn Machine Learning and Data Science with Python - Daniel Bourke](https://www.mrdbourke.com/5-beginner-friendly-steps-to-learn-machine-learning/)
 - [Data School](https://www.dataschool.io/)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
-- https://www.machinelearningisfun.com/
-- https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
-- https://medium.com/greyatom
-- https://greyatom.com/glabs
-- [John Searle: "Consciousness in Artificial Intelligence" | Talks at Google](https://www.youtube.com/watch?v=rHKwIYsPXLg)
-- https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week3-classification-regression
-- https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning
+- [ML is fun](https://www.machinelearningisfun.com/)
+- [Ml is fun (blog)](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)
+- [Greyatom](https://medium.com/greyatom)
+- [Glabs](https://greyatom.com/glabs)
+- [John Searle: "Consciousness in Artificial Intelligence" (Talks at Google)](https://www.youtube.com/watch?v=rHKwIYsPXLg)
+- [ML Classification Regression](https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/tree/master/week3-classification-regression)
+- [Intelligence Learning](https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning)

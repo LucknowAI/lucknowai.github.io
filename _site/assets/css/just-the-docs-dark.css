@@ -7873,4 +7873,8 @@ blockquote.warning-title > p:last-child {
   margin-bottom: 0;
 }
 
+p.note::before, blockquote.note::before {
+  color: #ffe600 !important;
+}
+
 /*# sourceMappingURL=just-the-docs-dark.css.map */

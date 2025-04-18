@@ -73,9 +73,6 @@ nav_order: 9
     <a href="https://discord.gg/QKw67PDZUm" title="Discord">
       <img src="/assets/icons/discord.png" alt="Discord"/>
     </a>
-    <a href="YOUR_FACEBOOK_PROFILE_URL" title="Facebook">
-      <img src="/assets/icons/facebook.png" alt="Facebook"/>
-    </a>
     <a href="https://www.instagram.com/lucknow_ai/" title="Instagram">
       <img src="/assets/icons/insta.png" alt="Instagram"/>
     </a>

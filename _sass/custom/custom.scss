@@ -1,1 +1,6 @@
 // custom SCSS (or CSS) goes here
+p.note, blockquote.note {
+  &::before {
+    color: #ffe600 !important;
+}
+}

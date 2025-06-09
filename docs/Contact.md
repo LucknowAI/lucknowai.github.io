@@ -79,7 +79,7 @@ nav_order: 9
     <a href="https://www.instagram.com/lucknow_ai/" title="Instagram">
       <img src="/assets/icons/insta.png" alt="Instagram"/>
     </a>
-    <a href="https://chat.whatsapp.com/DeJLSBFxejJ5r07ezpuyDx" title="WhatsApp">
+    <a href="https://chat.whatsapp.com/IAM2fp4IoLiGbuI6ZeNfzH" title="WhatsApp">
       <img src="/assets/icons/whatsapp.png" alt="whatsapp"/>
     </a>
   </div>

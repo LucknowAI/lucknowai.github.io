@@ -28,9 +28,11 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 Open Source AI Research & Mentorship
 {: .fs-6 .fw-300 }
 
-[Get started now](https://github.com/LucknowAI){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0.mr-2 } 
-[Try Lallan-AI](https://lallanrag.vercel.app/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
+[Get started now](https://github.com/LucknowAI){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0.mr-2 }  
+[Join Lucknow AI Labs](https://chat.whatsapp.com/IAM2fp4IoLiGbuI6ZeNfzH){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Try Nawab-AI](#){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
 
 <div style="text-align: left;">
     <div>
@@ -43,7 +45,7 @@ Open Source AI Research & Mentorship
         <a href="https://www.instagram.com/lucknow_ai/" title="Instagram" style="text-decoration: none;">
             <img src="/assets/icons/insta.png" alt="Instagram" width="30" height="30"/>
         </a>
-        <a href="https://chat.whatsapp.com/DeJLSBFxejJ5r07ezpuyDx" title="WhatsApp" style="text-decoration: none;">
+        <a href="https://chat.whatsapp.com/IAM2fp4IoLiGbuI6ZeNfzH" title="WhatsApp" style="text-decoration: none;">
             <img src="/assets/icons/whatsapp.png" alt="whatsapp" width="30" height="30"/>
         </a>
     </div>

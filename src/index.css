@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Lucknow AI Design System - Dark theme matching Jekyll site */
+
+@layer base {
+  :root {
+    /* Dark theme colors matching the original site */
+    --background: 222 21% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 21% 14%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 21% 14%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 21% 11%;
+
+    --secondary: 222 21% 18%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 222 21% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 222 21% 18%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 21% 22%;
+    --input: 222 21% 22%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar colors */
+    --sidebar-background: 222 21% 14%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 222 21% 11%;
+    --sidebar-accent: 222 21% 18%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 222 21% 22%;
+    --sidebar-ring: 217 91% 60%;
+
+    /* Custom colors for Lucknow AI */
+    --nav-link: 217 91% 60%;
+    --nav-link-active: 210 40% 98%;
+    --feature-card-bg: 222 21% 16%;
+    --feature-card-border: 222 21% 25%;
+    --hero-gradient-start: 222 21% 11%;
+    --hero-gradient-end: 222 21% 8%;
+    
+    /* Note block colors */
+    --note-purple-bg: 252 30% 25%;
+    --note-purple-border: 252 50% 45%;
+    --note-olive-bg: 60 15% 25%;
+    --note-olive-border: 48 70% 45%;
+    --note-dark-bg: 222 21% 18%;
+    --note-dark-border: 222 21% 30%;
+  }
+
+  .dark {
+    /* Same as root since site is dark-only */
+    --background: 222 21% 11%;
+    --foreground: 210 40% 98%;
+    --card: 222 21% 14%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 21% 14%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 21% 11%;
+    --secondary: 222 21% 18%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 222 21% 18%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 222 21% 18%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 222 21% 22%;
+    --input: 222 21% 22%;
+    --ring: 217 91% 60%;
+    --sidebar-background: 222 21% 14%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 222 21% 11%;
+    --sidebar-accent: 222 21% 18%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 222 21% 22%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  /* Typography matching the Just the Docs theme */
+  h1 {
+    @apply text-4xl font-bold tracking-tight;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold tracking-tight;
+  }
+
+  h3 {
+    @apply text-xl font-semibold;
+  }
+
+  h4 {
+    @apply text-lg font-medium;
+  }
+}
+
+@layer components {
+  /* Navigation link styles */
+  .nav-link {
+    @apply text-nav-link hover:text-foreground transition-colors duration-200 text-sm py-1;
+  }
+
+  .nav-link-active {
+    @apply text-foreground font-medium;
+  }
+
+  /* Feature card styles */
+  .feature-card {
+    @apply bg-feature-card rounded-lg border border-feature-card-border p-6 transition-all duration-200;
+  }
+
+  .feature-card:hover {
+    @apply border-primary/50;
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply bg-primary text-primary-foreground px-4 py-2 rounded-md font-medium transition-colors hover:bg-primary/90;
+  }
+
+  .btn-outline {
+    @apply border border-border text-foreground px-4 py-2 rounded-md font-medium transition-colors hover:bg-secondary;
+  }
+
+  /* Social icon styles */
+  .social-icon {
+    @apply w-6 h-6 opacity-80 hover:opacity-100 transition-opacity;
+  }
+
+  /* Contributor avatar */
+  .contributor-avatar {
+    @apply w-10 h-10 rounded-full border-2 border-border hover:border-primary transition-colors;
+  }
+
+  /* Note block styles matching original site */
+  .note-block {
+    @apply p-4 rounded-lg border-l-4;
+  }
+
+  .note-block-purple {
+    background-color: hsl(var(--note-purple-bg));
+    border-left-color: hsl(var(--note-purple-border));
+  }
+
+  .note-block-olive {
+    background-color: hsl(var(--note-olive-bg));
+    border-left-color: hsl(var(--note-olive-border));
+  }
+
+  .note-block-dark {
+    background-color: hsl(var(--note-dark-bg));
+    border-left-color: hsl(var(--muted-foreground));
+  }
+
+  /* Custom scrollbar for dropdowns */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--border));
+    border-radius: 3px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(var(--muted-foreground));
+  }
+}

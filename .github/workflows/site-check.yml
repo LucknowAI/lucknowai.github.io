@@ -1,0 +1,42 @@
+name: Site check
+
+# Builds the site with the same gems GitHub Pages uses and checks every
+# internal link and image, so a broken page is caught before it is merged.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build with the GitHub Pages gems
+        run: bundle exec jekyll build --trace
+        env:
+          JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check internal links and images
+        run: |
+          bundle exec ruby -e '
+            require "html-proofer"
+            HTMLProofer.check_directory("./_site", {
+              disable_external: true,
+              enforce_https: false,
+              allow_hash_href: true,
+              ignore_urls: [/^mailto:/]
+            }).run
+          '

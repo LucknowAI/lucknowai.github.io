@@ -1,0 +1,3 @@
+# Only the Gemfile is needed to build the preview image.
+*
+!Gemfile

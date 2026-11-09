@@ -40,3 +40,11 @@ jobs:
               ignore_urls: [/^mailto:/]
             }).run
           '
+
+      - name: Upload the built site (download it from the run summary to preview)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-site
+          path: _site
+          retention-days: 7

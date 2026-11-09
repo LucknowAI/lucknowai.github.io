@@ -13,6 +13,8 @@ url: "https://lucknowai.github.io"
 repository: LucknowAI/lucknowai.github.io
 permalink: pretty
 lang: en-IN
+# Dates such as "upcoming event" are worked out in Lucknow time.
+timezone: Asia/Kolkata
 
 # Default social preview image and author for search engines (jekyll-seo-tag)
 logo: /assets/images/logo.png

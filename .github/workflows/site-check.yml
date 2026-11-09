@@ -29,6 +29,36 @@ jobs:
           PAGES_REPO_NWO: ${{ github.repository }}
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Check generated pages against the data files
+        run: |
+          ruby -ryaml -e '
+            today = Time.now.getlocal("+05:30").strftime("%Y-%m-%d")
+            events = YAML.load_file("_data/events.yml").reject { |e| e["status"] == "unconfirmed" }
+            past = events.count { |e| e["date"] < today }
+            upcoming = events.select { |e| e["date"] >= today }.map { |e| e["title"] }
+            errors = []
+
+            events_html = File.read("_site/events/index.html")
+            rows = events_html.scan("</tr>").size - events_html.scan("<thead>").size
+            errors << "Events page shows #{rows} past events, data has #{past}" if rows != past
+
+            home = File.read("_site/index.html")
+            upcoming.first(1).each { |t| errors << "Home page is missing upcoming event: #{t}" unless home.include?(t) }
+            stats = home.scan(/lai-stat-number">(\d+)</).flatten
+            errors << "Home page stats missing" if stats.size != 4
+
+            Dir["_site/**/*.html"].each do |f|
+              text = File.read(f)
+              errors << "Liquid error in #{f}" if text.include?("Liquid error") || text.include?("Liquid syntax error")
+            end
+
+            puts "Past events in data: #{past}; rows on Events page: #{rows}"
+            puts "Upcoming: #{upcoming.join(", ").then { |s| s.empty? ? "none" : s }}"
+            puts "Home stats (events, hackathons, paper sessions, projects): #{stats.join(", ")}"
+            abort(errors.join("\n")) unless errors.empty?
+            puts "Generated pages match the data."
+          '
+
       - name: Check internal links and images
         run: |
           bundle exec ruby -e '

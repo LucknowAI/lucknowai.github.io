@@ -2,7 +2,11 @@
 layout: default
 title: License
 permalink: /license/
+nav_exclude: true
 ---
+
+This website is built with the [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which is released under the MIT license below.
+
 
 # MIT License
 

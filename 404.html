@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 404
+title: Page not found
 permalink: /404
 nav_exclude: true
 search_exclude: true
@@ -8,4 +8,12 @@ search_exclude: true
 
 <h1>Page not found</h1>
 
-<p>The page you requested could not be found. Try using the navigation {% if site.search_enabled != false %}or search {% endif %}to find what you're looking for or go to this <a href="{{ '/' | relative_url }}">site's home page</a>.</p>
+<p>We could not find that page. The site was reorganised in November 2026, so an old link may have moved. Try one of these:</p>
+
+<ul>
+  <li><a href="{{ '/events/' | relative_url }}">Events</a> and <a href="{{ '/hackathons/' | relative_url }}">Hackathons</a></li>
+  <li><a href="{{ '/projects/' | relative_url }}">Projects</a> and <a href="{{ '/research/' | relative_url }}">Research</a></li>
+  <li><a href="{{ '/about/' | relative_url }}">About</a> and <a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+</ul>
+
+<p>{% if site.search_enabled != false %}You can also use the search box, or go back to the {% else %}Or go back to the {% endif %}<a href="{{ '/' | relative_url }}">home page</a>.</p>

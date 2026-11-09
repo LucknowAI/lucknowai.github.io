@@ -1,0 +1,28 @@
+{%- comment -%}
+  Upcoming events from _data/events.yml (date on or after the build date).
+  Optional: include.limit (number of events to show).
+  _includes/js/custom.js hides entries whose date has passed since the last build.
+{%- endcomment -%}
+{%- assign today = site.time | date: "%Y-%m-%d" -%}
+{%- assign limit = include.limit | default: 50 -%}
+{%- assign shown = 0 -%}
+<div data-upcoming-group>
+{%- for e in site.data.events -%}
+  {%- if e.status == "unconfirmed" or e.date < today -%}{%- continue -%}{%- endif -%}
+  {%- if shown >= limit -%}{%- break -%}{%- endif -%}
+  {%- assign shown = shown | plus: 1 -%}
+  {%- assign href = nil -%}
+  {%- if e.recap -%}{%- assign href = e.recap | relative_url -%}{%- elsif e.link -%}{%- assign href = e.link -%}{%- endif -%}
+  <div class="lai-card lai-upcoming mb-4" data-event-date="{{ e.date }}">
+    <p class="mb-2"><span class="label label-yellow">Upcoming</span> {% include lai/event-type.html type=e.type %}</p>
+    <h3 class="mt-0 mb-2">{% if href %}<a href="{{ href }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}</h3>
+    <p class="mb-1"><strong>{{ e.date | date: "%A, %-d %B %Y" }}</strong>{% if e.note %} &middot; {{ e.note }}{% endif %}</p>
+    <p class="mb-1">{% if e.format %}{{ e.format | capitalize }}{% endif %}{% if e.format and e.venue %} &middot; {% endif %}{% if e.venue %}{{ e.venue }}{% endif %}</p>
+    <p class="lai-muted">{{ e.organisers }}</p>
+    {%- if href %}
+    <p class="mt-2"><a href="{{ href }}" class="btn btn-primary">Details and registration</a></p>
+    {%- endif %}
+  </div>
+{%- endfor -%}
+  <p data-upcoming-empty{% if shown > 0 %} hidden{% endif %}>The next event will be announced on <a href="https://www.commudle.com/communities/upai-labs/events">Commudle</a> and in our <a href="{{ '/contact/' | relative_url }}">community groups</a>.</p>
+</div>

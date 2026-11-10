@@ -1,0 +1,393 @@
+# Every Lucknow AI Labs event, newest at the bottom.
+# The Events, Hackathons and Home pages are generated from this file, so add
+# each new event here once (see README.md, "Adding an event").
+#
+# Fields
+#   date        "YYYY-MM-DD" (first day, in quotes)
+#   title       event name
+#   type        meetup | workshop | talk | summit | hackathon | paper-reading | study-jam | ama
+#   format      offline | online | hybrid   (leave out if not known)
+#   venue       optional
+#   organisers  who ran it, as listed on the event page or Commudle
+#   link        optional external page (Commudle, GDG, ...)
+#   recap       optional path of the recap page on this site
+#   note        optional one-line highlight
+#   status      optional: "unconfirmed" keeps an entry off the site until confirmed
+#
+# "AI Community Lucknow" was earlier called TFUG Lucknow.
+
+- date: "2023-11-26"
+  title: Lucknow AI Labs first meetup
+  type: meetup
+  organisers: Lucknow AI Labs
+  recap: /events/2023-11-26-first-meetup/
+  note: Talks by Ankit, Abhishek and Neil
+
+- date: "2024-01-13"
+  title: Jamie AI voice assistant online meetup
+  type: meetup
+  format: online
+  organisers: Lucknow AI Labs and AI Community Lucknow
+  recap: /events/2024-01-13-jamie-voice-assistant/
+
+- date: "2024-01-21"
+  title: Startup Success Days India 2023
+  type: talk
+  format: offline
+  venue: Club Orchid, Lucknow
+  organisers: GDG Lucknow, with AI Community Lucknow
+  recap: /events/2024-01-21-startup-success-days/
+
+- date: "2024-01-27"
+  title: Image processing and OpenCV webinar
+  type: workshop
+  format: online
+  organisers: AI Community Lucknow, with Lucknow AI Labs
+  recap: /events/2024-01-27-image-processing-opencv/
+
+- date: "2024-02-27"
+  title: Build, Train and Deploy workshop
+  type: workshop
+  format: offline
+  venue: SRMCEM, Lucknow
+  organisers: AI Community Lucknow, with Lucknow AI Labs
+  recap: /events/2024-02-27-build-train-deploy-srmcem/
+
+- date: "2024-04-27"
+  title: GDSC WOW Lucknow 2024
+  type: talk
+  format: offline
+  organisers: Google Developer Student Clubs, Lucknow (partner event)
+
+- date: "2024-05-23"
+  title: Hack to Crack 1.0
+  type: hackathon
+  format: online
+  organisers: AI Community Lucknow, with GDG Lucknow and Lucknow AI Labs
+  link: https://www.commudle.com/communities/tfug-lucknow/hackathons/hack-to-crack-1-0
+  recap: /events/2024-05-23-hack-to-crack/
+  note: 24-hour AI/ML hackathon, 33 participants in 9 teams
+
+- date: "2024-05-25"
+  title: Gen AI Awadh Summit
+  type: summit
+  format: offline
+  venue: Dr. APJ Abdul Kalam Technical University, Lucknow
+  organisers: AI Community Lucknow, with GDG Lucknow
+  recap: /events/2024-05-25-genai-awadh-summit/
+
+- date: "2024-06-29"
+  title: Build with AI 2024
+  type: workshop
+  format: online
+  organisers: GDG Lucknow
+  link: https://www.commudle.com/communities/gdg-lucknow/events/build-with-ai-a95fe069-b028-4650-b1ac-9f8a6767b3d2
+  recap: /events/2024-06-29-build-with-ai/
+
+- date: "2024-08-10"
+  title: Discord AMA with DAO Labs
+  type: ama
+  format: online
+  organisers: Lucknow AI Labs, with DAO Labs
+  recap: /events/2024-08-10-discord-ama/
+  note: Internships and building a good GitHub profile
+
+- date: "2024-08-31"
+  title: Google I/O Extended Lucknow 2024
+  type: talk
+  format: offline
+  venue: Integral University, Lucknow
+  organisers: GDG Lucknow, with AI Community Lucknow
+  recap: /events/2024-08-31-google-io-extended/
+
+- date: "2024-10-19"
+  title: AI Day Lucknow
+  type: summit
+  format: offline
+  venue: LPCPS, Gomti Nagar, Lucknow
+  organisers: GDG Lucknow, with Lucknow AI Labs and AI Community Lucknow
+  recap: /events/2024-10-19-ai-day-lucknow/
+
+- date: "2024-10-27"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2024-11-10"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2024-11-17"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2024-11-24"
+  title: DevFest Lucknow 2024
+  type: summit
+  format: offline
+  venue: The Regnant, Aliganj, Lucknow
+  organisers: GDG Lucknow, with Lucknow AI Labs, AI Community Lucknow and Socrates Global
+  recap: /events/2024-11-24-devfest-lucknow/
+
+- date: "2024-12-15"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2024-12-29"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-01-05"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-02-05"
+  title: VIVEKA The Intelligence 4.0
+  type: hackathon
+  format: hybrid
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/hackathons
+
+- date: "2025-03-08"
+  title: International Women's Day Lucknow 2025
+  type: summit
+  format: offline
+  venue: Integral University, Lucknow
+  organisers: GDG Lucknow, with Lucknow AI Labs and AI Community Lucknow
+  recap: /events/2025-03-08-iwd-lucknow/
+
+- date: "2025-03-29"
+  title: Django India x GDG Lucknow meetup
+  type: meetup
+  format: offline
+  venue: IIIT Lucknow
+  organisers: GDG Lucknow and Django India, with Lucknow AI Labs and AI Community Lucknow
+  recap: /events/2025-03-29-django-meetup/
+  note: 105 RSVPs and 182 on the waitlist
+
+- date: "2025-03-30"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-04-05"
+  title: "Hack4Bihar: Lucknow hacking tour"
+  type: hackathon
+  format: offline
+  venue: SR Group of Institutions, Lucknow
+  organisers: Starkseek, with Lucknow AI Labs, CIC Lucknow and UMAGA Edutech
+  recap: /events/2025-04-05-hack4bihar/
+
+- date: "2025-04-06"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-04-07"
+  title: "Build with AI, part 1: workshop at BBD"
+  type: workshop
+  format: offline
+  venue: BBD City, Lucknow
+  organisers: GDG Lucknow, with Lucknow AI Labs and AI Community Lucknow
+  recap: /events/2025-04-07-build-with-ai-bbd/
+
+- date: "2025-04-19"
+  title: "Build with AI: workshop at SRMCEM"
+  type: workshop
+  format: offline
+  venue: SRMCEM, Lucknow
+  organisers: GDG Lucknow, with Lucknow AI Labs and AI Community Lucknow
+  recap: /events/2025-04-19-build-with-ai-srmcem/
+
+- date: "2025-04-27"
+  title: "Build with AI, part 2: workshop at LPCPS"
+  type: workshop
+  format: offline
+  venue: LPCPS, Lucknow
+  organisers: GDG Lucknow, with Lucknow AI Labs and AI Community Lucknow
+  recap: /events/2025-04-27-build-with-ai-lpcps/
+
+- date: "2025-04-27"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-05-11"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-06-15"
+  title: ML paper reading session
+  type: paper-reading
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-08-13"
+  title: "Cloud series: end-to-end AI app development with Gemini and RAG"
+  type: workshop
+  organisers: Partner event, with AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-08-24"
+  title: "Cloud series: backend logic with Firebase Cloud Functions"
+  type: workshop
+  organisers: Partner event, with AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-09-06"
+  title: "Cloud series: Cloud 101, local to global"
+  type: workshop
+  organisers: Partner event, with AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-09-22"
+  title: "ML Study Jam, session 1: prompt engineering for everyone"
+  type: study-jam
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-10-19"
+  title: "ML Study Jam: machine learning fundamentals"
+  type: study-jam
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-11-01"
+  title: "Pre-hackathon study jam 1: efficient prompts with the Gemini API"
+  type: study-jam
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-11-02"
+  title: "Pre-hackathon study jam 2: production apps with Gemini CLI"
+  type: study-jam
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-11-03"
+  title: "Pre-hackathon study jam 3: custom-tuned Gemma models"
+  type: study-jam
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-11-04"
+  title: "Pre-hackathon study jam 4: building tools with ADK"
+  type: study-jam
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2025-11-06"
+  title: GenAI Hackathon Lucknow
+  type: hackathon
+  format: hybrid
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/hackathons
+  note: Preceded by four study jams (1 to 4 Nov) and a pre-briefing (5 Nov)
+
+- date: "2026-02-14"
+  title: "AI Study Jam, session 1: dynamic experiences with the Flutter GenUI SDK"
+  type: study-jam
+  organisers: AI Community Lucknow, with UPAI Labs
+  link: https://www.commudle.com/communities/upai-labs/events
+
+- date: "2026-02-21"
+  title: "AI Study Jam, session 2: agentic assistants with Gemini CLI"
+  type: study-jam
+  organisers: AI Community Lucknow, with UPAI Labs
+  link: https://www.commudle.com/communities/upai-labs/events
+
+- date: "2026-02-28"
+  title: "AI Study Jam, session 3: build your first agent from scratch"
+  type: study-jam
+  organisers: AI Community Lucknow, with UPAI Labs
+  link: https://www.commudle.com/communities/upai-labs/events
+
+- date: "2026-03-07"
+  title: "AI Study Jam, session 4: production-ready agents with Pydantic AI"
+  type: study-jam
+  organisers: AI Community Lucknow, with UPAI Labs
+  link: https://www.commudle.com/communities/upai-labs/events
+
+- date: "2026-03-15"
+  title: "ML paper reading, session 1: a survey of AI agent protocols"
+  type: paper-reading
+  organisers: UPAI Labs, with AI Community Lucknow
+  link: https://www.commudle.com/communities/upai-labs/events
+
+- date: "2026-03-28"
+  title: Product Builders Day Lucknow
+  type: summit
+  organisers: Partner event, with UPAI Labs and AI Community Lucknow
+  link: https://www.commudle.com/communities/upai-labs/events
+
+- date: "2026-04-15"
+  title: "CodeForge: Build with AI at SRMCEM"
+  type: workshop
+  format: offline
+  venue: SRMCEM, Lucknow
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2026-04-25"
+  title: "Build with AI: Lucknow edition"
+  type: workshop
+  organisers: AI Community Lucknow, with UPAI Labs
+  link: https://www.commudle.com/communities/upai-labs/events
+
+- date: "2026-05-22"
+  title: "Build with AI: Agentic Premier League"
+  type: hackathon
+  format: hybrid
+  organisers: GDG Lucknow, with UPAI Labs and AI Community Lucknow
+  link: https://www.commudle.com/communities/upai-labs/hackathons
+
+- date: "2026-07-25"
+  title: Cloud Native Lucknow July meetup
+  type: meetup
+  organisers: AI Community Lucknow
+  link: https://www.commudle.com/communities/tfug-lucknow/events
+
+- date: "2026-09-26"
+  title: Hack-e-Awadh
+  type: hackathon
+  format: offline
+  organisers: Lucknow AI Labs, with AI Community Lucknow
+  link: https://www.commudle.com/communities/upai-labs/hackathons
+  note: About 120 submissions and 20 finalist teams
+
+# Waiting for confirmation and details (kept off the site until confirmed)
+- date: "2026-10-31"
+  title: Hacktoberfest hack day
+  type: hackathon
+  organisers: Lucknow AI Labs
+  status: unconfirmed
+
+- date: "2026-11-01"
+  title: Awadh AI Summit
+  type: summit
+  organisers: Lucknow AI Labs (UPAI Labs Foundation), with AI Community Lucknow
+  status: unconfirmed
+
+- date: "2026-11-14"
+  title: DevFest Lucknow 2026
+  type: summit
+  format: offline
+  organisers: GDG Lucknow, with UPAI Labs and AI Community Lucknow
+  link: https://www.commudle.com/communities/upai-labs/events
+  note: From 9:00 AM IST

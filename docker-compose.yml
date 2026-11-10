@@ -1,14 +1,12 @@
-version: "3.5"
-
+# Local preview: docker compose up, then open http://localhost:4000
+# Pages rebuild and the browser reloads when you save a file.
 services:
-  jekyll:
-    build:
-      context: ./
+  site:
+    build: .
     ports:
-      - 4000:4000
+      - "4000:4000"
+      - "35729:35729"
     volumes:
-      - .:/usr/src/app
-    stdin_open: true
-    tty: true
-    command: bundle exec jekyll serve -H 0.0.0.0 -t
-
+      - .:/site
+    command: >-
+      bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling

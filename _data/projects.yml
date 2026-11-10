@@ -1,0 +1,113 @@
+# Open-source projects shown on /projects/.
+# status: active   = commits in the last 12 months
+#         archived = no recent commits (still open for contributors)
+# "updated" is the month of the last commit when this list was refreshed.
+# Refresh it from https://github.com/orgs/LucknowAI/repositories
+
+active:
+  - name: NAWAB AI
+    repo: https://github.com/LucknowAI/nawab
+    page: /projects/nawab-ai/
+    updated: Nov 2026
+    summary: >-
+      A conversational guide to Lucknow. A Gemini-based agent brings together
+      Google Maps, local news, YouTube, Lucknow Metro fares and more behind one
+      chat interface.
+
+  - name: Loki LLM
+    repo: https://github.com/LucknowAI/loki_llm
+    updated: Nov 2026
+    summary: >-
+      Private, offline AI chat for Android. Runs open LLMs on the phone with
+      llama.cpp, including question answering over your own documents and a
+      tool-calling agent. Nothing leaves the device.
+
+  - name: Lucknow Tech Events
+    repo: https://github.com/LucknowAI/lucknow-live-events
+    updated: Nov 2026
+    summary: >-
+      One place for the tech events happening in Lucknow. Being rebuilt to
+      read public event listings (Luma, Unstop, GDG) once a day.
+
+  - name: Awadhi language project
+    repo: https://github.com/LucknowAI/Awadhi
+    live: https://awadhi-language.vercel.app/
+    live_label: Visit the Awadhi website
+    extra_repo: https://github.com/LucknowAI/Awadhi-STT
+    extra_label: Awadhi speech-to-text
+    updated: Nov 2026
+    summary: >-
+      Building data and tools for Awadhi, a language of about 38 million
+      speakers. The website tells the story of the language and asks Awadhi
+      speakers to record sentences for speech AI.
+
+  - name: Bridge
+    repo: https://github.com/LucknowAI/Bridge
+    updated: Oct 2026
+    summary: >-
+      Networking matchmaking for events. Matches attendees by profile and
+      interests so people at a meetup find the right people to talk to.
+
+  - name: Agents from Scratch
+    repo: https://github.com/LucknowAI/agents_from_sratch
+    updated: Feb 2026
+    summary: >-
+      Learning material: the same travel-planning agent built three ways, in
+      plain Python, with LangChain and with Pydantic AI.
+
+  - name: Sociomatic
+    repo: https://github.com/LucknowAI/sociomatic
+    updated: Feb 2026
+    summary: >-
+      An AI assistant for community LinkedIn posts. Turns short briefs about
+      events and launches into ready-to-post content.
+
+  - name: Final Year Project Generator
+    repo: https://github.com/LucknowAI/finalYearGenerator
+    updated: Feb 2026
+    summary: >-
+      Helps final-year students generate and refine ideas for their final
+      year projects.
+
+  - name: sudo ship it starter kit
+    repo: https://github.com/LucknowAI/sudo-ship-it
+    updated: Feb 2026
+    summary: >-
+      Everything a builder needs to start a weekend project: free AI coding
+      tools and how to set them up.
+
+archived:
+  - name: Lucknow LLM
+    repo: https://github.com/LucknowAI/Lucknow-LLM
+    updated: Oct 2025
+    summary: A Python framework for building with LLMs, installable with pip.
+
+  - name: UPAI RAG
+    repo: https://github.com/LucknowAI/UpaiRag
+    updated: Mar 2025
+    summary: A generic retrieval-augmented generation (RAG) pipeline for building tools quickly.
+
+  - name: Sign Language Translator
+    repo: https://github.com/LucknowAI/Sign_Language_Translator
+    updated: Mar 2025
+    summary: AI for real-time sign language translation, with a survey of recent research. Contributors welcome.
+
+  - name: Lucknow AI Research Toolkit
+    repo: https://github.com/LucknowAI/Lucknow_AI_Research_Toolkit
+    updated: Oct 2024
+    summary: Materials for getting started with AI research.
+
+  - name: AI Career Toolkit
+    repo: https://github.com/LucknowAI/AI-Career-Toolkit
+    updated: Aug 2024
+    summary: Resume templates, interview preparation and learning roadmaps for AI and ML careers.
+
+  - name: Awesome Low-Resource Indian Languages Hub
+    repo: https://github.com/LucknowAI/Awesome-Low-Resource-Indian-Languages-Hub
+    updated: Jan 2024
+    summary: Curated papers, tools and datasets for Awadhi, Bhojpuri, Braj and Magahi.
+
+  - name: Project Awadhi (speech)
+    repo: https://github.com/LucknowAI/Project-Awadhi
+    updated: Dec 2023
+    summary: Early Awadhi speech work, continued in the Awadhi language project above.

@@ -1,6 +1,108 @@
-// custom SCSS (or CSS) goes here
-p.note, blockquote.note {
+// Lucknow AI Labs custom styles (loaded after the theme).
+
+// Note callouts keep the yellow marker the site has always used.
+p.note,
+blockquote.note {
   &::before {
     color: #ffe600 !important;
+  }
 }
+
+// Yellow primary buttons need dark text to stay readable.
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.zeroclipboard-is-hover {
+  color: $grey-dk-300 !important;
+}
+
+// ---------- Home page ----------
+.lai-hero {
+  margin-bottom: $sp-6;
+
+  .lai-kicker {
+    color: $yellow-200;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  .btn {
+    margin: 0 $sp-2 $sp-2 0;
+  }
+}
+
+.lai-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: $sp-4;
+  margin: $sp-4 0 $sp-6;
+  padding: 0;
+  list-style: none;
+
+  > li::before {
+    content: none !important;
+  }
+}
+
+.lai-card {
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  padding: $sp-4;
+  background-color: $grey-dk-250;
+
+  h3,
+  h4 {
+    margin-top: 0 !important;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .lai-card-links a {
+    margin-right: $sp-3;
+    white-space: nowrap;
+  }
+}
+
+.lai-stats {
+  .lai-stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $yellow-200;
+  }
+
+  .lai-stat-label {
+    color: $grey-lt-300;
+  }
+}
+
+.lai-upcoming {
+  border-left: 4px solid $yellow-200;
+}
+
+.lai-muted {
+  color: $grey-dk-000;
+}
+
+// Small screens: keep event tables readable.
+.lai-events td,
+.lai-events th {
+  vertical-align: top;
+}
+
+.lai-events td:first-child {
+  white-space: nowrap;
+}
+
+// Team page portraits
+.lai-portrait {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid $yellow-200;
 }

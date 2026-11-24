@@ -363,6 +363,14 @@
   organisers: AI Community Lucknow
   link: https://www.commudle.com/communities/tfug-lucknow/events
 
+- date: "2026-09-12"
+  title: "Build With Droid: modern Android"
+  type: workshop
+  format: offline
+  venue: InMobi office, Lucknow
+  organisers: Android Lucknow, with AI Community Lucknow
+  link: https://www.commudle.com/communities/android-lucknow/events/build-with-droid
+
 - date: "2026-09-26"
   title: Hack-e-Awadh
   type: hackathon
@@ -371,11 +379,14 @@
   link: https://www.commudle.com/communities/upai-labs/hackathons
   note: About 120 submissions and 20 finalist teams
 
-# Waiting for confirmation and details (kept off the site until confirmed)
+# The next two are waiting for confirmation and details.
+# "status: unconfirmed" keeps an event off the site; delete that line to publish it.
 - date: "2026-10-31"
   title: Hacktoberfest hack day
   type: hackathon
-  organisers: Lucknow AI Labs
+  format: offline
+  organisers: AI Community Lucknow, with Major League Hacking (MLH)
+  link: https://www.commudle.com/communities/tfug-lucknow/events/hacktoberfest-hack-day-lucknow
   status: unconfirmed
 
 - date: "2026-11-01"
@@ -388,6 +399,6 @@
   title: DevFest Lucknow 2026
   type: summit
   format: offline
+  venue: The Centrum, Golf City, Lucknow
   organisers: GDG Lucknow, with UPAI Labs and AI Community Lucknow
-  link: https://www.commudle.com/communities/upai-labs/events
-  note: From 9:00 AM IST
+  link: https://www.commudle.com/communities/gdg-lucknow/events/devfest-lucknow-2026

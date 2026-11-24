@@ -44,6 +44,11 @@ jobs:
 
             home = File.read("_site/index.html")
             upcoming.first(1).each { |t| errors << "Home page is missing upcoming event: #{t}" unless home.include?(t) }
+            if upcoming.empty?
+              { "Home" => home, "Events" => events_html }.each do |name, html|
+                errors << "#{name} page should show the next-event-will-be-announced line" unless html.include?("<p data-upcoming-empty>")
+              end
+            end
             stats = home.scan(/lai-stat-number">(\d+)</).flatten
             errors << "Home page stats missing" if stats.size != 4
 

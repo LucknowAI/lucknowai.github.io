@@ -379,16 +379,15 @@
   link: https://www.commudle.com/communities/upai-labs/hackathons
   note: About 120 submissions and 20 finalist teams
 
-# The next two are waiting for confirmation and details.
-# "status: unconfirmed" keeps an event off the site; delete that line to publish it.
 - date: "2026-10-31"
   title: Hacktoberfest hack day
   type: hackathon
   format: offline
   organisers: AI Community Lucknow, with Major League Hacking (MLH)
   link: https://www.commudle.com/communities/tfug-lucknow/events/hacktoberfest-hack-day-lucknow
-  status: unconfirmed
 
+# Waiting for confirmation and details.
+# "status: unconfirmed" keeps an event off the site; delete that line to publish it.
 - date: "2026-11-01"
   title: Awadh AI Summit
   type: summit

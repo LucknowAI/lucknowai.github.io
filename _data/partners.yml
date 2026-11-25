@@ -30,6 +30,9 @@
       events: Hack-e-Awadh 2026
     - name: .xyz
       url: https://gen.xyz/
+      logo: /assets/images/partners/xyz.png
+      width: 206
+      height: 120
       events: Hack-e-Awadh 2026
     - name: JetBrains
       url: https://www.jetbrains.com/
@@ -40,6 +43,9 @@
       events: Hack-e-Awadh 2026
     - name: Commudle
       url: https://www.commudle.com/
+      logo: /assets/images/partners/commudle.png
+      width: 480
+      height: 103
       events: Hack-e-Awadh 2026
     - name: Macrovision AI
       events: Hack-e-Awadh 2026
@@ -87,11 +93,18 @@
       events: AVINYA 2K26
     - name: UP Startup Mission
       url: https://startinup.up.gov.in/
+      logo: /assets/images/partners/startinup.png
+      width: 191
+      height: 73
       events: AVINYA 2K26
     - name: AKTU Innovation Hub
       url: https://aktu.ac.in/
       events: Gen AI Awadh Summit 2024
     - name: LPCPS
+      logo: /assets/images/partners/lpcps.png
+      width: 117
+      height: 160
+      mark: true
       events: AI Day Lucknow 2024 host
     - name: Shri Ramswaroop Memorial University
       url: https://srmu.ac.in/

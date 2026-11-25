@@ -1,0 +1,105 @@
+# Partners on the home page ("Past sponsors and partners").
+#
+# name:    shown on the tile until a logo is added, and used as the logo's alt text
+# url:     official site (optional; without it the tile is not a link)
+# logo:    file in /assets/images/partners/ (optional)
+# width, height: the logo file's size in pixels (the viewBox for SVGs), so the
+#          page does not jump while logos load
+# mark:    true when the logo is a symbol without the name; the name is shown
+#          next to it
+# events:  the events they backed, shown under the tile
+#
+# To add a logo: save the official file in assets/images/partners/, then add
+# logo, width and height to the entry.
+
+- group: Sponsors and ecosystem partners
+  partners:
+    - name: Google for Developers
+      url: https://developers.google.com/
+      logo: /assets/images/partners/google-for-developers.png
+      width: 520
+      height: 64
+      events: Hack-e-Awadh · Build with AI · GenAI Hackathon
+    - name: Paytm AI
+      url: https://paytm.com/
+      logo: /assets/images/partners/paytm-ai.png
+      width: 520
+      height: 94
+      events: Hack-e-Awadh 2026
+    - name: .xyz
+      url: https://gen.xyz/
+      events: Hack-e-Awadh 2026
+    - name: JetBrains
+      url: https://www.jetbrains.com/
+      logo: /assets/images/partners/jetbrains.svg
+      width: 256
+      height: 257
+      mark: true
+      events: Hack-e-Awadh 2026
+    - name: Commudle
+      url: https://www.commudle.com/
+      events: Hack-e-Awadh 2026
+    - name: Macrovision AI
+      events: Hack-e-Awadh 2026
+    - name: InMobi
+      url: https://www.inmobi.com/
+      logo: /assets/images/partners/inmobi.svg
+      width: 122
+      height: 19
+      events: Build with AI 2026 host · Build with Droid
+    - name: Glance
+      url: https://glance.com/
+      events: Build with Droid 2026
+    - name: MLH
+      url: https://mlh.io/
+      logo: /assets/images/partners/mlh.svg
+      width: 244
+      height: 105
+      events: Hacktoberfest Hack Day 2026
+    - name: DigitalOcean
+      url: https://www.digitalocean.com/
+      logo: /assets/images/partners/digitalocean.svg
+      width: 256
+      height: 256
+      mark: true
+      events: Hacktoberfest Hack Day 2026
+    - name: Hunto AI
+      logo: /assets/images/partners/hunto-ai.png
+      width: 162
+      height: 48
+      events: Gen AI Awadh Summit 2024
+
+- group: Institutional and venue partners
+  partners:
+    - name: SIIC IIT Kanpur
+      url: https://siicincubator.com/
+      events: AVINYA 2K26
+    - name: UP Startup Mission
+      url: https://startinup.up.gov.in/
+      events: AVINYA 2K26
+    - name: AKTU Innovation Hub
+      url: https://aktu.ac.in/
+      events: Gen AI Awadh Summit 2024
+    - name: LPCPS
+      events: AI Day Lucknow 2024 host
+    - name: Shri Ramswaroop Memorial University
+      url: https://srmu.ac.in/
+      events: VIVEKA 4.0 · Hack to Crack
+    - name: Integral University
+      url: https://www.iul.ac.in/
+      events: Product Builders Day 2026 venue
+
+- group: Community partners
+  partners:
+    - name: AI Community Lucknow
+      url: https://aicommunity.lucknow.dev/
+      logo: /assets/images/partners/ai-community-lucknow.png
+      width: 368
+      height: 97
+      events: Co-hosts many of our events (earlier TFUG Lucknow)
+    - name: GDG Lucknow
+      url: https://www.commudle.com/communities/gdg-lucknow
+      logo: /assets/images/partners/gdg-lucknow.png
+      width: 600
+      height: 184
+      events: DevFest Lucknow 2026

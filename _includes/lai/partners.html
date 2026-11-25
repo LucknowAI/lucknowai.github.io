@@ -13,7 +13,7 @@
   {%- endif -%}
   {%- capture tile -%}
     {%- if p.logo -%}
-      <img src="{{ p.logo | relative_url }}" alt="{% unless p.mark %}{{ p.name }}{% endunless %}" width="{{ p.width }}" height="{{ p.height }}"{% if shape != "" %} class="{{ shape }}"{% endif %} loading="lazy" decoding="async">
+      <img src="{{ p.logo | relative_url }}" alt="{% unless p.mark %}{{ p.name }}{% endunless %}" width="{{ p.width }}" height="{{ p.height }}"{% if shape != "" or p.size == "small" %} class="{{ shape }}{% if p.size == "small" %} is-small{% endif %}"{% endif %} loading="lazy" decoding="async">
       {%- if p.mark -%}<span class="lai-partner-name{% if p.name.size > 14 %} is-long{% endif %}">{{ p.name }}</span>{%- endif -%}
     {%- else -%}
       <span class="lai-partner-name{% if p.name.size > 22 %} is-long{% endif %}">{{ p.name }}</span>

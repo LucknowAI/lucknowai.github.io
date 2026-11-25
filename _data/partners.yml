@@ -7,6 +7,7 @@
 #          page does not jump while logos load
 # mark:    true when the logo is a symbol without the name; the name is shown
 #          next to it
+# size:    small for a heavy, solid logo that looks bigger than its neighbours
 # tile:    dark for a logo made for dark backgrounds (white logo); keeps the
 #          brand's own colours instead of recolouring the file
 # events:  the events they backed, shown under the tile
@@ -33,6 +34,7 @@
       logo: /assets/images/partners/xyz.png
       width: 206
       height: 120
+      size: small
       events: Hack-e-Awadh 2026
     - name: JetBrains
       url: https://www.jetbrains.com/

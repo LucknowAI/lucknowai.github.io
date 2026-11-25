@@ -38,38 +38,44 @@ permalink: /
 
 ## What we do
 
-Spreading AI and knowledge sharing throughout Lucknow, and from here to the rest of Uttar Pradesh.
+<p class="fs-5 lai-muted">Spreading AI knowledge throughout Lucknow, and from here to the rest of Uttar Pradesh.</p>
 
-<ul class="lai-grid">
-  <li class="lai-card">
-    <h3>Education and knowledge sharing</h3>
-    <p>Hands-on meetups and workshops on AI tools and techniques, run with colleges and other communities, in Lucknow and in smaller cities and villages across Uttar Pradesh.</p>
-    <p class="mt-2"><a href="{{ '/events/' | relative_url }}">All events</a></p>
+<ul class="lai-focus-grid">
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon">📚</div>
+    <h3>Education & Workshops</h3>
+    <p>Hands-on meetups and workshops on AI tools and techniques, run with colleges and communities across Uttar Pradesh.</p>
+    <div class="lai-focus-link"><a href="{{ '/events/' | relative_url }}">All events</a></div>
   </li>
-  <li class="lai-card">
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon">🏆</div>
     <h3>Hackathons</h3>
-    <p>From 24-hour online sprints to Hack-e-Awadh, our own offline hackathon.</p>
-    <p class="mt-2"><a href="{{ '/hackathons/' | relative_url }}">Hackathons</a></p>
+    <p>From 24-hour online sprints to Hack-e-Awadh, our own flagship offline hackathon.</p>
+    <div class="lai-focus-link"><a href="{{ '/hackathons/' | relative_url }}">Hackathons</a></div>
   </li>
-  <li class="lai-card">
-    <h3>AI and ML research</h3>
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon">🔬</div>
+    <h3>AI & ML Research</h3>
     <p>Regular paper reading sessions on recent machine learning research, and research projects of our own.</p>
-    <p class="mt-2"><a href="{{ '/research/' | relative_url }}">Research</a></p>
+    <div class="lai-focus-link"><a href="{{ '/research/' | relative_url }}">Research</a></div>
   </li>
-  <li class="lai-card">
-    <h3>Open source</h3>
-    <p>Community-built projects such as NAWAB AI, Loki LLM and the Awadhi language project, open for anyone to use and improve.</p>
-    <p class="mt-2"><a href="{{ '/projects/' | relative_url }}">Projects</a></p>
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon">💻</div>
+    <h3>Open Source</h3>
+    <p>Community-built projects like NAWAB AI, Loki LLM and the Awadhi language project, open for anyone to contribute.</p>
+    <div class="lai-focus-link"><a href="{{ '/projects/' | relative_url }}">Projects</a></div>
   </li>
-  <li class="lai-card">
-    <h3>अवधी NLP and data</h3>
-    <p>Data and language tools for Awadhi, and for Hindi and other low-resource languages.</p>
-    <p class="mt-2"><a href="{{ '/projects/awadhi-language-project/' | relative_url }}">Awadhi language project</a></p>
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon">🗣️</div>
+    <h3>Awadhi NLP & Data</h3>
+    <p>Building data and language tools for Awadhi, Hindi and other low-resource Indian languages.</p>
+    <div class="lai-focus-link"><a href="{{ '/projects/awadhi-language-project/' | relative_url }}">Awadhi project</a></div>
   </li>
-  <li class="lai-card">
-    <h3>Startups and local problems</h3>
-    <p>Mentorship for people building AI startups, and AI applied to everyday problems in our own city.</p>
-    <p class="mt-2"><a href="{{ '/mentorship/' | relative_url }}">Mentorship</a></p>
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon">🚀</div>
+    <h3>Startups & Mentorship</h3>
+    <p>Mentorship for people building AI startups, and AI applied to everyday problems in our city.</p>
+    <div class="lai-focus-link"><a href="{{ '/mentorship/' | relative_url }}">Mentorship</a></div>
   </li>
 </ul>
 

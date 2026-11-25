@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Django India x GDG Lucknow meetup (Mar 2025)"
-parent: Events
+parent: "2025 events"
+grand_parent: Events
 nav_order: -20250329
 permalink: /events/2025-03-29-django-meetup/
 description: "Django India and GDG Lucknow meetup at IIIT Lucknow, 29 March 2025."

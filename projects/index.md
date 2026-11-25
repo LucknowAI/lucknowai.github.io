@@ -10,8 +10,6 @@ description: >-
   LLM, Lucknow Tech Events, the Awadhi language project and more.
 redirect_from:
   - /docs/layout/projects/projects/
-  - /docs/layout/projects/final_year_project/
-  - /docs/layout/projects/finalYearProjectGenerator/
 ---
 
 # Projects

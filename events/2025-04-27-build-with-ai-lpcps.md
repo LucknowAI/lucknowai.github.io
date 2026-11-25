@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Build with AI at LPCPS (Apr 2025)"
-parent: Events
+parent: "2025 events"
+grand_parent: Events
 nav_order: -20250427
 permalink: /events/2025-04-27-build-with-ai-lpcps/
 description: "Build with AI workshop at LPCPS, Lucknow, 27 April 2025."

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Build with AI 2024 (Jun 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20240629
 permalink: /events/2024-06-29-build-with-ai/
 description: "Build with AI 2024, an online event, 29 to 30 June 2024."

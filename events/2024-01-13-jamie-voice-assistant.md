@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Jamie AI voice assistant meetup (Jan 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20240113
 permalink: /events/2024-01-13-jamie-voice-assistant/
 description: "Online meetup on the Jamie AI voice assistant, 13 January 2024."

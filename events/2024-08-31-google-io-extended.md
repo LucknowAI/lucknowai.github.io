@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Google I/O Extended Lucknow (Aug 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20240831
 permalink: /events/2024-08-31-google-io-extended/
 description: "Google I/O Extended Lucknow 2024 at Integral University, 31 August 2024."

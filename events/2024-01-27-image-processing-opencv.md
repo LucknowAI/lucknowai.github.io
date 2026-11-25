@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Image processing and OpenCV webinar (Jan 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20240127
 permalink: /events/2024-01-27-image-processing-opencv/
 description: "Webinar on image processing and OpenCV, 27 January 2024."

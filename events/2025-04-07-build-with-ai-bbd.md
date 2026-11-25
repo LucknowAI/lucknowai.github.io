@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Build with AI at BBD (Apr 2025)"
-parent: Events
+parent: "2025 events"
+grand_parent: Events
 nav_order: -20250407
 permalink: /events/2025-04-07-build-with-ai-bbd/
 description: "Build with AI workshop at BBD, Lucknow, 7 April 2025."

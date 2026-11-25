@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Gen AI Awadh Summit (May 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20240525
 permalink: /events/2024-05-25-genai-awadh-summit/
 description: "Gen AI Awadh Summit at AKTU, Lucknow, 25 May 2024."

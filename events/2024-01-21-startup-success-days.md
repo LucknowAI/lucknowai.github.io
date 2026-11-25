@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Startup Success Days (Jan 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20240121
 permalink: /events/2024-01-21-startup-success-days/
 description: "Startup Success Days India 2023 in Lucknow, 21 January 2024."

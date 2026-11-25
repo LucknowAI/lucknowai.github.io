@@ -42,6 +42,24 @@ jobs:
             rows = events_html.scan("</tr>").size - events_html.scan("<thead>").size
             errors << "Events page shows #{rows} past events, data has #{past}" if rows != past
 
+            by_year = events.select { |e| e["date"] < today }.group_by { |e| e["date"][0, 4] }
+            by_year.each do |year, list|
+              file = "_site/events/#{year}/index.html"
+              if File.exist?(file)
+                html = File.read(file)
+                year_rows = html.scan("</tr>").size - html.scan("<thead>").size
+                errors << "#{year} page shows #{year_rows} events, data has #{list.size}" if year_rows != list.size
+              else
+                errors << "No page for #{year}: copy events/#{by_year.keys.max}.md to events/#{year}.md"
+              end
+            end
+
+            projects = YAML.load_file("_data/projects.yml")["active"]
+            projects.each do |proj|
+              ok = proj["page"] && File.exist?("_site#{proj["page"]}index.html")
+              errors << "Active project #{proj["name"]} has no page (set page: in _data/projects.yml and add the file)" unless ok
+            end
+
             home = File.read("_site/index.html")
             upcoming.first(1).each { |t| errors << "Home page is missing upcoming event: #{t}" unless home.include?(t) }
             if upcoming.empty?
@@ -59,6 +77,8 @@ jobs:
             end
 
             puts "Past events in data: #{past}; rows on Events page: #{rows}"
+            puts "Year pages: #{by_year.keys.sort.reverse.map { |y| "#{y}: #{by_year[y].size}" }.join(", ")}"
+            puts "Active project pages: #{projects.size}"
             puts "Upcoming: #{upcoming.join(", ").then { |s| s.empty? ? "none" : s }}"
             puts "Home stats (events, hackathons, paper sessions, projects): #{stats.join(", ")}"
             abort(errors.join("\n")) unless errors.empty?

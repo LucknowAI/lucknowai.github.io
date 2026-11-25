@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Build with AI at SRMCEM (Apr 2025)"
-parent: Events
+parent: "2025 events"
+grand_parent: Events
 nav_order: -20250419
 permalink: /events/2025-04-19-build-with-ai-srmcem/
 description: "Build with AI workshop at SRMCEM, Lucknow, 19 April 2025."

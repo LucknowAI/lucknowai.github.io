@@ -49,8 +49,10 @@ Both options use the `github-pages` gem, so you get the same Jekyll version and 
 | `about.md`, `research.md`, `team.md`, `hackathons.md`, `faqs.md`, `contact.md` | Main pages |
 | `get-involved.md`, `volunteer.md`, `mentorship.md` | Get involved section |
 | `events/index.md` | Events page (generated from `_data/events.yml`) |
-| `events/YYYY-MM-DD-name.md` | Recap pages for individual events |
+| `events/YYYY.md` | One page per year, listed under Events in the menu (generated from `_data/events.yml`) |
+| `events/YYYY-MM-DD-name.md` | Recap pages for individual events, listed under their year |
 | `projects/index.md` | Projects page (generated from `_data/projects.yml`) |
+| `projects/name.md` | One page per active project, listed under Projects in the menu |
 | `_data/events.yml` | **Every event, in one list** |
 | `_data/projects.yml` | Open-source projects |
 | `_includes/lai/` | Small templates for event cards and labels |
@@ -71,7 +73,9 @@ Both options use the `github-pages` gem, so you get the same Jekyll version and 
      link: https://www.commudle.com/communities/upai-labs/events
    ```
 
-   The Home, Events and Hackathons pages pick it up automatically. Upcoming events show on the Home page until their date passes.
+   The Home, Events, Hackathons and year pages pick it up automatically. Upcoming events show on the Home page until their date passes.
+
+   First event of a new year? Copy `events/2026.md` to `events/2027.md` and change the year in it (title, nav_order, permalink, description and the include). The site check fails until the year page exists.
 
 2. Optional, after the event: add a recap page at `events/2026-12-12-study-jam-5.md`:
 
@@ -79,7 +83,8 @@ Both options use the `github-pages` gem, so you get the same Jekyll version and 
    ---
    layout: default
    title: "AI Study Jam, session 5 (Dec 2026)"
-   parent: Events
+   parent: "2026 events"     # the year page it sits under in the menu
+   grand_parent: Events
    nav_order: -20261212      # minus the date, so the newest events come first in the menu
    permalink: /events/2026-12-12-study-jam-5/
    description: "AI Study Jam session 5 at SRMCEM, 12 December 2026."
@@ -97,6 +102,23 @@ Please write a recap within a week of each event, while the details are fresh.
 ## Adding or updating a project
 
 Edit `_data/projects.yml`. Projects with commits in the last 12 months go under `active`; older ones under `archived`.
+
+Each active project also has a page, so it shows under Projects in the menu. For a new one, set `page: /projects/my-project/` in `_data/projects.yml` and add `projects/my-project.md`:
+
+```markdown
+---
+layout: default
+title: "My Project"            # must match the name in _data/projects.yml
+parent: Projects
+nav_order: 10
+permalink: /projects/my-project/
+description: "My Project, an open-source project by the Lucknow AI Labs community."
+---
+
+{% include lai/project.html name="My Project" %}
+```
+
+The page content comes from `_data/projects.yml`, so there is nothing else to keep in sync.
 
 ## Old links
 

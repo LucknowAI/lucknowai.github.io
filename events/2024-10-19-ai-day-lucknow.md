@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "AI Day Lucknow (Oct 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20241019
 permalink: /events/2024-10-19-ai-day-lucknow/
 description: "AI Day Lucknow 2024 at LPCPS, 19 October 2024."

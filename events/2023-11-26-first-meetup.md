@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "First meetup (Nov 2023)"
-parent: Events
+parent: "2023 events"
+grand_parent: Events
 nav_order: -20231126
 permalink: /events/2023-11-26-first-meetup/
 description: "The first Lucknow AI Labs meetup, 26 November 2023."

@@ -16,6 +16,7 @@ active:
 
   - name: Loki LLM
     repo: https://github.com/LucknowAI/loki_llm
+    page: /projects/loki-llm/
     updated: Nov 2026
     summary: >-
       Private, offline AI chat for Android. Runs open LLMs on the phone with
@@ -24,6 +25,7 @@ active:
 
   - name: Lucknow Tech Events
     repo: https://github.com/LucknowAI/lucknow-live-events
+    page: /projects/lucknow-tech-events/
     updated: Nov 2026
     summary: >-
       One place for the tech events happening in Lucknow. Being rebuilt to
@@ -31,6 +33,7 @@ active:
 
   - name: Awadhi language project
     repo: https://github.com/LucknowAI/Awadhi
+    page: /projects/awadhi-language-project/
     live: https://awadhi-language.vercel.app/
     live_label: Visit the Awadhi website
     extra_repo: https://github.com/LucknowAI/Awadhi-STT
@@ -43,6 +46,7 @@ active:
 
   - name: Bridge
     repo: https://github.com/LucknowAI/Bridge
+    page: /projects/bridge/
     updated: Oct 2026
     summary: >-
       Networking matchmaking for events. Matches attendees by profile and
@@ -50,6 +54,7 @@ active:
 
   - name: Agents from Scratch
     repo: https://github.com/LucknowAI/agents_from_sratch
+    page: /projects/agents-from-scratch/
     updated: Feb 2026
     summary: >-
       Learning material: the same travel-planning agent built three ways, in
@@ -57,6 +62,7 @@ active:
 
   - name: Sociomatic
     repo: https://github.com/LucknowAI/sociomatic
+    page: /projects/sociomatic/
     updated: Feb 2026
     summary: >-
       An AI assistant for community LinkedIn posts. Turns short briefs about
@@ -64,6 +70,7 @@ active:
 
   - name: Final Year Project Generator
     repo: https://github.com/LucknowAI/finalYearGenerator
+    page: /projects/final-year-project-generator/
     updated: Feb 2026
     summary: >-
       Helps final-year students generate and refine ideas for their final
@@ -71,6 +78,7 @@ active:
 
   - name: sudo ship it starter kit
     repo: https://github.com/LucknowAI/sudo-ship-it
+    page: /projects/sudo-ship-it-starter-kit/
     updated: Feb 2026
     summary: >-
       Everything a builder needs to start a weekend project: free AI coding

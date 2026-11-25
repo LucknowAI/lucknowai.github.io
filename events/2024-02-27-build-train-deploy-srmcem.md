@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Build, Train and Deploy workshop (Feb 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20240227
 permalink: /events/2024-02-27-build-train-deploy-srmcem/
 description: "Build, Train and Deploy AI workshop at SRMCEM, 27 February 2024."

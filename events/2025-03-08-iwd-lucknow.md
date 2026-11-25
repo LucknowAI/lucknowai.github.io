@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "IWD Lucknow (Mar 2025)"
-parent: Events
+parent: "2025 events"
+grand_parent: Events
 nav_order: -20250308
 permalink: /events/2025-03-08-iwd-lucknow/
 description: "International Women's Day Lucknow 2025 at Integral University, 8 March 2025."

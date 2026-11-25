@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "DevFest Lucknow (Nov 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20241124
 permalink: /events/2024-11-24-devfest-lucknow/
 description: "DevFest Lucknow 2024, 24 November 2024."

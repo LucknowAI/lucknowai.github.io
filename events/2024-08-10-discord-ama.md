@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Discord AMA (Aug 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20240810
 permalink: /events/2024-08-10-discord-ama/
 description: "Discord AMA with Lucknow AI Labs and DAO Labs, 10 August 2024."

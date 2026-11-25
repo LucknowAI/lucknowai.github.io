@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Hack to Crack 1.0 (May 2024)"
-parent: Events
+parent: "2024 events"
+grand_parent: Events
 nav_order: -20240523
 permalink: /events/2024-05-23-hack-to-crack/
 description: "Hack to Crack 1.0, a 24-hour AI/ML hackathon, 23 to 24 May 2024."

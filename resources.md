@@ -4,8 +4,8 @@ title: Resources
 nav_order: 9
 permalink: /resources/
 description: >-
-  Free resources from the Lucknow AI Labs community: the AI Career Toolkit and
-  a curated list of AI learning material.
+  Free resources from the Lucknow AI Labs community: the AI Career Toolkit, a
+  curated list of AI learning material and slides from our workshops.
 redirect_from:
   - /docs/customization/
 ---
@@ -23,6 +23,7 @@ Free material our community maintains for learning AI and building a career in i
 
 1. AI Career Toolkit
 2. Learning Resources
+3. Workshop slides
 
 {:toc}
 
@@ -53,6 +54,18 @@ From the [AI resources](https://github.com/LucknowAI/ai_all_resources) repositor
 {% endcomment %}
 ---
 {% include ai_all_resources.md %}
+
+
+---
+## 3. Workshop slides
+
+Slides from our own workshops and meetups.
+
+| Event | Slides |
+|:--|:--|
+| [Build, Train & Deploy workshop at SRMCEM](/events/2024-02-27-build-train-deploy-srmcem/) (Feb 2024): from basic neural networks to generative AI | [PDF, 7.1 MB](/assets/pdfs/2024-02-27-build-train-deploy-slides.pdf) |
+| [Image processing and OpenCV webinar](/events/2024-01-27-image-processing-opencv/) (Jan 2024) | [PDF, 6.8 MB](/assets/pdfs/imageprocessing-opencv.pdf) |
+| [First meetup](/events/2023-11-26-first-meetup/) (Nov 2023) | [PDF, 0.5 MB](/assets/pdfs/lucknow_ai_meetup26nov2023.pdf) |
 
 
 

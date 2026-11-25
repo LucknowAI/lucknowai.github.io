@@ -27,7 +27,9 @@ educational experience, combining theoretical knowledge with practical coding ex
 > > and [Abhishek Sahu](https://www.linkedin.com/in/a-sahu16), Senior Software Engineer at BFC Capital P. Ltd, having
 > > expertise in the Retrieval-Augmented Generation (RAG), and Flutter.
 
-**[View Slides](/assets/pdfs/lucknow_ai_meetup26nov2023.pdf)**
+### Resources
+
+- [Workshop slides: Build, Train & Deploy, from basic neural networks to generative AI](/assets/pdfs/2024-02-27-build-train-deploy-slides.pdf) (PDF, 112 slides, 7.1 MB)
 
 ## Event Highlights
 

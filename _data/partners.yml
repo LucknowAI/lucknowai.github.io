@@ -51,6 +51,9 @@
       events: Build with AI 2026 host · Build with Droid
     - name: Glance
       url: https://glance.com/
+      logo: /assets/images/partners/glance.png
+      width: 415
+      height: 120
       events: Build with Droid 2026
     - name: MLH
       url: https://mlh.io/
@@ -68,8 +71,8 @@
     - name: Hunto AI
       url: https://hunto.ai/
       logo: /assets/images/partners/hunto-ai.png
-      width: 162
-      height: 48
+      width: 480
+      height: 102
       tile: dark
       events: Gen AI Awadh Summit 2024
 
@@ -77,6 +80,10 @@
   partners:
     - name: SIIC IIT Kanpur
       url: https://siicincubator.com/
+      logo: /assets/images/partners/siic-iitk.png
+      width: 194
+      height: 120
+      mark: true
       events: AVINYA 2K26
     - name: UP Startup Mission
       url: https://startinup.up.gov.in/
@@ -91,6 +98,10 @@
       events: VIVEKA 4.0 · Hack to Crack
     - name: Integral University
       url: https://www.iul.ac.in/
+      logo: /assets/images/partners/integral-university.png
+      width: 160
+      height: 160
+      mark: true
       events: Product Builders Day 2026 venue
 
 - group: Community partners
@@ -98,9 +109,8 @@
     - name: AI Community Lucknow
       url: https://aicommunity.lucknow.dev/
       logo: /assets/images/partners/ai-community-lucknow.png
-      width: 200
-      height: 160
-      mark: true
+      width: 212
+      height: 200
       events: Co-hosts many of our events (earlier TFUG Lucknow)
     - name: GDG Lucknow
       url: https://www.commudle.com/communities/gdg-lucknow

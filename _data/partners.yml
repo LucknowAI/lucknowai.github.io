@@ -66,6 +66,7 @@
       mark: true
       events: Hacktoberfest Hack Day 2026
     - name: Hunto AI
+      url: https://hunto.ai/
       logo: /assets/images/partners/hunto-ai.png
       width: 162
       height: 48

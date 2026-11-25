@@ -53,9 +53,9 @@ From smart contracts to Web3: Blockchain Babu ke hote hue, even your chai breaks
 <p class="text-center"><img src="/assets/images/agent_architect.jpeg" alt="Aayush Sharma" class="lai-portrait" loading="lazy"></p>
 
 **Name:** [Aayush Sharma](https://www.linkedin.com/in/aayush9119/) · [GitHub](https://github.com/naruto-91)
-**About:** Aayush, aka Agent Architect, is the mastermind behind agentic AI systems. Working as an AI/ML Engineer at Kitsa, he designs intelligent agent pipelines that actually work in production. His toolkit? RAG, CI/CD, AWS Cloud, and a whole lot of backend wizardry.
+**About:** Aayush, aka Agent Architect, can't see a task without drawing an agent for it: one agent to plan, one to search and one to check the other two. His mantra: "Ek agent nahi chalega, pura crew chahiye!"
 
-From building the FastAPI backend for Nawab AI to curating the entire Lucknow dataset for Lucknow-LLM, Aayush ships code that scales. He runs the Agents from Scratch workshop and mentors teams at hackathons like AVINYA 2K26. Agent Architect's mantra is simple: "Ek agent nahi chalega, pura crew chahiye!"
+He builds them too, from NAWAB AI's backend to the agents in his Agents from Scratch workshop, and his CI/CD pipeline ships them to AWS before the meeting ends. Ask him to plan a weekend trip and you will get a multi-agent travel planner instead.
 
 ---
 
@@ -64,9 +64,9 @@ From building the FastAPI backend for Nawab AI to curating the entire Lucknow da
 <p class="text-center"><img src="/assets/images/llm_luminary.jpeg" alt="Anshul Yadav" class="lai-portrait" loading="lazy"></p>
 
 **Name:** [Anshul Yadav](https://www.linkedin.com/in/anshul-yadav-0479111b1/) · [GitHub](https://github.com/predator094)
-**About:** Anshul, aka LLM Luminary, lives and breathes large language models. As an AI/ML Engineer at Kitsa, he has built everything from multimodal chatbots to personalised AI assistants. His weapons of choice: Python, NLP, RAG, and computer vision.
+**About:** Anshul, aka LLM Luminary, has the same answer to every problem: "Chalo fine-tune karte hain!" Text, documents, even images: if it can be tokenised, Anshul has a model for it.
 
-From the RAG-LLM wrapper API and Streamlit UI to the Final Year Project Generator's LLM backend, Anshul builds tools that make AI accessible. He created the UPAI Leaderboard and mentors at hackathons and workshops across UP. Got a prompt engineering challenge? Anshul's first reaction is, "Chalo fine-tune karte hain!"
+He lit up the RAG project's API, the Final Year Project Generator and the UPAI leaderboard. Ask him which model is the best and he will show you the leaderboard; ask him twice and he will build you a new one.
 
 ---
 

@@ -42,37 +42,37 @@ permalink: /
 
 <ul class="lai-focus-grid">
   <li class="lai-focus-card">
-    <div class="lai-focus-icon">📚</div>
+    <div class="lai-focus-icon" aria-hidden="true">📚</div>
     <h3>Education & Workshops</h3>
     <p>Hands-on meetups and workshops on AI tools and techniques, run with colleges and communities across Uttar Pradesh.</p>
     <div class="lai-focus-link"><a href="{{ '/events/' | relative_url }}">All events</a></div>
   </li>
   <li class="lai-focus-card">
-    <div class="lai-focus-icon">🏆</div>
+    <div class="lai-focus-icon" aria-hidden="true">🏆</div>
     <h3>Hackathons</h3>
     <p>From 24-hour online sprints to Hack-e-Awadh, our own flagship offline hackathon.</p>
     <div class="lai-focus-link"><a href="{{ '/hackathons/' | relative_url }}">Hackathons</a></div>
   </li>
   <li class="lai-focus-card">
-    <div class="lai-focus-icon">🔬</div>
+    <div class="lai-focus-icon" aria-hidden="true">🔬</div>
     <h3>AI & ML Research</h3>
     <p>Regular paper reading sessions on recent machine learning research, and research projects of our own.</p>
     <div class="lai-focus-link"><a href="{{ '/research/' | relative_url }}">Research</a></div>
   </li>
   <li class="lai-focus-card">
-    <div class="lai-focus-icon">💻</div>
+    <div class="lai-focus-icon" aria-hidden="true">💻</div>
     <h3>Open Source</h3>
     <p>Community-built projects like NAWAB AI, Loki LLM and the Awadhi language project, open for anyone to contribute.</p>
     <div class="lai-focus-link"><a href="{{ '/projects/' | relative_url }}">Projects</a></div>
   </li>
   <li class="lai-focus-card">
-    <div class="lai-focus-icon">🗣️</div>
+    <div class="lai-focus-icon" aria-hidden="true">🗣️</div>
     <h3>Awadhi NLP & Data</h3>
     <p>Building data and language tools for Awadhi, Hindi and other low-resource Indian languages.</p>
     <div class="lai-focus-link"><a href="{{ '/projects/awadhi-language-project/' | relative_url }}">Awadhi project</a></div>
   </li>
   <li class="lai-focus-card">
-    <div class="lai-focus-icon">🚀</div>
+    <div class="lai-focus-icon" aria-hidden="true">🚀</div>
     <h3>Startups & Mentorship</h3>
     <p>Mentorship for people building AI startups, and AI applied to everyday problems in our city.</p>
     <div class="lai-focus-link"><a href="{{ '/mentorship/' | relative_url }}">Mentorship</a></div>

@@ -12,6 +12,7 @@
 <div class="side-bar">
   <div class="site-header" role="banner">
     <a href="{{ '/' | relative_url }}" class="site-title lh-tight">{% include title.html %}</a>
+    {% include lai/theme-toggle.html variant="mobile" %}
     <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
       <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
     </button>
@@ -19,7 +20,7 @@
 
   <div class="logo-container">
     <a href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Lucknow AI Labs logo" class="site-logo">
+      <img src="{{ '/assets/images/logo-320.png' | relative_url }}" alt="Lucknow AI Labs logo" width="320" height="320">
     </a>
   </div>
 

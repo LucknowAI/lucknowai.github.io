@@ -1,1 +1,63 @@
-// custom setup code goes here
+// Lucknow AI Labs: settings loaded before every colour scheme and the theme's
+// own styles, so custom.scss can use them in every stylesheet the theme builds.
+//
+// The site has two colour schemes, built as two stylesheets:
+//   lai       dark  (the default, /assets/css/just-the-docs-default.css)
+//   lailight  light (/assets/css/just-the-docs-lailight.css)
+// Each scheme file in _sass/color_schemes/ sets the $lai-* tokens below, and
+// custom.scss only uses these tokens, so one set of styles serves both.
+
+// Fonts, self-hosted in /assets/fonts (SIL Open Font License); see custom.scss.
+$body-font-family: "Inter Variable", "Inter", system-ui, -apple-system, "Segoe UI",
+  roboto, "Helvetica Neue", arial, sans-serif;
+$lai-heading-font: "Plus Jakarta Sans Variable", "Plus Jakarta Sans",
+  $body-font-family;
+
+// Brand colours, from the logo.
+$lai-navy: #1a2744;
+$lai-cyan: #7ec8e3;
+$lai-blue: #4a90d9;
+
+// Scheme tokens. The defaults are the dark scheme's: neutral greys, like the
+// theme's own dark scheme, with the logo's cyan kept for accents (links, the
+// main button, the current page, small labels). The theme's built-in light
+// and dark stylesheets also compile custom.scss and use these.
+$lai-bg: #1c1d21 !default;            // page
+$lai-surface: #18191c !default;       // sidebar
+$lai-card: #232428 !default;          // cards, tables
+$lai-card-hover: #292a2f !default;
+$lai-line: #34363c !default;          // borders
+$lai-line-soft: #2a2b30 !default;     // table rows, dividers
+$lai-text: #d9dbe0 !default;
+$lai-heading: #f5f6f8 !default;
+$lai-muted: #a0a4ad !default;
+$lai-accent: $lai-cyan !default;      // links, focus ring, current page
+$lai-accent-strong: $lai-cyan !default;        // primary button
+$lai-accent-strong-hover: #a3dbef !default;
+$lai-on-accent: #0f1a2e !default;              // text on the primary button
+$lai-accent-soft: rgba($lai-cyan, 0.12) !default;
+$lai-gradient-end: $lai-blue !default;         // second stop of accent gradients
+$lai-chip: rgba(#fff, 0.05) !default;          // icon chips, quiet fills
+$lai-tile: #e9ebef !default;          // partner logo tiles (light in both modes)
+$lai-tile-line: transparent !default;
+$lai-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 8px 24px rgba(0, 0, 0, 0.18) !default;
+$lai-shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.28), 0 14px 32px rgba(0, 0, 0, 0.28) !default;
+$lai-hero-top: #26272c !default;
+$lai-hero-glow: rgba($lai-cyan, 0.11) !default;
+$lai-dot: rgba(#fff, 0.06) !default;
+$lai-skyline: #d9dbe0 !default;
+$lai-nav-current: rgba(#fff, 0.06) !default;
+$lai-nav-hover: rgba(#fff, 0.035) !default;
+$lai-code-bg: #202125 !default;
+
+// Event-type labels: soft tinted pills.
+$lai-label-blue-bg: rgba($lai-cyan, 0.14) !default;
+$lai-label-blue-fg: #9fd8ee !default;
+$lai-label-green-bg: rgba(#34d399, 0.14) !default;
+$lai-label-green-fg: #7ee2b8 !default;
+$lai-label-red-bg: rgba(#f87171, 0.15) !default;
+$lai-label-red-fg: #fca5a5 !default;
+$lai-label-purple-bg: rgba(#a78bfa, 0.16) !default;
+$lai-label-purple-fg: #c4b5fd !default;
+$lai-label-yellow-bg: rgba(#facc15, 0.15) !default;
+$lai-label-yellow-fg: #fde68a !default;

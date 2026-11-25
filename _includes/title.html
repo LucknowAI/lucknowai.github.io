@@ -1,5 +1,8 @@
-{% if site.logo %}
-  <div class="site-logo" role="img" aria-label="{{ site.title }}"></div>
-{% else %}
-  {{ site.title }}
-{% endif %}
+{%- comment -%}
+  Site title in the top-left corner: the small round logo (phones only; the
+  sidebar shows the large logo on bigger screens) and the site name.
+{%- endcomment -%}
+{%- if site.logo -%}
+  <span class="site-logo" aria-hidden="true"></span>
+{%- endif -%}
+<span class="lai-site-name">{{ site.title }}</span>

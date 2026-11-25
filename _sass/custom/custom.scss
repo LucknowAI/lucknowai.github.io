@@ -106,3 +106,32 @@ blockquote.note {
   object-fit: cover;
   border: 3px solid $yellow-200;
 }
+
+// Partner logos sit on a white card so dark logo text stays readable
+.lai-partner-logo {
+  display: inline-block;
+  max-width: 280px;
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border-radius: 6px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Small social icons next to link text
+.lai-icon {
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+
+// Lucknow skyline at the foot of the home page
+.lai-skyline {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}

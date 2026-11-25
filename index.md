@@ -38,10 +38,12 @@ permalink: /
 
 ## What we do
 
+Spreading AI and knowledge sharing throughout Lucknow, and from here to the rest of Uttar Pradesh.
+
 <ul class="lai-grid">
   <li class="lai-card">
-    <h3>Meetups and workshops</h3>
-    <p>Hands-on sessions on AI tools and techniques, often run with colleges and other Lucknow communities.</p>
+    <h3>Education and knowledge sharing</h3>
+    <p>Hands-on meetups and workshops on AI tools and techniques, run with colleges and other communities, in Lucknow and in smaller cities and villages across Uttar Pradesh.</p>
     <p class="mt-2"><a href="{{ '/events/' | relative_url }}">All events</a></p>
   </li>
   <li class="lai-card">
@@ -50,14 +52,24 @@ permalink: /
     <p class="mt-2"><a href="{{ '/hackathons/' | relative_url }}">Hackathons</a></p>
   </li>
   <li class="lai-card">
-    <h3>Paper reading</h3>
-    <p>Regular sessions where members read and discuss recent machine learning research.</p>
+    <h3>AI and ML research</h3>
+    <p>Regular paper reading sessions on recent machine learning research, and research projects of our own.</p>
     <p class="mt-2"><a href="{{ '/research/' | relative_url }}">Research</a></p>
   </li>
   <li class="lai-card">
     <h3>Open source</h3>
-    <p>Community-built projects such as NAWAB AI, Loki LLM and the Awadhi language project.</p>
+    <p>Community-built projects such as NAWAB AI, Loki LLM and the Awadhi language project, open for anyone to use and improve.</p>
     <p class="mt-2"><a href="{{ '/projects/' | relative_url }}">Projects</a></p>
+  </li>
+  <li class="lai-card">
+    <h3>अवधी NLP and data</h3>
+    <p>Data and language tools for Awadhi, and for Hindi and other low-resource languages.</p>
+    <p class="mt-2"><a href="{{ '/projects/awadhi-language-project/' | relative_url }}">Awadhi language project</a></p>
+  </li>
+  <li class="lai-card">
+    <h3>Startups and local problems</h3>
+    <p>Mentorship for people building AI startups, and AI applied to everyday problems in our own city.</p>
+    <p class="mt-2"><a href="{{ '/mentorship/' | relative_url }}">Mentorship</a></p>
   </li>
 </ul>
 
@@ -90,14 +102,20 @@ permalink: /
 
 Lucknow AI Labs is the first chapter of [UPAI Labs Foundation](https://upailabs.org) (Uttar Pradesh AI Labs), a Section 8 not-for-profit company incorporated in March 2025 to grow the AI ecosystem across Uttar Pradesh. Many of our events are run together with AI Community Lucknow, GDG Lucknow and colleges across the city. [More about us](about/).
 
+## Collaborations
+
+<div class="lai-partner-logo"><img src="/assets/images/tfug-lucknow.png" alt="TensorFlow User Group Lucknow logo" width="600" height="201" loading="lazy"></div>
+
+AI Community Lucknow, earlier TensorFlow User Group Lucknow, co-hosts many of our events.
+
 ## Join the community
 
 | Where | What happens there |
 |:--|:--|
-| [WhatsApp](https://chat.whatsapp.com/IAM2fp4IoLiGbuI6ZeNfzH) | Announcements and community chat |
-| [Discord](https://discord.gg/QKw67PDZUm) | Technical discussions, projects and paper reading |
+| <img src="/assets/icons/whatsapp.png" alt="" width="20" height="20" class="lai-icon">[WhatsApp](https://chat.whatsapp.com/IAM2fp4IoLiGbuI6ZeNfzH) | Announcements and community chat |
+| <img src="/assets/icons/discord.png" alt="" width="20" height="20" class="lai-icon">[Discord](https://discord.gg/QKw67PDZUm) | Technical discussions, projects and paper reading |
 | [Commudle](https://www.commudle.com/communities/upai-labs) | Event registrations |
-| [LinkedIn](https://www.linkedin.com/company/lucknow-ai-labs/), [X](https://x.com/AILucknow), [Instagram](https://www.instagram.com/lucknow_ai/), [YouTube](https://www.youtube.com/@lucknowailabs) | News, photos and recordings |
+| [LinkedIn](https://www.linkedin.com/company/lucknow-ai-labs/), <img src="/assets/icons/x.png" alt="" width="20" height="20" class="lai-icon">[X](https://x.com/AILucknow), <img src="/assets/icons/insta.png" alt="" width="20" height="20" class="lai-icon">[Instagram](https://www.instagram.com/lucknow_ai/), [YouTube](https://www.youtube.com/@lucknowailabs) | News, photos and recordings |
 
 Want to help run events, mentor or build? See [Get involved](get-involved/).
 
@@ -114,3 +132,5 @@ Thank you to everyone who has contributed to this website and to Lucknow AI Labs
 </ul>
 
 Everyone taking part in Lucknow AI Labs follows our [code of conduct](code-of-conduct/).
+
+<img src="/assets/images/lucknow-skyline.png" alt="Line drawing of the Lucknow skyline, with Rumi Darwaza and the Clock Tower" class="lai-skyline" width="1600" height="514" loading="lazy">

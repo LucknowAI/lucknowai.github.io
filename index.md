@@ -50,16 +50,16 @@ permalink: /
 ## Our story
 
 <div class="lai-story">
-  <figure class="lai-story-quote">
-    <blockquote>
-      <p>I remember wishing as a college student that I had a mentor to guide me and clarify my doubts. I want the next generation to have those opportunities.</p>
-    </blockquote>
-    <figcaption>Aaditya (Ankit), one of the founders, in the note he wrote when the community began</figcaption>
-  </figure>
   <div class="lai-story-text">
-    <p>Lucknow AI Labs began in November 2023. Aaditya had just moved to Lucknow and found no community of developers, open-source enthusiasts and hackers to join. With friends from Lucknow working at different companies, he set out to build one: mentoring students in AI and ML, reading research papers together and building open-source tools.</p>
-    <p class="lai-more"><a href="{{ '/about/#why-we-started' | relative_url }}">Read our story</a></p>
+    <p>Lucknow AI Labs started with a conversation in October 2023. Prashant Shukla and Ankit Kumar Pal (Aaditya), both from AI backgrounds, kept asking why Lucknow had no place where people meet, share ideas and build something bigger together: the guidance neither had found as students here. Ankit built the foundations, Prashant brought in people and colleges, and Abhishek Sahu soon joined them. Today it is the first chapter of UPAI Labs Foundation, focused on research and open source.</p>
+    <p class="lai-more"><a href="{{ '/about/#how-it-started' | relative_url }}">How it started, in the founders' words</a></p>
   </div>
+  <ol class="lai-timeline">
+    <li><span class="lai-timeline-date">October 2023</span>The idea, over many conversations</li>
+    <li><span class="lai-timeline-date">November 2023</span><a href="{{ '/events/2023-11-26-first-meetup/' | relative_url }}">First meetup</a></li>
+    <li><span class="lai-timeline-date">March 2025</span>UPAI Labs Foundation registered; Lucknow AI Labs becomes chapter one</li>
+    <li><span class="lai-timeline-date">Today</span>{{ site.data.projects.active | size }} open-source projects and {{ n_papers }} paper reading sessions so far</li>
+  </ol>
 </div>
 
 ## What we do

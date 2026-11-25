@@ -1168,52 +1168,62 @@ a.lai-partner-tile:hover {
   margin-top: 1.25rem;
 
   @include mq(md) {
-    grid-template-columns: 1.15fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1.35fr 1fr;
+    gap: 2.5rem;
     align-items: center;
   }
 }
 
-.lai-story-quote {
-  @include lai-panel;
-
+// A short timeline beside the story.
+.main-content .lai-timeline {
   position: relative;
   margin: 0;
-  padding: 1.75rem 1.5rem 1.25rem;
+  padding: 0.2rem 0 0.2rem 1.5rem;
+  list-style: none;
+  counter-reset: none;
+  border-left: 2px solid $lai-line;
 
-  &::before {
-    content: "\201C";
-    position: absolute;
-    top: 0.1rem;
-    left: 1.1rem;
-    color: $lai-accent;
-    font-family: $lai-heading-font;
-    font-size: 3.5rem;
-    line-height: 1;
-    opacity: 0.6;
-  }
+  > li {
+    position: relative;
+    max-width: none;
+    margin: 0 0 1.1rem;
+    color: $lai-text;
+    font-size: 0.95rem;
+    line-height: 1.45;
 
-  .main-content & blockquote {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
+    &:last-child {
+      margin-bottom: 0;
+    }
 
-  blockquote p {
-    margin: 0.75rem 0 0;
-    color: $lai-heading;
-    font-family: $lai-heading-font;
-    font-size: 1.15rem;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: -0.01em;
-  }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.2rem;
+      left: -31px;
+      box-sizing: border-box;
+      width: 12px;
+      height: 12px;
+      background-color: $lai-bg;
+      border: 2px solid $lai-accent;
+      border-radius: 50%;
+      counter-increment: none;
+    }
 
-  figcaption {
-    margin-top: 0.9rem;
-    color: $lai-muted;
-    font-size: 0.85rem;
+    &:last-child::before {
+      background-color: $lai-accent;
+    }
   }
+}
+
+.lai-timeline-date {
+  display: block;
+  margin-bottom: 0.1rem;
+  color: $lai-muted;
+  font-family: $lai-heading-font;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .lai-story-text p {

@@ -1,6 +1,11 @@
-// Lucknow AI Labs colour scheme: the theme's dark scheme with the warm yellow
-// accent used across UPAI Labs. Selected with `color_scheme: lai` in _config.yml.
+// Lucknow AI Labs colour scheme: the theme's dark scheme with blue accent
+// matching the logo. Selected with `color_scheme: lai` in _config.yml.
 @import "./dark";
 
-$link-color: $yellow-200;
-$btn-primary-color: $yellow-300;
+// Custom colors extracted from the logo
+$lai-blue-light: #7EC8E3;  // Light cyan from pillar accents
+$lai-navy: #1a2744;        // Dark navy from Rumi Darwaza
+$lai-blue-mid: #2c5282;    // Mid navy for buttons
+
+$link-color: $lai-blue-light;
+$btn-primary-color: $lai-blue-mid;

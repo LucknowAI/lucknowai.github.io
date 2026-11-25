@@ -1,0 +1,30 @@
+# Temporary: builds this branch and prints the generated pages (without
+# images) so the design can be checked. Deleted with the branch.
+name: QA preview
+on:
+  push:
+    branches: [qa/visual-preview]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Build the site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Print the built pages
+        run: |
+          tar -C _site -cJf /tmp/site.tar.xz --exclude='*.jpg' --exclude='*.jpeg' --exclude='*.png' --exclude='*.pdf' --exclude='*.woff2' --exclude='*.svg' --exclude='*.ico' --exclude='*.mp4' .
+          ls -la /tmp/site.tar.xz
+          echo "=====BEGIN SITE====="
+          base64 -w 120 /tmp/site.tar.xz
+          echo "=====END SITE====="

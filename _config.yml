@@ -17,7 +17,7 @@ lang: en-IN
 timezone: Asia/Kolkata
 
 # Default social preview image and author for search engines (jekyll-seo-tag)
-logo: /assets/images/logo.png
+logo: /assets/images/logo-320.png
 social:
   name: Lucknow AI Labs
   links:
@@ -106,7 +106,7 @@ callouts:
     color: green
   note:
     title: Note
-    color: purple
+    color: blue
   warning:
     title: Warning
     color: red

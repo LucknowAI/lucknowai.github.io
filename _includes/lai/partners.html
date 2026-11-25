@@ -1,0 +1,29 @@
+{%- comment -%}
+  Partner logo wall, from _data/partners.yml. Used on the home page.
+  A partner without a logo file shows its name on the tile.
+{%- endcomment -%}
+{%- for group in site.data.partners -%}
+<h3 class="lai-partners-group">{{ group.group }}</h3>
+<ul class="lai-partner-wall">
+{%- for p in group.partners -%}
+  {%- assign shape = "" -%}
+  {%- if p.logo and p.width and p.height -%}
+    {%- assign ratio = p.width | times: 1.0 | divided_by: p.height -%}
+    {%- if ratio >= 5 -%}{%- assign shape = "is-wide" -%}{%- elsif ratio < 2 -%}{%- assign shape = "is-square" -%}{%- endif -%}
+  {%- endif -%}
+  {%- capture tile -%}
+    {%- if p.logo -%}
+      <img src="{{ p.logo | relative_url }}" alt="{% unless p.mark %}{{ p.name }}{% endunless %}" width="{{ p.width }}" height="{{ p.height }}"{% if shape != "" or p.size == "small" %} class="{{ shape }}{% if p.size == "small" %} is-small{% endif %}"{% endif %} loading="lazy" decoding="async">
+      {%- if p.mark -%}<span class="lai-partner-name{% if p.name.size > 14 %} is-long{% endif %}">{{ p.name }}</span>{%- endif -%}
+    {%- else -%}
+      <span class="lai-partner-name{% if p.name.size > 22 %} is-long{% endif %}">{{ p.name }}</span>
+    {%- endif -%}
+  {%- endcapture %}
+  <li>
+    {%- capture classes -%}lai-partner-tile{% if p.mark %} has-mark{% endif %}{% if p.tile == "dark" %} is-dark{% endif %}{%- endcapture -%}
+    {% if p.url %}<a class="{{ classes }}" href="{{ p.url }}">{{ tile }}</a>{% else %}<div class="{{ classes }}">{{ tile }}</div>{% endif %}
+    <p class="lai-partner-events">{{ p.events }}</p>
+  </li>
+{%- endfor %}
+</ul>
+{%- endfor %}

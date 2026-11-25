@@ -1,0 +1,60 @@
+{%- comment -%}
+  Fonts, and the light and dark themes.
+
+  The dark scheme (lai) is the theme's default stylesheet. The light scheme
+  (lailight) loads after it and overrides it whenever it applies: by the
+  device setting, or by the visitor's choice from the theme toggle, which is
+  kept in localStorage under "lai-theme". This script runs before the page is
+  drawn, so the chosen theme shows without a flash.
+{%- endcomment -%}
+<link rel="preload" href="{{ '/assets/fonts/inter-latin-wght-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0a1020">
+<link rel="stylesheet" id="lai-light-theme" href="{{ '/assets/css/just-the-docs-lailight.css' | relative_url }}" media="(prefers-color-scheme: light)">
+<script>
+  (function () {
+    var root = document.documentElement;
+    var sheet = document.getElementById('lai-light-theme');
+    var themeColor = document.querySelector('meta[name="theme-color"]');
+    var device = window.matchMedia ? window.matchMedia('(prefers-color-scheme: light)') : null;
+
+    function saved() {
+      try { return localStorage.getItem('lai-theme'); } catch (e) { return null; }
+    }
+
+    // choice: "light", "dark", or null to follow the device.
+    function apply(choice) {
+      var light = choice ? choice === 'light' : !!(device && device.matches);
+      sheet.media = choice ? (light ? 'all' : 'not all') : '(prefers-color-scheme: light)';
+      root.setAttribute('data-lai-theme', light ? 'light' : 'dark');
+      if (themeColor) themeColor.setAttribute('content', light ? '#ffffff' : '#0a1020');
+      var label = light ? 'Switch to dark theme' : 'Switch to light theme';
+      var buttons = document.querySelectorAll('[data-lai-theme-toggle]');
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].setAttribute('aria-label', label);
+        buttons[i].setAttribute('title', label);
+      }
+    }
+
+    apply(saved());
+
+    if (device && device.addEventListener) {
+      device.addEventListener('change', function () {
+        if (!saved()) apply(null);
+      });
+    }
+
+    document.addEventListener('click', function (event) {
+      var button = event.target.closest ? event.target.closest('[data-lai-theme-toggle]') : null;
+      if (!button) return;
+      var next = root.getAttribute('data-lai-theme') === 'light' ? 'dark' : 'light';
+      try { localStorage.setItem('lai-theme', next); } catch (e) {}
+      apply(next);
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      apply(saved());
+    });
+  })();
+</script>

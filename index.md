@@ -26,55 +26,47 @@ permalink: /
 <section class="lai-hero" aria-label="Introduction">
   <p class="lai-hero-badge">Chapter 1 of UPAI Labs</p>
   <h1 class="lai-hero-title">Lucknow <span>AI Labs</span></h1>
+  <p class="lai-hero-tagline">Open source AI research and mentorship</p>
   <p class="lai-hero-lead">A volunteer-run community where students and engineers in Lucknow learn, build and research AI together. Since November 2023.</p>
   <div class="lai-hero-actions">
     <a href="#join-the-community" class="btn btn-primary">Join the community</a>
-    <a href="{{ '/events/' | relative_url }}" class="btn">See all events</a>
+    <a href="{{ '/projects/' | relative_url }}" class="btn">Explore our projects</a>
     <a href="https://github.com/LucknowAI" class="btn btn-ghost">Contribute on GitHub</a>
   </div>
   <div class="lai-hero-skyline" role="img" aria-label="Line drawing of the Lucknow skyline, with Rumi Darwaza and the Clock Tower"></div>
 </section>
 
 <ul class="lai-stats" aria-label="Lucknow AI Labs in numbers">
-  <li><span class="lai-stat-number">{{ n_events }}</span><span class="lai-stat-label">events since November 2023</span></li>
-  <li><span class="lai-stat-number">{{ n_hackathons }}</span><span class="lai-stat-label">hackathons</span></li>
-  <li><span class="lai-stat-number">{{ n_papers }}</span><span class="lai-stat-label">paper reading sessions</span></li>
   <li><span class="lai-stat-number">{{ site.data.projects.active | size }}</span><span class="lai-stat-label">active open-source projects</span></li>
+  <li><span class="lai-stat-number">{{ n_papers }}</span><span class="lai-stat-label">paper reading sessions</span></li>
+  <li><span class="lai-stat-number">{{ n_hackathons }}</span><span class="lai-stat-label">hackathons</span></li>
+  <li><span class="lai-stat-number">{{ n_events }}</span><span class="lai-stat-label">events since November 2023</span></li>
 </ul>
 
-<p class="lai-note">Counted from our <a href="{{ '/events/' | relative_url }}">events list</a>, which includes events run with AI Community Lucknow and other partner communities.</p>
+<p class="lai-note">Counted from our <a href="{{ '/projects/' | relative_url }}">projects</a> and <a href="{{ '/events/' | relative_url }}">events</a> lists. Events include those run with AI Community Lucknow and other partner communities.</p>
 
-## Next event
+<p class="lai-eyebrow">How it started</p>
 
-{% include lai/upcoming.html limit=1 %}
+## Our story
 
-<p class="lai-eyebrow">Past sponsors and partners</p>
-
-## Brands that backed our events
-
-<p class="lai-lead">Companies, institutions and communities that sponsored, hosted or partnered with us.</p>
-
-{% include lai/partners.html %}
-
-<p class="lai-note">Across events run, co-hosted or powered by UPAI Labs communities, 2024 to 2026. Listed for reference; no endorsement implied. Want to back an event? <a href="{{ '/contact/' | relative_url }}">Talk to us</a>.</p>
+<div class="lai-story">
+  <figure class="lai-story-quote">
+    <blockquote>
+      <p>I remember wishing as a college student that I had a mentor to guide me and clarify my doubts. I want the next generation to have those opportunities.</p>
+    </blockquote>
+    <figcaption>Aaditya (Ankit), one of the founders, in the note he wrote when the community began</figcaption>
+  </figure>
+  <div class="lai-story-text">
+    <p>Lucknow AI Labs began in November 2023. Aaditya had just moved to Lucknow and found no community of developers, open-source enthusiasts and hackers to join. With friends from Lucknow working at different companies, he set out to build one: mentoring students in AI and ML, reading research papers together and building open-source tools.</p>
+    <p class="lai-more"><a href="{{ '/about/#why-we-started' | relative_url }}">Read our story</a></p>
+  </div>
+</div>
 
 ## What we do
 
 <p class="lai-lead">Spreading AI knowledge throughout Lucknow, and from here to the rest of Uttar Pradesh.</p>
 
 <ul class="lai-focus-grid">
-  <li class="lai-focus-card">
-    <div class="lai-focus-icon" aria-hidden="true">📚</div>
-    <h3>Education & Workshops</h3>
-    <p>Hands-on meetups and workshops on AI tools and techniques, run with colleges and communities across Uttar Pradesh.</p>
-    <div class="lai-focus-link"><a href="{{ '/events/' | relative_url }}">All events</a></div>
-  </li>
-  <li class="lai-focus-card">
-    <div class="lai-focus-icon" aria-hidden="true">🏆</div>
-    <h3>Hackathons</h3>
-    <p>From 24-hour online sprints to Hack-e-Awadh, our own flagship offline hackathon.</p>
-    <div class="lai-focus-link"><a href="{{ '/hackathons/' | relative_url }}">Hackathons</a></div>
-  </li>
   <li class="lai-focus-card">
     <div class="lai-focus-icon" aria-hidden="true">🔬</div>
     <h3>AI & ML Research</h3>
@@ -99,12 +91,49 @@ permalink: /
     <p>Mentorship for people building AI startups, and AI applied to everyday problems in our city.</p>
     <div class="lai-focus-link"><a href="{{ '/mentorship/' | relative_url }}">Mentorship</a></div>
   </li>
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon" aria-hidden="true">🏆</div>
+    <h3>Hackathons</h3>
+    <p>From 24-hour online sprints to Hack-e-Awadh, our own flagship offline hackathon.</p>
+    <div class="lai-focus-link"><a href="{{ '/hackathons/' | relative_url }}">Hackathons</a></div>
+  </li>
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon" aria-hidden="true">📚</div>
+    <h3>Education & Workshops</h3>
+    <p>Hands-on meetups and workshops on AI tools and techniques, run with colleges and communities across Uttar Pradesh.</p>
+    <div class="lai-focus-link"><a href="{{ '/events/' | relative_url }}">All events</a></div>
+  </li>
 </ul>
 
-## Recent events
+## What we are building
 
-<ul class="lai-grid">
-{%- for e in recent limit: 4 -%}
+<p class="lai-lead">Open-source projects built by the community. Anyone can pick an issue and contribute.</p>
+
+<ul class="lai-grid lai-grid--3">
+{%- for p in site.data.projects.active limit: 6 -%}
+  {%- assign first = p.summary | split: ". " | first -%}
+  {%- assign last_char = first | slice: -1 -%}
+  <li class="lai-card">
+    <h4><a href="{{ p.page | relative_url }}">{{ p.name }}</a></h4>
+    <p class="lai-muted">{{ first }}{% if last_char != "." %}.{% endif %}</p>
+  </li>
+{%- endfor %}
+</ul>
+
+<p class="lai-more"><a href="{{ '/projects/' | relative_url }}">See all {{ site.data.projects.active | size }} projects</a></p>
+
+## Events
+
+<p class="lai-lead">Meetups, paper reading sessions, workshops and hackathons, run with colleges and communities across the city.</p>
+
+### Next event
+
+{% include lai/upcoming.html limit=1 %}
+
+### Recent events
+
+<ul class="lai-grid lai-grid--3">
+{%- for e in recent limit: 3 -%}
   {%- assign href = nil -%}
   {%- if e.recap -%}{%- assign href = e.recap | relative_url -%}{%- elsif e.link -%}{%- assign href = e.link -%}{%- endif -%}
   <li class="lai-card">
@@ -116,6 +145,16 @@ permalink: /
 </ul>
 
 <p class="lai-more"><a href="{{ '/events/' | relative_url }}">See all {{ n_events }} events</a></p>
+
+<p class="lai-eyebrow">Past sponsors and partners</p>
+
+## Brands that backed our events
+
+<p class="lai-lead">Companies, institutions and communities that sponsored, hosted or partnered with us.</p>
+
+{% include lai/partners.html %}
+
+<p class="lai-note">Across events run, co-hosted or powered by UPAI Labs communities, 2024 to 2026. Listed for reference; no endorsement implied. Want to back an event? <a href="{{ '/contact/' | relative_url }}">Talk to us</a>.</p>
 
 ## Part of UPAI Labs
 

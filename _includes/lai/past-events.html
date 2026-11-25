@@ -1,0 +1,47 @@
+{%- comment -%}
+  Past events from _data/events.yml as tables, newest first.
+  No parameters: every year, with a heading per year that links to its year page.
+  include.year ("2025"): that year only, no heading (used on /events/2025/ etc.).
+{%- endcomment -%}
+<div class="lai-events-by-year">
+{%- assign today = site.time | date: "%Y-%m-%d" -%}
+{%- assign past = "" | split: "" -%}
+{%- for e in site.data.events -%}
+  {%- assign y = e.date | slice: 0, 4 -%}
+  {%- if e.status != "unconfirmed" and e.date < today -%}
+    {%- if include.year == nil or include.year == y -%}
+      {%- assign past = past | push: e -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign past = past | reverse %}
+{%- if include.year %}
+<p>{{ past | size }} events in {{ include.year }}. &ldquo;Organised by&rdquo; shows the host named on the event page or on Commudle.</p>
+{%- else %}
+<p>{{ past | size }} events since November 2023. &ldquo;Organised by&rdquo; shows the host named on the event page or on Commudle.</p>
+{%- endif -%}
+{%- assign current_year = "" -%}
+{%- for e in past -%}
+  {%- assign year = e.date | slice: 0, 4 -%}
+  {%- if year != current_year -%}
+    {%- unless current_year == "" %}
+</tbody></table>
+    {%- endunless %}
+    {%- unless include.year %}
+<h3 id="year-{{ year }}"><a href="{{ '/events/' | append: year | append: '/' | relative_url }}">{{ year }}</a></h3>
+    {%- endunless %}
+<table class="lai-events">
+<thead><tr><th>Date</th><th>Event</th><th>Organised by</th></tr></thead>
+<tbody>
+    {%- assign current_year = year -%}
+  {%- endif -%}
+  {%- assign href = nil -%}
+  {%- if e.recap -%}{%- assign href = e.recap | relative_url -%}{%- elsif e.link -%}{%- assign href = e.link -%}{%- endif %}
+<tr>
+<td>{{ e.date | date: "%-d %b" }}</td>
+<td>{% if href %}<a href="{{ href }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %} {% include lai/event-type.html type=e.type %}{% if e.venue %}<br><span class="lai-muted">{{ e.venue }}</span>{% endif %}{% if e.note %}<br><span class="lai-muted">{{ e.note }}</span>{% endif %}</td>
+<td>{{ e.organisers }}</td>
+</tr>
+{%- endfor %}
+{% if past.size > 0 %}</tbody></table>{% endif %}
+</div>

@@ -1,0 +1,6 @@
+// Lucknow AI Labs colour scheme: the theme's dark scheme with the warm yellow
+// accent used across UPAI Labs. Selected with `color_scheme: lai` in _config.yml.
+@import "./dark";
+
+$link-color: $yellow-200;
+$btn-primary-color: $yellow-300;

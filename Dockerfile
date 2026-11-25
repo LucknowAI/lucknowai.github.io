@@ -1,12 +1,14 @@
-FROM ruby:2.7
+# Local preview of the site with the same gems GitHub Pages uses.
+# Usage: docker compose up   then open http://localhost:4000
+FROM ruby:3.3
 
-ENV LC_ALL C.UTF-8
-ENV LANG en_US.UTF-8
-ENV LANGUAGE en_US.UTF-8
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
-WORKDIR /usr/src/app
+# Gems are installed outside the mounted site folder so the mount cannot hide them.
+WORKDIR /gems
+COPY Gemfile ./
+ENV BUNDLE_GEMFILE=/gems/Gemfile
+RUN bundle install
 
-COPY Gemfile just-the-docs.gemspec ./
-RUN gem install bundler && bundle install
-
-EXPOSE 4000
+WORKDIR /site
+EXPOSE 4000 35729

@@ -14,9 +14,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
+  {%- comment -%} Build time on asset URLs, so browsers fetch new styles after every deploy. {%- endcomment -%}
+  {%- assign asset_version = site.time | date: '%s' %}
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}?v={{ asset_version }}">
   
-  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-head-nav.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-head-nav.css' | relative_url }}?v={{ asset_version }}">
   
   <style id="jtd-nav-activation">
   {% include css/activation.scss.liquid %}
@@ -40,7 +42,7 @@
     <script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
   {% endif %}
 
-  <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}?v={{ asset_version }}"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 

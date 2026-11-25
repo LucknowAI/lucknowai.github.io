@@ -17,7 +17,7 @@ We want Lucknow to produce AI research, not only use it. That starts with readin
 {%- assign today = site.time | date: "%Y-%m-%d" -%}
 {%- assign n_papers = 0 -%}
 {%- for e in site.data.events -%}
-  {%- if e.type == "paper-reading" and e.status != "unconfirmed" and e.date < today -%}
+  {%- if e.type contains "paper-reading" and e.status != "unconfirmed" and e.date < today -%}
     {%- assign n_papers = n_papers | plus: 1 -%}
   {%- endif -%}
 {%- endfor %}

@@ -15,7 +15,7 @@ Hackathons are where our members turn what they learn at meetups and study jams 
 {%- assign today = site.time | date: "%Y-%m-%d" -%}
 {%- assign hacks = "" | split: "" -%}
 {%- for e in site.data.events -%}
-  {%- if e.type == "hackathon" and e.status != "unconfirmed" -%}
+  {%- if e.type contains "hackathon" and e.status != "unconfirmed" -%}
     {%- assign hacks = hacks | push: e -%}
   {%- endif -%}
 {%- endfor -%}

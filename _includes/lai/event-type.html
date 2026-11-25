@@ -1,10 +1,18 @@
-{%- case include.type -%}
-  {%- when "hackathon" -%}<span class="label label-red">Hackathon</span>
-  {%- when "summit" -%}<span class="label label-purple">Summit</span>
-  {%- when "workshop" -%}<span class="label label-green">Workshop</span>
-  {%- when "study-jam" -%}<span class="label label-green">Study jam</span>
-  {%- when "paper-reading" -%}<span class="label label-blue">Paper reading</span>
-  {%- when "meetup" -%}<span class="label label-blue">Meetup</span>
-  {%- when "talk" -%}<span class="label label-blue">Talks</span>
-  {%- when "ama" -%}<span class="label label-blue">AMA</span>
-{%- endcase -%}
+{%- comment -%}
+  Label(s) for an event's type. include.type is one type ("workshop")
+  or a list ([workshop, hackathon]); a list shows one label per type.
+{%- endcomment -%}
+{%- assign types = include.type | join: "," | split: "," -%}
+{%- for t in types -%}
+  {%- unless forloop.first %} {% endunless -%}
+  {%- case t -%}
+    {%- when "hackathon" -%}<span class="label label-red">Hackathon</span>
+    {%- when "summit" -%}<span class="label label-purple">Summit</span>
+    {%- when "workshop" -%}<span class="label label-green">Workshop</span>
+    {%- when "study-jam" -%}<span class="label label-green">Study jam</span>
+    {%- when "paper-reading" -%}<span class="label label-blue">Paper reading</span>
+    {%- when "meetup" -%}<span class="label label-blue">Meetup</span>
+    {%- when "talk" -%}<span class="label label-blue">Talks</span>
+    {%- when "ama" -%}<span class="label label-blue">AMA</span>
+  {%- endcase -%}
+{%- endfor -%}

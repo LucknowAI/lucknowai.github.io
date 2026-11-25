@@ -381,11 +381,11 @@
 
 - date: "2026-10-08"
   title: "AVINYA 2K26: AI Innovation Summit and Mini Hackathon"
-  type: hackathon
+  type: [workshop, hackathon]
   format: offline
   venue: Techno Park, IIT Kanpur
   organisers: SIIC IIT Kanpur, with technical support from UPAI Labs
-  link: https://internshala.com/competitions/avinya-2k26-ai-innovation-summit-mini-hackathon-iit-kanpur/
+  link: https://siicincubator.com/upcoming-events/avinya-2k26
   recap: /events/2026-10-08-avinya-2k26/
   note: Two days, 8 and 9 October. We ran the agentic AI workshop.
 

@@ -54,6 +54,10 @@ jobs:
               end
             end
 
+            expected_labels = events.sum { |e| Array(e["type"]).size }
+            labels = events_html.scan(/class="label label-(?:red|purple|green|blue)"/).size
+            errors << "Events page shows #{labels} type labels, data has #{expected_labels} (check type: spellings)" if labels != expected_labels
+
             projects = YAML.load_file("_data/projects.yml")["active"]
             projects.each do |proj|
               ok = proj["page"] && File.exist?("_site#{proj["page"]}index.html")
@@ -79,6 +83,7 @@ jobs:
             puts "Past events in data: #{past}; rows on Events page: #{rows}"
             puts "Year pages: #{by_year.keys.sort.reverse.map { |y| "#{y}: #{by_year[y].size}" }.join(", ")}"
             puts "Active project pages: #{projects.size}"
+            puts "Type labels on Events page: #{labels} (data: #{expected_labels})"
             puts "Upcoming: #{upcoming.join(", ").then { |s| s.empty? ? "none" : s }}"
             puts "Home stats (events, hackathons, paper sessions, projects): #{stats.join(", ")}"
             abort(errors.join("\n")) unless errors.empty?

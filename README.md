@@ -67,6 +67,7 @@ Both options use the `github-pages` gem, so you get the same Jekyll version and 
    - date: "2026-12-12"
      title: AI Study Jam, session 5
      type: study-jam          # meetup | workshop | talk | summit | hackathon | paper-reading | study-jam | ama
+                              # or a list for mixed events: [workshop, hackathon]
      format: offline         # offline | online | hybrid
      venue: SRMCEM, Lucknow
      organisers: Lucknow AI Labs, with AI Community Lucknow

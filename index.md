@@ -17,8 +17,8 @@ permalink: /
   {%- if e.status != "unconfirmed" and e.date < today -%}
     {%- assign n_events = n_events | plus: 1 -%}
     {%- assign past = past | push: e -%}
-    {%- if e.type == "hackathon" -%}{%- assign n_hackathons = n_hackathons | plus: 1 -%}{%- endif -%}
-    {%- if e.type == "paper-reading" -%}{%- assign n_papers = n_papers | plus: 1 -%}{%- endif -%}
+    {%- if e.type contains "hackathon" -%}{%- assign n_hackathons = n_hackathons | plus: 1 -%}{%- endif -%}
+    {%- if e.type contains "paper-reading" -%}{%- assign n_papers = n_papers | plus: 1 -%}{%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 {%- assign recent = past | reverse -%}

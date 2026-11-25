@@ -18,17 +18,25 @@ Everything we build is open source under [github.com/LucknowAI](https://github.c
 
 ## Active projects
 
-<ul class="lai-grid">
+{% assign now = site.time | date: "%s" | plus: 0 %}
+<ul class="lai-grid lai-project-grid">
 {%- for p in site.data.projects.active %}
-  <li class="lai-card">
+  {%- assign upd = "1 " | append: p.updated | date: "%s" | plus: 0 -%}
+  {%- assign age = now | minus: upd -%}
+  <li class="lai-card lai-project-card">
+    {%- if p.tags %}
+    <p class="lai-project-tags">{% for t in p.tags %}<span class="label">{{ t }}</span>{% endfor %}</p>
+    {%- endif %}
     <h3>{% if p.page %}<a href="{{ p.page | relative_url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</h3>
-    <p class="mb-2">{{ p.summary }}</p>
-    <p class="lai-card-links mb-1">
-      <a href="{{ p.repo }}">Code on GitHub</a>
-      {%- if p.extra_repo %} <a href="{{ p.extra_repo }}">{{ p.extra_label }}</a>{% endif %}
-      {%- if p.live %} <a href="{{ p.live }}">{{ p.live_label | default: "Live site" }}</a>{% endif %}
-    </p>
-    <p class="lai-muted fs-2">Last updated {{ p.updated }}</p>
+    <p class="lai-project-summary">{{ p.summary }}</p>
+    <div class="lai-project-foot">
+      <span class="lai-updated{% if age < 15768000 %} is-fresh{% endif %}">{% if age < 15768000 %}Active · {% endif %}{{ p.updated }}</span>
+      <span class="lai-pills">
+        <a class="lai-pill" href="{{ p.repo }}">GitHub</a>
+        {%- if p.live %}<a class="lai-pill" href="{{ p.live }}">Website</a>{% endif %}
+        {%- if p.extra_repo %}<a class="lai-pill" href="{{ p.extra_repo }}">{{ p.extra_short | default: p.extra_label }}</a>{% endif %}
+      </span>
+    </div>
   </li>
 {%- endfor %}
 </ul>
@@ -37,7 +45,7 @@ Everything we build is open source under [github.com/LucknowAI](https://github.c
 
 These have had no recent commits. They are still open, and new contributors can pick them up.
 
-<div>
+<div class="lai-archive">
 <table>
 <thead><tr><th>Project</th><th>What it is</th><th>Last updated</th></tr></thead>
 <tbody>

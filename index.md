@@ -51,7 +51,7 @@ permalink: /
 
 <div class="lai-story">
   <div class="lai-story-text">
-    <p>Lucknow AI Labs started with a conversation in October 2023. Prashant Shukla and Ankit Kumar Pal (Aaditya), both from AI backgrounds, kept asking why Lucknow had no place where people meet, share ideas and build something bigger together: the guidance neither had found as students here. Ankit built the foundations, Prashant brought in people and colleges, and Abhishek Sahu soon joined them. Today it is the first chapter of UPAI Labs Foundation, focused on research and open source.</p>
+    <p>Lucknow AI Labs started with a conversation in October 2023. Prashant Shukla and Ankit (Aaditya), both from Tech backgrounds, kept asking why Lucknow had no place where people meet, share ideas and build something bigger together: the guidance neither had found as students here. Ankit built the foundations, Prashant handled operations, and Abhishek Sahu soon joined them. Today it is the first chapter of UPAI Labs Foundation, focused on research and open source.</p>
     <p class="lai-more"><a href="{{ '/about/#how-it-started' | relative_url }}">How it started, in the founders' words</a></p>
   </div>
   <ol class="lai-timeline">

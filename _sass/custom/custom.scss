@@ -5,7 +5,7 @@
 // _sass/custom/setup.scss and set in _sass/color_schemes/. Never hard-code a
 // colour here unless it must stay the same in both modes (logo tiles).
 
-$lai-home-width: 64rem;
+$lai-home-width: 56rem;
 $lai-radius: 16px;
 $lai-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
 
@@ -400,6 +400,7 @@ $lai-callouts: (
     font-size: 0.72rem !important;
     font-weight: 700;
     letter-spacing: 0.07em;
+    text-align: left;
     text-transform: uppercase;
     background-color: $lai-surface;
   }
@@ -466,7 +467,16 @@ $lai-callouts: (
 
   @include mq(md) {
     display: block;
-    margin: 1.75rem auto 0;
+    width: 100%;
+    margin: 1.75rem 0 0;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  // On wide screens the sidebar runs to the window edge and the menu sits in
+  // its right-hand $nav-width; centre the logo over the menu, not the strip.
+  @include mq(lg) {
+    width: $nav-width;
   }
 
   img {
@@ -835,14 +845,15 @@ footer .text-grey-dk-100 {
 // ---------------------------------------------------------------------------
 // Home page
 
-// A wider column for the home page on large screens; the sidebar narrows to
-// match so the page stays centred.
+// A wider content column on large screens, the same on every page so the
+// sidebar does not move between pages; the sidebar narrows to match so the
+// page stays centred. Running text keeps its own 75ch measure.
 @include mq(lg) {
-  body:has(.lai-home) .side-bar {
+  .side-bar {
     width: calc((100% - #{$nav-width} - #{$lai-home-width}) / 2 + #{$nav-width});
   }
 
-  .main:has(.lai-home) {
+  .main {
     max-width: $lai-home-width;
     margin-left: Max(
       #{$nav-width},
@@ -906,7 +917,7 @@ footer .text-grey-dk-100 {
   position: relative;
   z-index: 0;
   margin: 0.25rem 0 1.25rem;
-  padding: clamp(2rem, calc(1.25rem + 3vw), 3.5rem) clamp(1.1rem, calc(0.6rem + 2.5vw), 3rem) 0;
+  padding: clamp(1.6rem, calc(1rem + 2.2vw), 2.6rem) clamp(1.1rem, calc(0.6rem + 2vw), 2.5rem) 0;
   overflow: hidden;
   text-align: center;
   border: 1px solid $lai-line;
@@ -954,8 +965,8 @@ footer .text-grey-dk-100 {
 }
 
 .main-content .lai-hero-title {
-  margin: 1rem auto 0.6rem;
-  font-size: clamp(2.5rem, calc(1.5rem + 4.4vw), 4.25rem) !important;
+  margin: 0.85rem auto 0.5rem;
+  font-size: clamp(2.2rem, calc(1.4rem + 3.4vw), 3.4rem) !important;
   font-weight: 800;
   text-wrap: balance;
   line-height: 1.02;
@@ -974,7 +985,7 @@ footer .text-grey-dk-100 {
   margin: 0 auto 0.75rem;
   color: $lai-heading;
   font-family: $lai-heading-font;
-  font-size: clamp(1.15rem, calc(1rem + 0.6vw), 1.45rem);
+  font-size: clamp(1.05rem, calc(0.95rem + 0.45vw), 1.28rem);
   font-weight: 650;
   line-height: 1.3;
   letter-spacing: -0.01em;
@@ -982,10 +993,10 @@ footer .text-grey-dk-100 {
 }
 
 .main-content .lai-hero-lead {
-  max-width: 36rem;
-  margin: 0 auto 1.75rem;
+  max-width: 34rem;
+  margin: 0 auto 1.4rem;
   color: $lai-muted;
-  font-size: clamp(1rem, calc(0.96rem + 0.25vw), 1.12rem);
+  font-size: clamp(0.95rem, calc(0.92rem + 0.2vw), 1.05rem);
   line-height: 1.55;
   text-wrap: balance;
 }
@@ -1007,8 +1018,8 @@ footer .text-grey-dk-100 {
 }
 
 .lai-hero-skyline {
-  height: clamp(7rem, calc(4rem + 12vw), 13.5rem);
-  margin-top: clamp(1.5rem, calc(1rem + 2vw), 2.5rem);
+  height: clamp(6rem, calc(3.5rem + 8vw), 9.5rem);
+  margin-top: clamp(1.25rem, calc(0.9rem + 1.5vw), 1.9rem);
   background-image: linear-gradient(180deg, rgba($lai-skyline, 0.18), rgba($lai-skyline, 0.55));
   -webkit-mask: url("../images/lucknow-skyline.png") center bottom / contain no-repeat;
   mask: url("../images/lucknow-skyline.png") center bottom / contain no-repeat;
@@ -1362,6 +1373,278 @@ a.lai-partner-tile:hover {
   font-size: 0.9rem;
   text-align: center;
   border-top: 1px solid $lai-line-soft;
+}
+
+// ---------------------------------------------------------------------------
+// Projects
+
+// Small outlined link pills (project links, team profile links).
+.main-content .lai-pill {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.22rem 0.7rem;
+  color: $lai-text;
+  font-family: $lai-heading-font;
+  font-size: 0.78rem;
+  font-weight: 650;
+  line-height: 1.4;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: $lai-chip;
+  border: 1px solid $lai-line;
+  border-radius: 999px;
+  transition: border-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    color: $lai-accent;
+    border-color: rgba($lai-accent, 0.55);
+  }
+}
+
+.lai-project-grid {
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.lai-project-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1.25rem 1rem;
+
+  .main-content & h3 {
+    margin-top: 0.1rem;
+    font-size: 1.12rem !important;
+  }
+
+  // The whole card opens the project page.
+  h3 a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: $lai-radius;
+  }
+
+  &:has(h3 a):hover {
+    border-color: rgba($lai-accent, 0.4);
+    box-shadow: $lai-shadow-hover;
+    transform: translateY(-2px);
+
+    h3 a {
+      color: $lai-accent;
+    }
+  }
+}
+
+.main-content .lai-project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.35rem;
+}
+
+.main-content .lai-project-summary {
+  flex: 1 1 auto;
+  margin-bottom: 0.9rem;
+  color: $lai-muted;
+  font-size: 0.93rem;
+  line-height: 1.55;
+}
+
+.lai-project-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid $lai-line-soft;
+}
+
+.lai-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.lai-updated {
+  color: $lai-muted;
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+
+  &.is-fresh {
+    color: $lai-label-green-fg;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 0.45rem;
+      height: 0.45rem;
+      margin-right: 0.4rem;
+      vertical-align: 0.05em;
+      background-color: currentColor;
+      border-radius: 50%;
+    }
+  }
+}
+
+.lai-archive th:last-child,
+.lai-archive td:last-child {
+  color: $lai-muted;
+  white-space: nowrap;
+}
+
+// Fact strip at the top of a project page.
+.main-content .lai-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 2rem;
+  margin: 1.25rem 0 1.5rem;
+  padding: 0.9rem 1.1rem;
+  background-color: $lai-card;
+  border: 1px solid $lai-line;
+  border-radius: 12px;
+
+  dt {
+    margin: 0;
+    padding: 0;
+    color: $lai-muted;
+    text-align: left;
+    font-family: $lai-heading-font;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+
+    &::after {
+      content: none;
+    }
+  }
+
+  dd {
+    margin: 0.2rem 0 0;
+    padding: 0;
+    color: $lai-heading;
+    font-size: 0.92rem;
+
+    .label {
+      margin-left: 0;
+    }
+
+    .label-green {
+      color: $lai-label-green-fg;
+      background-color: $lai-label-green-bg;
+    }
+  }
+}
+
+.lai-back {
+  margin-top: 2.5rem;
+
+  a {
+    font-weight: 650;
+    text-decoration: none;
+
+    &::before {
+      content: "\2190  ";
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Team
+
+.lai-team-grid {
+  @include lai-plain-list;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.lai-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 1.35rem 1.25rem;
+  text-align: center;
+
+  .main-content & .lai-portrait {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .main-content & p {
+    max-width: none;
+  }
+
+  .main-content & .lai-member-avatar {
+    margin: 1rem 0 0.15rem;
+    font-size: 1.2rem !important;
+
+    &::after {
+      margin: 0.45rem auto 0;
+    }
+  }
+}
+
+.main-content .lai-member-name {
+  margin-top: 0.35rem;
+  color: $lai-muted;
+  font-size: 0.92rem;
+}
+
+.main-content .lai-member-links {
+  display: flex;
+  gap: 0.35rem;
+  justify-content: center;
+  margin: 0.35rem 0 0.9rem;
+}
+
+.main-content .lai-member-bio,
+.lai-member-more p {
+  font-size: 0.93rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.lai-member-more {
+  align-self: stretch;
+  margin-top: 0.25rem;
+  text-align: left;
+
+  summary {
+    color: $lai-accent;
+    font-size: 0.88rem;
+    font-weight: 650;
+    cursor: pointer;
+  }
+
+  p {
+    margin-top: 0.6rem;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Research
+
+.lai-stats.lai-stats--3 {
+  grid-template-columns: 1fr;
+  margin-top: 1.75rem;
+
+  @include mq(sm) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.lai-area-grid {
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+}
+
+.lai-area-grid .lai-focus-card p:last-child {
+  margin-bottom: 0;
 }
 
 // ---------------------------------------------------------------------------

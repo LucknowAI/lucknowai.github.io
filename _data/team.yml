@@ -1,0 +1,81 @@
+# AI Baithak members shown on /team/.
+# avatar:  the AI Baithak name, shown as the card title
+# image:   portrait in /assets/images (square)
+# bio:     the first paragraph is always shown; any further paragraphs sit
+#          behind "Read more"
+
+- avatar: Rag Rishi
+  name: Abhishek Sahu
+  image: /assets/images/rag_rishi.jpeg
+  linkedin: https://www.linkedin.com/in/a-sahu16/
+  bio:
+    - >-
+      Abhishek is a Flutter developer by profession, but his heart truly beats
+      for RAG (retrieval-augmented generation). Wherever he sees documents, the
+      first words out of his mouth are, "Arey, ispe RAG kyun nahi laga rahe
+      ho?" His passion for optimising retrieval systems and vector databases
+      makes him a true RAG devotee.
+    - >-
+      And there is more: Abhishek also sings actual raag. When he is not
+      diving into neural networks, he is probably singing classical Indian
+      ragas. Whether it is a complex query or a classical tune, Rag Rishi will
+      always find the right note.
+
+- avatar: Machine Mantri
+  name: Prashant Shukla
+  image: /assets/images/machine_mantri.jpeg
+  linkedin: https://www.linkedin.com/in/prashant-shukla30/
+  bio:
+    - >-
+      Prashant, aka Machine Mantri, runs his own ministry of robots and AI.
+      From making bots play drums to ruling the world of Arduino and edge
+      devices, he has it all under control.
+    - >-
+      When he is not coding a bot's next move, you will find him watching his
+      favourite anime for even more futuristic inspiration. If there is a tech
+      problem, Machine Mantri will solve it, probably with a side of robot
+      rock music.
+
+- avatar: Blockchain Babu
+  name: Harsh Joshi
+  image: /assets/images/blockchain_babu.jpeg
+  linkedin: https://www.linkedin.com/in/getharsh/
+  bio:
+    - >-
+      Harsh's mantra is simple: "Centralization ko chhodo, sab kuch blockchain
+      pe lao!" Whether it is AI, chai or even your friendships, Harsh believes
+      everything should run on a decentralised ledger.
+    - >-
+      From smart contracts to Web3: Blockchain Babu ke hote hue, even your
+      chai breaks might get decentralised.
+
+- avatar: Agent Architect
+  name: Aayush Sharma
+  image: /assets/images/agent_architect.jpeg
+  linkedin: https://www.linkedin.com/in/aayush9119/
+  github: https://github.com/naruto-91
+  bio:
+    - >-
+      Aayush, aka Agent Architect, can't see a task without drawing an agent
+      for it: one agent to plan, one to search and one to check the other two.
+      His mantra: "Ek agent nahi chalega, pura crew chahiye!"
+    - >-
+      He builds them too, from NAWAB AI's backend to the agents in his Agents
+      from Scratch workshop, and his CI/CD pipeline ships them to AWS before
+      the meeting ends. Ask him to plan a weekend trip and you will get a
+      multi-agent travel planner instead.
+
+- avatar: LLM Luminary
+  name: Anshul Yadav
+  image: /assets/images/llm_luminary.jpeg
+  linkedin: https://www.linkedin.com/in/anshul-yadav-0479111b1/
+  github: https://github.com/predator094
+  bio:
+    - >-
+      Anshul, aka LLM Luminary, has the same answer to every problem: "Chalo
+      fine-tune karte hain!" Text, documents, even images: if it can be
+      tokenised, Anshul has a model for it.
+    - >-
+      He lit up the RAG project's API, the Final Year Project Generator and
+      the UPAI leaderboard. Ask him which model is the best and he will show
+      you the leaderboard; ask him twice and he will build you a new one.

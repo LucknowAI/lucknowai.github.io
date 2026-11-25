@@ -1,0 +1,17 @@
+{%- comment -%}
+  Fact strip for a project page: status, tags, stack, licence, last update.
+  include.name must match a project's "name" in _data/projects.yml.
+{%- endcomment -%}
+{%- assign f = site.data.projects.active | where: "name", include.name | first -%}
+{%- assign active = true -%}
+{%- unless f -%}
+  {%- assign f = site.data.projects.archived | where: "name", include.name | first -%}
+  {%- assign active = false -%}
+{%- endunless -%}
+<dl class="lai-facts">
+  <div><dt>Status</dt><dd>{% if active %}<span class="label label-green">Active</span>{% else %}<span class="label">Open for contributors</span>{% endif %}</dd></div>
+  {%- if f.tags %}<div><dt>Area</dt><dd>{{ f.tags | join: " · " }}</dd></div>{% endif %}
+  {%- if f.stack %}<div><dt>Built with</dt><dd>{{ f.stack }}</dd></div>{% endif %}
+  {%- if f.license %}<div><dt>License</dt><dd>{{ f.license }}</dd></div>{% endif %}
+  <div><dt>Last updated</dt><dd>{{ f.updated }}</dd></div>
+</dl>

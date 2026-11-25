@@ -126,11 +126,11 @@
       logo: /assets/images/partners/ai-community-lucknow.png
       width: 212
       height: 200
-      events: Co-hosts many of our events (earlier TFUG Lucknow)
+      events: Co-hosts many events (earlier TFUG Lucknow)
     - name: GDG Lucknow
       url: https://www.commudle.com/communities/gdg-lucknow
       logo: /assets/images/partners/gdg-lucknow.png
       width: 144
       height: 70
       mark: true
-      events: DevFest Lucknow 2026
+      events: Co-hosts many events

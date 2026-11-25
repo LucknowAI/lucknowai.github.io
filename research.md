@@ -22,6 +22,12 @@ We want Lucknow to produce AI research, not only use it. That starts with readin
   {%- endif -%}
 {%- endfor %}
 
+<ul class="lai-stats lai-stats--3" aria-label="Research in numbers">
+  <li><span class="lai-stat-number">{{ n_papers }}</span><span class="lai-stat-label">paper reading sessions held</span></li>
+  <li><span class="lai-stat-number">38M</span><span class="lai-stat-label">Awadhi speakers we build for</span></li>
+  <li><span class="lai-stat-number">3</span><span class="lai-stat-label">research areas</span></li>
+</ul>
+
 ## Paper reading
 
 In our paper reading sessions, members read a recent machine learning paper and discuss it together. We have held {{ n_papers }} paper reading sessions since October 2024, most of them with AI Community Lucknow. Sessions are announced on [Commudle](https://www.commudle.com/communities/upai-labs/events) and discussed on our [Discord](https://discord.gg/QKw67PDZUm).
@@ -36,13 +42,29 @@ Awadhi has about 38 million speakers, but it is a low-resource language: there i
 
 ## Areas we work on
 
-- Low-resource Indian languages, starting with Awadhi
-- Document and image understanding for Indian contexts
-- Applied AI agents, such as [NAWAB AI](/projects/nawab-ai/)
+<ul class="lai-focus-grid lai-area-grid">
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon" aria-hidden="true">🗣️</div>
+    <h3>Low-resource Indian languages</h3>
+    <p>Data and speech tools for languages with little software, starting with Awadhi.</p>
+  </li>
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon" aria-hidden="true">📄</div>
+    <h3>Document and image understanding</h3>
+    <p>Reading documents and images from Indian contexts.</p>
+  </li>
+  <li class="lai-focus-card">
+    <div class="lai-focus-icon" aria-hidden="true">🤖</div>
+    <h3>Applied AI agents</h3>
+    <p>Agents that use real tools for real users, such as NAWAB AI.</p>
+    <div class="lai-focus-link"><a href="{{ '/projects/nawab-ai/' | relative_url }}">NAWAB AI</a></div>
+  </li>
+</ul>
 
 ## Towards our first publication
 
 We are working towards our first research paper. It will be listed here once it is published.
+{: .highlight }
 
 ## Get involved
 

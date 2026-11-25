@@ -15,6 +15,8 @@ redirect_from:
 
 NAWAB AI is a conversational guide to Lucknow, built in the open by the Lucknow AI Labs community. Ask it about the city and a Gemini-based agent answers using tools such as Google Maps, local news, YouTube and Lucknow Metro fares.
 
+{% include lai/project-facts.html name="NAWAB AI" %}
+
 [View the code on GitHub](https://github.com/LucknowAI/nawab){: .btn .btn-primary }
 
 ## How it is built
@@ -37,3 +39,5 @@ NAWAB AI is a good first project if you want to work on a real agent with real u
 3. Ask questions in the projects channel on our [Discord](https://discord.gg/QKw67PDZUm).
 
 The code is released under the MIT license.
+
+{% include lai/project-back.html %}

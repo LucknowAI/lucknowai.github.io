@@ -3,17 +3,15 @@
   include.name must match a project's "name" there (active or archived).
 {%- endcomment -%}
 {%- assign p = site.data.projects.active | where: "name", include.name | first -%}
-{%- assign status = "Active project" -%}
 {%- unless p -%}
   {%- assign p = site.data.projects.archived | where: "name", include.name | first -%}
-  {%- assign status = "Earlier project, open for new contributors" -%}
 {%- endunless -%}
 <h1>{{ p.name }}</h1>
 <p class="fs-5">{{ p.summary }}</p>
-<p><a href="{{ p.repo }}" class="btn btn-primary mr-2">Code on GitHub</a>
-{%- if p.live %} <a href="{{ p.live }}" class="btn mr-2">{{ p.live_label | default: "Live site" }}</a>{% endif %}
+{% include lai/project-facts.html name=include.name %}
+<p class="lai-actions"><a href="{{ p.repo }}" class="btn btn-primary">Code on GitHub</a>
+{%- if p.live %} <a href="{{ p.live }}" class="btn">{{ p.live_label | default: "Live site" }}</a>{% endif %}
 {%- if p.extra_repo %} <a href="{{ p.extra_repo }}" class="btn">{{ p.extra_label }}</a>{% endif %}</p>
-<p class="lai-muted">{{ status }} &middot; last updated {{ p.updated }}</p>
 <h2>Contribute</h2>
 <p>Start with the README on GitHub, pick an open issue or open a new one, and send a pull request. Questions are welcome on our <a href="https://discord.gg/QKw67PDZUm">Discord</a>. For other ways to help, see <a href="{{ '/get-involved/' | relative_url }}">Get involved</a>.</p>
-<p><a href="{{ '/projects/' | relative_url }}">All projects</a></p>
+{% include lai/project-back.html %}

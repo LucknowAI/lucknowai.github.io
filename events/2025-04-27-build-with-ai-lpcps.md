@@ -18,7 +18,3 @@ redirect_from:
 {: .highlight }
 > > Organizers: Google Developer Groups  
 > > Collaborations: Lucknow AI Labs, TFUG Lucknow
-
----
-
-# Coming Soon

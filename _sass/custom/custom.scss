@@ -1,35 +1,50 @@
 // Lucknow AI Labs custom styles (loaded after the theme).
 
-// Brand colors from the logo
-$lai-navy: #1a2744;
-$lai-blue: #7EC8E3;
-$lai-blue-dark: #4A90D9;
+// Brand colors extracted from the logo
+$lai-navy: #1a2744;        // Dark navy - Rumi Darwaza, text background
+$lai-blue: #7EC8E3;        // Light cyan - pillar accents
+$lai-blue-dark: #2c5282;   // Mid navy for buttons
+$lai-blue-glow: rgba(126, 200, 227, 0.4); // Glow effect
 
-// Note callouts keep the yellow marker the site has always used.
+// Note callouts use blue to match the brand.
 p.note,
 blockquote.note {
   &::before {
-    color: #ffe600 !important;
+    color: $lai-blue !important;
   }
 }
 
-// Yellow primary buttons need dark text to stay readable.
+// Blue primary buttons with white text for readability.
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.zeroclipboard-is-hover {
-  color: $grey-dk-300 !important;
+  color: #fff !important;
+  background-color: $lai-blue-dark !important;
+  border-color: $lai-blue-dark !important;
+
+  &:hover {
+    background-color: lighten($lai-blue-dark, 8%) !important;
+  }
 }
 
 // ---------- Home page ----------
 .lai-hero {
   margin-bottom: $sp-6;
+  text-align: center;
+  padding: $sp-6 0;
 
   .lai-kicker {
-    color: $yellow-200;
-    font-weight: 500;
-    letter-spacing: 0.02em;
+    color: $lai-blue;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+  }
+
+  h1 {
+    color: $lai-blue;
   }
 
   .btn {
@@ -51,20 +66,40 @@ blockquote.note {
 }
 
 .lai-card {
-  border: 1px solid $border-color;
+  border: 1px solid rgba($lai-blue, 0.2);
   border-radius: 12px;
   padding: $sp-5;
-  background-color: $grey-dk-250;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: linear-gradient(145deg, $grey-dk-250 0%, mix($lai-navy, $grey-dk-250, 10%) 100%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, $lai-blue-dark, $lai-blue);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
 
   &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba($lai-navy, 0.4);
+    border-color: rgba($lai-blue, 0.5);
+
+    &::before {
+      opacity: 1;
+    }
   }
 
   h3,
   h4 {
     margin-top: 0 !important;
+    color: $lai-blue;
   }
 
   p {
@@ -74,6 +109,12 @@ blockquote.note {
   .lai-card-links a {
     margin-right: $sp-3;
     white-space: nowrap;
+    color: $lai-blue;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: lighten($lai-blue, 15%);
+    }
   }
 }
 
@@ -153,6 +194,7 @@ blockquote.note {
   .lai-card {
     border: 1px solid rgba($lai-blue, 0.3);
     background: linear-gradient(135deg, $grey-dk-250 0%, mix($lai-navy, $grey-dk-250, 15%) 100%);
+    text-align: center;
 
     &:hover {
       border-color: $lai-blue;
@@ -161,14 +203,16 @@ blockquote.note {
 
   .lai-stat-number {
     display: block;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.1;
     color: $lai-blue;
+    margin-bottom: $sp-2;
   }
 
   .lai-stat-label {
     color: $grey-lt-300;
+    font-size: 0.9rem;
   }
 }
 
@@ -226,4 +270,35 @@ blockquote.note {
   width: 100%;
   height: auto;
   margin-top: 2rem;
+}
+
+// Section headings with accent line
+.main-content h2 {
+  position: relative;
+  padding-bottom: $sp-3;
+  margin-top: $sp-6;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: $lai-blue;
+    border-radius: 2px;
+  }
+}
+
+// Tables with blue accent
+.main-content table {
+  th {
+    background: mix($lai-navy, $grey-dk-250, 20%);
+    color: $lai-blue;
+  }
+}
+
+// Blockquotes with blue left border
+.main-content blockquote {
+  border-left-color: $lai-blue;
 }

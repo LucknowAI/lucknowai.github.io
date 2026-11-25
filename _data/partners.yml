@@ -7,6 +7,8 @@
 #          page does not jump while logos load
 # mark:    true when the logo is a symbol without the name; the name is shown
 #          next to it
+# tile:    dark for a logo made for dark backgrounds (white logo); keeps the
+#          brand's own colours instead of recolouring the file
 # events:  the events they backed, shown under the tile
 #
 # To add a logo: save the official file in assets/images/partners/, then add
@@ -67,6 +69,7 @@
       logo: /assets/images/partners/hunto-ai.png
       width: 162
       height: 48
+      tile: dark
       events: Gen AI Awadh Summit 2024
 
 - group: Institutional and venue partners
@@ -94,12 +97,14 @@
     - name: AI Community Lucknow
       url: https://aicommunity.lucknow.dev/
       logo: /assets/images/partners/ai-community-lucknow.png
-      width: 368
-      height: 97
+      width: 200
+      height: 160
+      mark: true
       events: Co-hosts many of our events (earlier TFUG Lucknow)
     - name: GDG Lucknow
       url: https://www.commudle.com/communities/gdg-lucknow
       logo: /assets/images/partners/gdg-lucknow.png
-      width: 600
-      height: 184
+      width: 144
+      height: 70
+      mark: true
       events: DevFest Lucknow 2026

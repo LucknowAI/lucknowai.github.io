@@ -1104,6 +1104,12 @@ footer .text-grey-dk-100 {
   }
 }
 
+// For white logos made for dark backgrounds; the same in both modes.
+.lai-partner-tile.is-dark {
+  background-color: #0e1116;
+  border-color: #0e1116;
+}
+
 // Wordmarks get a little more width.
 .lai-partner-tile:has(> img.is-wide) {
   padding-right: 0.55rem;
@@ -1125,6 +1131,10 @@ a.lai-partner-tile:hover {
 
   .lai-partner-name {
     font-size: 0.95rem;
+  }
+
+  .lai-partner-name.is-long {
+    font-size: 0.8rem;
   }
 }
 
@@ -1183,7 +1193,7 @@ a.lai-partner-tile:hover {
     opacity: 0.6;
   }
 
-  blockquote {
+  .main-content & blockquote {
     margin: 0;
     padding: 0;
     border: 0;

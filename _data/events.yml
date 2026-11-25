@@ -379,6 +379,16 @@
   link: https://www.commudle.com/communities/upai-labs/hackathons
   note: About 120 submissions and 20 finalist teams
 
+- date: "2026-10-08"
+  title: "AVINYA 2K26: AI Innovation Summit and Mini Hackathon"
+  type: hackathon
+  format: offline
+  venue: Techno Park, IIT Kanpur
+  organisers: SIIC IIT Kanpur, with technical support from UPAI Labs
+  link: https://internshala.com/competitions/avinya-2k26-ai-innovation-summit-mini-hackathon-iit-kanpur/
+  recap: /events/2026-10-08-avinya-2k26/
+  note: Two days, 8 and 9 October. We ran the agentic AI workshop.
+
 - date: "2026-10-31"
   title: Hacktoberfest hack day
   type: hackathon
